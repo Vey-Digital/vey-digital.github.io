@@ -23,6 +23,9 @@ paginate: 9
 paginate_path: "/blog/page:num/"
 show_excerpts: true
 excerpt_separator: "<!--more-->"
+timezone: America/Los_Angeles
+date_format: "%b %-d, %Y"   # e.g., Oct 5, 2025
+
 
 # Footer social links
 footer:
