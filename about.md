@@ -53,11 +53,13 @@ SEO and site performance audits • Donor/customer journey mapping • Competito
 
 ---
 
-### How to Start (low-friction)
-1) Pick one outcome (e.g., a weekly KPI brief).  
-2) Connect the minimum data you already trust.  
-3) Keep a human in the loop for approvals at first.  
-4) Measure the lift (time saved, conversions, response time) and then scale.
+### Case in brief — Global NGO
+> **Problem:** 20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts.  
+> **Fix:** Google’s cloud-native analytics layer + standardized KPIs/UTMs; daily brief with one action; secure, country-level views.  
+> **Triggers:** donate-drop nudges, lapsed-donor reactivation.  
+> **Results (typical):** +10–20% conversion, −15–25% cost per gift, same-day anomaly detection, 2–4 hrs/week saved per team.
+{: .notice--success}
+
 
 ## Join the community
 Want closer, real-time conversation and quick feedback? **Join us on Discord.**  
