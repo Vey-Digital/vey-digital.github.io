@@ -69,3 +69,27 @@
 /* subtle hover lift */
 .vd-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.08); transition: .2s; }
 
+/* Thumbnail player (no embed) */
+.vd-thumb {
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;      /* 16:9 */
+  border-radius: 12px;
+  background: #000 center/cover no-repeat;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0,0,0,.06);
+}
+.vd-play {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 68px; height: 48px;
+  background: rgba(255,255,255,.92);
+  border-radius: 12px;
+  text-align: center; line-height: 48px;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(0,0,0,.14);
+}
+.vd-thumb:hover .vd-play { transform: translate(-50%,-50%) scale(1.05); }
+
+
