@@ -1,18 +1,16 @@
 title: Vey Digital
 description: Startup playbooks, videos, and guides
 
-# Use Minimal Mistakes via remote_theme (this is the correct way)
+# Minimal Mistakes via remote_theme (supported by GitHub Pages)
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
 plugins:
   - jekyll-remote-theme
 
-# Basic options
 minimal_mistakes_skin: default
 markdown: kramdown
 locale: en-US
 timezone: America/Los_Angeles
 
-# Enable search icon (like the demo)
+# Enable the search icon like the demo
 search: true
 search_full_content: true
