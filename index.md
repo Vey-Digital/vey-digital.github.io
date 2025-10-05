@@ -1,19 +1,12 @@
 ---
-layout: splash
-title: "Vey Digital"
-subtitle: "Startup Playbooks • Quick Videos • Practical Guides"
-header:
-  overlay_color: "#0D1B2A"
-  overlay_filter: "0.35"
-  overlay_image: /assets/images/hero.jpg
-  actions:
-    - label: "Open YC Playbook"
-      url: "/playbook/"
-      class: "btn--primary"
-    - label: "Watch Videos"
-      url: "/videos/"
-      class: "btn--primary"
+layout: single
+title: "YC Startup Playbook"
+permalink: /playbook/
+classes: wide
 ---
 
-Welcome to **Vey Digital** — where startup insight meets execution.  
-Explore curated playbooks, short how-to videos, and resources to move from idea to growth.
+## YC Startup Playbook
+
+Practical, timeless advice for first-time founders from Y Combinator — curated here for easy access.
+
+[Open the YC Playbook ↗](https://playbook.samaltman.com/)
