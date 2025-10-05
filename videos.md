@@ -6,6 +6,7 @@ permalink: /videos/
 
 <!-- Page-scoped styles with high specificity + !important -->
 <!-- Page-scoped styles with high specificity + !important -->
+<!-- Page-scoped styles with high specificity + !important -->
 <style>
   /* Scope everything to this page only */
   #videos-page .vd-grid{
