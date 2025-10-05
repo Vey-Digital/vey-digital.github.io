@@ -3,6 +3,31 @@ layout: single
 title: "Videos"
 permalink: /videos/
 ---
+<style>
+  /* Grid: 1 col (mobile) → 2 (tablet) → 3 (desktop), no more than 3 */
+  .vd-grid{
+    display:grid; gap:1rem; align-items:start;
+    grid-template-columns:1fr;
+    max-width:1140px;                 /* wider container = bigger cards */
+    margin-inline:auto; padding-inline:8px;
+  }
+  @media (min-width:768px){  .vd-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+  @media (min-width:1100px){ .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
+  @media (min-width:1400px){ .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; } }
+
+  /* Bigger player (kept short-ish) */
+  .vd-embed{
+    position:relative; width:100%;
+    aspect-ratio:16/9;
+    min-height:220px;                 /* ↑ was 150px — increase size here */
+    overflow:hidden; border-radius:.6rem; background:#000;
+  }
+  .vd-embed iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; display:block; }
+
+  .vd-card{ display:flex; flex-direction:column; gap:.5rem; }
+  .vd-title{ margin:.4rem 0 .1rem; font-weight:600; font-size:.9rem; line-height:1.25; }
+</style>
+
 
 <!-- Inline CSS here so the page works even if your SCSS isn't loading -->
 <style>
