@@ -1,0 +1,24 @@
+title: Vey Digital Playbook
+description: Insights, videos, and startup lessons for founders
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+locale: en-US
+timezone: America/Los_Angeles
+markdown: kramdown
+minimal_mistakes_skin: default
+
+header_pages:
+  - index.md
+  - playbook/index.md
+
+permalink: /:categories/:title/
+
+author:
+  name: Vey Digital
+  location: Seattle, WA
+  bio: Transform data into growth.
+
+paginate: 5
