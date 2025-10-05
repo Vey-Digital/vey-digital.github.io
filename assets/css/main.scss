@@ -1,6 +1,6 @@
 ---
 ---
 
-@import "minimal-mistakes/skins/default"; // or your chosen skin
+@import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
-@import "custom/custom";                  // <- pulls in _sass/custom/_custom.scss
+@import "custom/custom";   /* <- this line pulls _sass/custom/_custom.scss */
