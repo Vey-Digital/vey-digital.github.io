@@ -3,8 +3,6 @@ layout: single
 classes: wide
 ---
 
-# YC Startup Playbook
-
 ### Timeless Lessons for Founders  
 Practical insights from **Y Combinator** on how to start, build, and grow a company.  
 Curated by **Vey Digital** to make startup wisdom more accessible to new founders.
