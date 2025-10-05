@@ -8,7 +8,8 @@ plugins:
   - jekyll-redirect-from
 
 # Header / branding
-logo: /assets/veydigital_logo2.png
+logo: "/assets/veydigital+logo2.png"
+
 masthead_title: ""   # show logo only, no duplicate text
 
 # Locale / theme options
