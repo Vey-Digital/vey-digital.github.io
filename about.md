@@ -5,7 +5,7 @@ permalink: /about/
 classes: wide
 ---
 
-**VeyDigital** helps you keep up with AI—and turn headlines into skills.
+**VeyDigital** helps you keep up with AI and turn headlines into skills.
 
 We curate the AI news that actually matters, explain it in plain language, and pair it with short, practical resources you can use right away. The goal: learn faster, build smarter, and stay confident in a space that changes daily.
 
