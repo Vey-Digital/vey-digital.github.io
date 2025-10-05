@@ -4,21 +4,60 @@ title: "About"
 permalink: /about/
 classes: wide
 ---
+### What VeyDigital Delivers
+- **Digital Analytics & Reporting** — Automated dashboards that pull from web, ads, CRM, and sales so leaders get one clear view.  
+  *Deliverable:* Insight dashboards with weekly/monthly updates.  
+  *Tools (examples):* GA4, GTM, BigQuery, Power BI, cloud BI studio.
 
-**VeyDigital** helps you keep up with AI and turn headlines into skills.
+- **Conversion Optimization (CRO)** — Structured A/B testing for pages, funnels, ads, and emails.  
+  *Deliverable:* Test plans, results, and next-step recommendations.  
+  *Tools:* Optimizely/VWO, GA4 experiments.
 
-We curate the AI news that actually matters, explain it in plain language, and pair it with short, practical resources you can use right away. The goal: learn faster, build smarter, and stay confident in a space that changes daily.
+- **Automation & Integration** — Lightweight data pipelines to move marketing/sales data reliably.  
+  *Deliverable:* Documented ETL workflows (e.g., BigQuery/Supabase + automation tools).
 
-## What we do
-- **Curated AI news:** signal over noise, with the “so what” for builders.
-- **Upskilling, fast:** bite-size videos, cheatsheets, and mini-projects.
-- **Actionable playbooks:** step-by-step guides for shipping and iteration.
-- **Tools & workflows:** practical setups for analytics and automation.
+- **Governance & Tracking Standards** — Clear UTM taxonomy, naming conventions, and campaign tracking.  
+  *Deliverable:* Tracking framework + onboarding guide.
 
-## How we help you learn
-- **Clear & concise:** plain language, concrete examples.
-- **Hands-on first:** every post points to a next step you can try today.
-- **Lightweight by design:** quick reads, mobile-friendly pages, minimal fluff.
+- **Capacity Building & Training** — Short workshops and reusable guides so teams can self-serve.  
+  *Deliverable:* Workshops/bootcamps, quick-reference manuals, skills assessments.
+
+- **Performance Insights** — Weekly or monthly briefs focused on what changed and what to do next.  
+  *Deliverable:* Strategy notes with prioritized actions.
+
+---
+
+### Who Benefits
+Nonprofits and NGOs • E-commerce brands • Startups and tech teams • Education and healthcare orgs • Public sector programs • Professional services • Hospitality and travel.
+
+---
+
+### Sample Deliverables & Timelines
+- **KPI Dashboards** — connect CRM + analytics + paid media.  
+  *Timeline:* 8–12 weeks.
+- **CRO Testing Roadmap** — hypotheses, test setup, readouts.  
+  *Timeline:* Quarterly cycles.
+- **Training & Workshops** — 2-day bootcamp + refreshers.  
+  *Timeline:* within 3 months.
+- **Data Governance Framework** — conventions + documentation + onboarding.  
+  *Timeline:* 6–8 weeks.
+- **Automation Pipelines** — cloud data flows for marketing/CRM.  
+  *Timeline:* 3–4 months.
+- **Ongoing Insights** — weekly or monthly optimization reports.  
+  *Timeline:* Continuous (retainer).
+
+---
+
+### Optional Add-Ons
+SEO and site performance audits • Donor/customer journey mapping • Competitor benchmarking dashboards • Predictive analytics (e.g., churn/retention/likelihood) • AI chat or content assistants with guardrails.
+
+---
+
+### How to Start (low-friction)
+1) Pick one outcome (e.g., a weekly KPI brief).  
+2) Connect the minimum data you already trust.  
+3) Keep a human in the loop for approvals at first.  
+4) Measure the lift (time saved, conversions, response time) and then scale.
 
 ## Join the community
 Want closer, real-time conversation and quick feedback? **Join us on Discord.**  
