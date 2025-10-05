@@ -31,6 +31,19 @@ date_format: "%b %-d, %Y"   # e.g., Oct 5, 2025
 footer:
   align: center
   links:
+  footer:
+  align: center
+  links:
+    - label: "X"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://twitter.com/YourHandle"
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/Vey-Digital"
+    - label: "Discord"
+      icon: "fa-brands fa-discord"
+      url: "https://discord.gg/yourInviteCode"
+
       icon: "fa-brands fa-x-twitter"
       url: "https://twitter.com/YourHandle"
     - label: "GitHub"
