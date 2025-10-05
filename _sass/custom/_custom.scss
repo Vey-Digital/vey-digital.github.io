@@ -1,7 +1,8 @@
-/* Hide text title only when a logo renders */
+/* =========================
+   Masthead (logo only)
+   ========================= */
 .site-logo + .site-title { display: none !important; }
 
-/* Bigger logo */
 .masthead .site-logo img {
   height: 84px !important;
   max-height: none !important;
@@ -9,35 +10,56 @@
   vertical-align: middle;
 }
 
-/* (Optional) a bit more vertical room */
 .masthead__inner-wrap { padding-top: 0.8rem; padding-bottom: 0.8rem; }
-
-/* Prevent nav from sitting in fallback search */
 .no-js .search-content { display: none !important; }
 .page__footer .social-icons a { font-size: 1.15rem; }
+
 @media (max-width: 600px) {
-.masthead .site-logo img { height: 56px !important; }
+  .masthead .site-logo img { height: 56px !important; }
 }
-/* --- Videos grid --- */
+
+/* =========================
+   Videos page components
+   (scoped to vd-* classes)
+   ========================= */
+
+/* 4 across on desktop, then 3 / 2 / 1 responsively */
 .vd-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.25rem; /* 20px */
 }
 
-/* Card */
+@media (max-width: 1200px) {
+  .vd-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 900px) {
+  .vd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .vd-grid { grid-template-columns: 1fr; }
+}
+
+/* Cards */
 .vd-card {
   background: var(--mm-surface, #fff);
   border: 1px solid rgba(0,0,0,.06);
   border-radius: 14px;
   padding: 14px;
   box-shadow: 0 4px 18px rgba(0,0,0,.05);
+  overflow: hidden;               /* keep rounded corners clean */
+  contain: paint;                 /* smoother hover on large pages */
+}
+.vd-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  transition: transform .18s ease, box-shadow .18s ease;
 }
 
 /* Responsive 16:9 embed */
 .vd-embed {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 56.25%;         /* 16:9 */
   height: 0;
   overflow: hidden;
   border-radius: 10px;
@@ -50,30 +72,14 @@
   width: 100% !important;
   height: 100% !important;
   border: 0;
+  display: block;
 }
 
-/* Text */
-.vd-title { margin: 10px 0 2px; font-size: 1.05rem; }
-.vd-meta  { margin: 0; opacity: .7; font-size: .9rem; }
-
-/* Responsive columns */
-@media (max-width: 1024px) {
-  .vd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-@media (max-width: 640px) {
-  .vd-grid { grid-template-columns: 1fr; }
-}
-/* keep card corners clean if anything overflows */
-.vd-card { overflow: hidden; }
-
-/* subtle hover lift */
-.vd-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.08); transition: .2s; }
-
-/* Thumbnail player (no embed) */
+/* Optional thumbnail style (when not using iframes) */
 .vd-thumb {
   display: block;
   position: relative;
-  padding-bottom: 56.25%;      /* 16:9 */
+  padding-bottom: 56.25%;         /* 16:9 */
   border-radius: 12px;
   background: #000 center/cover no-repeat;
   overflow: hidden;
@@ -90,6 +96,10 @@
   font-weight: 700;
   box-shadow: 0 8px 24px rgba(0,0,0,.14);
 }
-.vd-thumb:hover .vd-play { transform: translate(-50%,-50%) scale(1.05); }
+.vd-thumb:hover .vd-play {
+  transform: translate(-50%,-50%) scale(1.05);
+}
 
-
+/* Text */
+.vd-title { margin: 10px 0 2px; font-size: 1.05rem; }
+.vd-meta  { margin: 0; opacity: .7; font-size: .9rem; }
