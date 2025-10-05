@@ -7,14 +7,15 @@ permalink: /videos/
 <!-- Page-scoped styles with high specificity + !important -->
 <!-- Page-scoped styles with high specificity + !important -->
 <!-- Page-scoped styles with high specificity + !important -->
+<!-- Page-scoped styles with high specificity + !important -->
 <style>
   /* Scope everything to this page only */
   #videos-page .vd-grid{
     display:grid !important;
     gap:1rem !important;
     align-items:start !important;
-    grid-template-columns:1fr !important;           /* 1 col mobile */
-    max-width:1320px !important;                    /* slightly wider cards */
+    grid-template-columns:1fr !important;                 /* 1 col mobile */
+    max-width:1440px !important;                          /* ↑ wider container = wider videos */
     margin-inline:auto !important;
     padding-inline:8px !important;
   }
@@ -22,18 +23,19 @@ permalink: /videos/
     #videos-page .vd-grid{ grid-template-columns:repeat(2,minmax(0,1fr)) !important; }
   }
   @media (min-width:1100px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; } /* lock at 3 */
+    /* Force 3 wide columns; each column has a wider minimum */
+    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(380px, 1fr)) !important; }
   }
   @media (min-width:1400px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; } /* still 3 */
+    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(380px, 1fr)) !important; } /* stay at 3 */
   }
 
-  /* Wider, not taller */
+  /* Wider, not taller: use a wider aspect ratio */
   #videos-page .vd-embed{
     position:relative !important;
     width:100% !important;
-    aspect-ratio:21 / 9 !important;                 /* wider than 16:9 to keep height down */
-    min-height:160px !important;                    /* prevents tall players */
+    aspect-ratio:21 / 9 !important;                       /* wider than 16:9 -> less height growth */
+    min-height:160px !important;                          /* keep it from getting tall */
     overflow:hidden !important;
     border-radius:.6rem !important;
     background:#000 !important;
