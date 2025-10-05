@@ -1,10 +1,11 @@
-/* _sass/custom/_custom.scss */
+/* --- Compact video size + tighter grid --- */
 
+/* Shorter player */
 .vd-embed {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
-  min-height: 240px;   /* ensures visible area even before CSS fully applies */
+  min-height: 180px;      /* was 240px — shorter */
   overflow: hidden;
   border-radius: .6rem;
   background: #000;
@@ -18,23 +19,15 @@
   display: block;
 }
 
-.vd-grid { display: grid; gap: 1.25rem; align-items: start; }
-@media (min-width: 768px)  { .vd-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
-@media (min-width: 1100px) { .vd-grid { grid-template-columns: repeat(3, minmax(0,1fr)); } }
-.vd-card  { display: flex; flex-direction: column; gap: .5rem; }
-.vd-title { margin: .6rem 0 .25rem; font-weight: 600; }
-.vd-meta  { margin: 0; font-size: .95rem; color: var(--text-muted, #666); }
-
-/* 3-column videos grid (desktop), 2 on tablet, 1 on mobile */
-.vd-grid { display: grid; gap: 1.25rem; align-items: start; }
+/* 3 columns by default on desktop, add 4 cols on very wide screens to reduce height further */
+.vd-grid { display: grid; gap: 1rem; align-items: start; }
 @media (max-width: 767px)  { .vd-grid { grid-template-columns: 1fr; } }
 @media (min-width: 768px)  { .vd-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1100px) { .vd-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1500px) { .vd-grid { grid-template-columns: repeat(4, 1fr); } } /* new: smaller cards on very wide screens */
 
-/* Responsive player */
-.vd-embed { position: relative; width: 100%; aspect-ratio: 16/9; min-height: 240px; overflow: hidden; border-radius: .6rem; background:#000; }
-.vd-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display:block; }
-
-.vd-card { display:flex; flex-direction:column; gap:.5rem; }
-.vd-title { margin:.6rem 0 .25rem; font-weight:600; }
-
+/* Optional: constrain overall width so cards don’t grow too tall on ultra-wide monitors */
+.vd-grid {
+  max-width: 1200px;      /* adjust if you want wider */
+  margin-inline: auto;
+}
