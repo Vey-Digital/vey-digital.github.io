@@ -18,7 +18,7 @@ classes: wide
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </div>
-    <h3 class="vd-title">Demis Hassabis On The Future of Work in the Age of AI</h3>
+    <h5 class="vd-title">Demis Hassabis On The Future of Work in the Age of AI</h5>
   </article>
 
   <!-- 2 -->
@@ -46,7 +46,7 @@ classes: wide
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </div>
-    <h3 class="vd-title">How is China using AI in the classroom? | The Take</h3>
+    <h5 class="vd-title">How is China using AI in the classroom? | The Take</h5>
   </article>
 
   <!-- 4 -->
@@ -60,7 +60,7 @@ classes: wide
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </div>
-    <h3 class="vd-title">The AI Safety Expert: These Are The Only 5 Jobs That Will Remain In 2030! — Dr. Roman Yampolskiy</h3>
+    <h5 class="vd-title">The AI Safety Expert: These Are The Only 5 Jobs That Will Remain In 2030! — Dr. Roman Yampolskiy</h5>
   </article>
 
 </div>
