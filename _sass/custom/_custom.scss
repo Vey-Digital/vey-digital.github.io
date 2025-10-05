@@ -1,147 +1,23 @@
-/* =========================
-   Masthead (logo only)
-   ========================= */
-.site-logo + .site-title { display: none !important; }
-
-.masthead .site-logo img {
-  height: 84px !important;
-  max-height: none !important;
-  width: auto !important;
-  vertical-align: middle;
-}
-
-.masthead__inner-wrap { padding-top: 0.8rem; padding-bottom: 0.8rem; }
-.no-js .search-content { display: none !important; }
-.page__footer .social-icons a { font-size: 1.15rem; }
-
-@media (max-width: 600px) {
-  .masthead .site-logo img { height: 56px !important; }
-}
-
-/* =========================
-   Videos page components
-   (scoped to vd-* classes)
-   ========================= */
-
-/* 4 across on desktop, then 3 / 2 / 1 responsively */
-.vd-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.25rem; /* 20px */
-}
-
-@media (max-width: 1200px) {
-  .vd-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
-@media (max-width: 900px) {
-  .vd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-@media (max-width: 640px) {
-  .vd-grid { grid-template-columns: 1fr; }
-}
-
-/* Cards */
-.vd-card {
-  background: var(--mm-surface, #fff);
-  border: 1px solid rgba(0,0,0,.06);
-  border-radius: 14px;
-  padding: 14px;
-  box-shadow: 0 4px 18px rgba(0,0,0,.05);
-  overflow: hidden;               /* keep rounded corners clean */
-  contain: paint;                 /* smoother hover on large pages */
-}
-.vd-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0,0,0,.08);
-  transition: transform .18s ease, box-shadow .18s ease;
-}
-
-/* Responsive 16:9 embed */
+/* ---------- Videos page ---------- */
 .vd-embed {
   position: relative;
-  padding-bottom: 56.25%;         /* 16:9 */
-  height: 0;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: .6rem;
+  background: #000;
 }
-.vd-embed iframe,
-.vd-embed .video-container,
-.vd-embed .video-container iframe {
-  position: absolute !important;
-  top: 0; left: 0;
-  width: 100% !important;
-  height: 100% !important;
-  border: 0;
-  display: block;
+@supports not (aspect-ratio: 1 / 1) {
+  .vd-embed { height: 0; padding-bottom: 56.25%; }
 }
-
-/* Optional thumbnail style (when not using iframes) */
-.vd-thumb {
-  display: block;
-  position: relative;
-  padding-bottom: 56.25%;         /* 16:9 */
-  border-radius: 12px;
-  background: #000 center/cover no-repeat;
-  overflow: hidden;
-  box-shadow: 0 4px 18px rgba(0,0,0,.06);
+.vd-embed iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
 }
-.vd-play {
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%,-50%);
-  width: 68px; height: 48px;
-  background: rgba(255,255,255,.92);
-  border-radius: 12px;
-  text-align: center; line-height: 48px;
-  font-weight: 700;
-  box-shadow: 0 8px 24px rgba(0,0,0,.14);
-}
-.vd-thumb:hover .vd-play {
-  transform: translate(-50%,-50%) scale(1.05);
-}
-
-/* Text */
-.vd-title { margin: 10px 0 2px; font-size: 1.05rem; }
-.vd-meta  { margin: 0; opacity: .7; font-size: .9rem; }
-
-/* Hide the posts list only on the Blog page while you prepare real posts */
-.blog--no-feed .archive__subtitle,
-.blog--no-feed .entries { display: none !important; }
-
-footer, .site-footer, .footer {
-  text-align: center !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Center footer and social icons for Minimal Mistakes theme */
-.page__footer {
-  text-align: center !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.page__footer-follow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.2rem;
-}
-
-.page__footer-follow a {
-  color: inherit;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.page__footer-follow a:hover {
-  opacity: 0.8;
-}
-/* If any theme partial injects a label for the X link, hide it */
-.page__footer-follow a[href*="twitter.com"] .label {
-  display: none !important;
-}
+.vd-grid { display: grid; gap: 1.25rem; align-items: start; }
+@media (min-width: 768px)  { .vd-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (min-width: 1100px) { .vd-grid { grid-template-columns: repeat(3, minmax(0,1fr)); } }
+.vd-card { display: flex; flex-direction: column; gap: .5rem; }
+.vd-title { margin: .6rem 0 .25rem; font-weight: 600; }
+.vd-meta  { margin: 0; font-size: .95rem; color: var(--text-muted, #666); }
+.vd-meta a { text-decoration: none; border-bottom: 1px dashed currentColor; }
+.vd-meta a:hover { border-bottom-style: solid; }
