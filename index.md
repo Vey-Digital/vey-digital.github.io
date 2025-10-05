@@ -1,5 +1,4 @@
 ---
-layout: home
-title: "Blog"
+layout: redirect
+redirect_to: /videos/
 ---
-
