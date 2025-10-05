@@ -19,8 +19,7 @@ classes: wide
         allowfullscreen></iframe>
     </div>
     <h3 class="vd-title">Demis Hassabis On The Future of Work in the Age of AI</h3>
-    <p class="vd-meta">Oct 2025 · <a href="https://youtu.be/CRraHg4Ks_g?t=6" target="_blank" rel="noopener">Open on YouTube ↗</a></p>
-  </article>
+   </article>
 
   <!-- 2 -->
   <article class="vd-card">
