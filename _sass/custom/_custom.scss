@@ -1,24 +1,16 @@
-/* keep nav from sitting in fallback search */
-.no-js .search-content { display: none !important; }
-
-/* hide masthead text; logo only */
+/* Hide masthead text completely */
 .masthead .site-title { display: none !important; }
 
-/* OVERRIDE THEME CAP + make logo bigger */
+/* Force a larger logo (override theme's 2rem cap) */
 .masthead .site-logo img {
-  height: 72px !important;      /* bump this up/down to taste */
-  max-height: 72px !important;  /* override theme's 2rem cap */
-  width: auto;
+  height: 84px !important;     /* increase/decrease this number as you like */
+  max-height: none !important; /* remove cap */
+  width: auto !important;
   vertical-align: middle;
 }
 
-/* give header a bit more room for the taller logo */
-.masthead__inner-wrap { padding-top: 0.7rem; padding-bottom: 0.7rem; }
+/* Give the header room for the taller logo */
+.masthead__inner-wrap { padding-top: 0.8rem; padding-bottom: 0.8rem; }
 
-/* responsive tweaks */
-@media (max-width: 900px) {
-  .masthead .site-logo img { height: 56px !important; max-height: 56px !important; }
-}
-@media (max-width: 600px) {
-  .masthead .site-logo img { height: 48px !important; max-height: 48px !important; }
-}
+/* Keep nav from sitting in the fallback search field (safety) */
+.no-js .search-content { display: none !important; }
