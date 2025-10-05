@@ -7,7 +7,8 @@ classes: wide
 
 ## Short, focused walkthroughs
 
-Add YouTube embeds like this (replace with your video IDs):
+{% include video id="ZE_H7rijrVk" provider="youtube" %}
 
-### Example
-{% include video id="dQw4w9WgXcQ" provider="youtube" %}
+{% include video id="SNDKvd-gorE" provider="youtube" %}
+
+{% include video id="zUvRv5JrItk" provider="youtube" %}
