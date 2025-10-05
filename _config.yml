@@ -2,8 +2,11 @@ title: Vey Digital
 description: Startup playbooks, videos, and guides
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
+
 
 minimal_mistakes_skin: default
 markdown: kramdown
