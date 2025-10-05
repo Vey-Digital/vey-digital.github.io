@@ -13,8 +13,6 @@ Curated by **Vey Digital** to make startup wisdom more accessible to new founder
 
 ---
 
-![YC Startup Playbook](https://upload.wikimedia.org/wikipedia/commons/2/24/Y_Combinator_logo.svg)
-
 🎥 **Watch & Explore the Playbook**
 
 The full YC Startup Playbook is available below.  
