@@ -1,14 +1,30 @@
 title: Vey Digital
-
 description: Startup playbooks, videos, and guides
 
-# Minimal Mistakes via remote_theme (supported by GitHub Pages)
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+plugins:
+  - jekyll-remote-theme
 
 minimal_mistakes_skin: default
 markdown: kramdown
 locale: en-US
 timezone: America/Los_Angeles
 
-# Enable the search icon like the demo
+# Header/search like the demo
 search: true
 search_full_content: true
+
+# If you DON'T have a logo file, leave this commented to avoid duplicate text
+# logo: /assets/images/logo.png
+# masthead_title: ""   # uncomment only if you add a real logo image
+
+# Collections for “About / Sample Posts / Sample Collections” style pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+defaults:
+  - scope: { path: "" , type: pages }
+    values:
+      layout: single
+      sidebar: false
