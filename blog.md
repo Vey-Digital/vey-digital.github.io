@@ -5,6 +5,7 @@ permalink: /blog/
 classes: wide
 entries_layout: grid
 show_excerpts: true
+show_date: true
 ---
 
 Our main **VeyDigital** website is under construction. While we finish it, here’s what’s coming—and how you can try it before you buy.
