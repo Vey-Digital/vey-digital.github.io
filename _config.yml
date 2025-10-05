@@ -4,6 +4,4 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-
-logo: /assets/images/logo.png
 masthead_title: ""   # show only the logo in the header
