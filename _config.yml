@@ -1,4 +1,5 @@
 title: VeyDigital
+description: AI news to skills. Lightweight analytics & automations.
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
@@ -6,9 +7,24 @@ plugins:
   - jekyll-include-cache
   - jekyll-redirect-from
 
+# Header / branding
 logo: /assets/veydigital_logo2.png
-masthead_title: ""   # hide text next to logo
+masthead_title: ""   # show logo only, no duplicate text
 
+# Locale / theme options
+locale: en-US
+timezone: America/Los_Angeles
+minimal_mistakes_skin: default
+search: true
+search_full_content: true
+
+# Blog list behavior
+paginate: 9
+paginate_path: "/blog/page:num/"
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+# Footer social links
 footer:
   links:
     - label: "Twitter"
@@ -20,4 +36,3 @@ footer:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/yourInviteCode"
-
