@@ -41,6 +41,6 @@ footer:
     - label: "Discord"
       icon: "fa-brands fa-discord"
       url: "https://discord.gg/yourInviteCode"
-    - label: "Feed"
+    - label: ""
       icon: "fa-solid fa-rss"
       url: "/feed.xml"
