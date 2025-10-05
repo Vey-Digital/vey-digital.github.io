@@ -1,6 +1,4 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /quick-start/
   - title: "About"
     url: /about/
   - title: "Playbook"
