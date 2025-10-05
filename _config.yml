@@ -1,24 +1,38 @@
-title: Vey Digital Playbook
-description: Insights, videos, and startup lessons for founders
+title: Vey Digital
+description: Startup playbooks, videos, and guides
 remote_theme: "mmistakes/minimal-mistakes"
+
+# Build
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
+# Theme options
+minimal_mistakes_skin: default
 locale: en-US
 timezone: America/Los_Angeles
 markdown: kramdown
-minimal_mistakes_skin: default
-
-header_pages:
-  - index.md
-  - playbook/index.md
-
 permalink: /:categories/:title/
+search: true
+search_full_content: true
 
-author:
-  name: Vey Digital
-  location: Seattle, WA
-  bio: Transform data into growth.
+# Masthead / logo (add these files later if you have them)
+logo: /assets/images/logo.png
+favicon: /assets/images/favicon.ico
 
-paginate: 5
+# Navigation pulls from _data/navigation.yml
+# Pages you’ll create below:
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: single
+  - scope: { path: "" , type: pages }
+    values:
+      layout: single
+      sidebar: false
+
