@@ -1,9 +1,9 @@
-/* Hide masthead text completely */
-.masthead .site-title { display: none !important; }
+/* Hide the text title only when a logo is present */
+.site-logo + .site-title { display: none !important; }
 
 /* Force a larger logo (override theme's 2rem cap) */
 .masthead .site-logo img {
-  height: 84px !important;     /* increase/decrease this number as you like */
+  height: 84px !important;     /* tweak to taste */
   max-height: none !important; /* remove cap */
   width: auto !important;
   vertical-align: middle;
