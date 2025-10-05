@@ -1,88 +1,62 @@
-/* ---- Videos: force max 3 columns ---- */
+/* ---- Videos: max 3 columns ---- */
 .vd-grid {
   display: grid;
   gap: 1rem;
   align-items: start;
-  grid-template-columns: 1fr;         /* 1 col on mobile */
-  max-width: 1080px;                  /* keeps whole grid from getting too wide */
-  margin-inline: auto;                /* center the grid */
+  grid-template-columns: 1fr;     /* 1 col on mobile */
+  max-width: 1080px;              /* keeps grid from getting too wide */
+  margin-inline: auto;            /* center the grid */
   padding-inline: 8px;
 }
-@media (min-width: 768px)  { .vd-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
-@media (min-width: 1100px) { .vd-grid { grid-template-columns: repeat(3, minmax(0,1fr)); } }
-/* lock it to 3 cols on any larger screens too */
-@media (min-width: 1500px) { .vd-grid { grid-template-columns: repeat(3, minmax(0,1fr)) !important; } }
+@media (min-width: 768px)  { .vd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { .vd-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1500px) { .vd-grid { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; } } /* lock at 3 */
 
-/* Compact player height */
+/* Player */
 .vd-embed {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
-  min-height: 160px;    /* adjust if you want shorter/taller */
+  min-height: 160px;
   overflow: hidden;
   border-radius: .6rem;
   background: #000;
 }
 .vd-embed iframe {
-  position: absolute; inset: 0;
-  width: 100%; height: 100%;
-  border: 0; display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
 }
 
-/* Cards */
+/* Cards & title */
 .vd-card  { display: flex; flex-direction: column; gap: .5rem; }
-.vd-title { margin: .6rem 0 .25rem; font-weight: 600; }
-/* put in your <style> block or _sass/custom/_custom.scss */
-
-h3.vd-title{
-  margin:.3rem 0 .1rem;
-  font-weight:600;
-  font-size:.9rem;     /* smaller */
-  line-height:1.25;
-  letter-spacing:.005em;
+h3.vd-title {
+  margin: .3rem 0 .1rem;
+  font-weight: 600;
+  font-size: .9rem;
+  line-height: 1.25;
+  letter-spacing: .005em;
 }
 
-/* Brand "VeyDigital" in masthead uses the theme's primary color */
-.site-title a,
-.masthead__title a {
-  color: $primary-color !important; /* from your skin */
+/* ---- Masthead logo size ---- */
+.masthead .site-logo img,
+.masthead__inner-wrap .site-logo img,
+.greedy-nav .site-logo img {
+  display: block;
+  width: auto !important;
+  height: 96px !important;      /* adjust to taste */
+  max-height: 96px !important;
 }
+.masthead { padding-top: .35rem !important; padding-bottom: .35rem !important; }
 
-/* Nav links follow theme link/primary colors */
-.masthead__menu-item a {
-  color: $link-color;               /* skin link color */
-}
-
-.masthead__menu-item a:hover,
-.masthead__menu-item a:focus,
-.masthead__menu-item a[aria-current="page"] {
-  color: $primary-color !important; /* active/hover matches theme primary */
-  text-decoration: none;
-}
-
-/* If you add icon fonts later, let them inherit the link color */
-.masthead__menu-item i { 
-  color: currentColor;
-  margin-right: .4rem;
-}
-
-/* Bigger VeyDigital logo in the masthead */
-.site-logo img {
-  height: 60px;          /* adjust this number to taste */
-  max-height: 60px;      /* keep it from shrinking due to theme defaults */
-  width: auto;           /* maintain aspect ratio */
-}
-
-/* Slightly bigger on larger screens; smaller on phones */
-@media (min-width: 992px) {
-  .site-logo img { height: 72px; max-height: 72px; }
-}
 @media (max-width: 480px) {
-  .site-logo img { height: 48px; max-height: 48px; }
-}
-
-/* Keep header tidy if the logo gets taller */
-.masthead {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+  .masthead .site-logo img,
+  .masthead__inner-wrap .site-logo img,
+  .greedy-nav .site-logo img {
+    height: 56px !important;
+    max-height: 56px !important;
+  }
 }
