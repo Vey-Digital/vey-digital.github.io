@@ -10,7 +10,7 @@ classes: wide
 
 
 
-Our main **VeyDigital** website is under construction. While we finish it, here’s what’s coming—and how you can try it before you buy.
+Our main **VeyDigital** website is under construction. While we finish it, here’s what’s coming and how you can try it before you buy.
 <!--more-->
 
 **Coming soon**
