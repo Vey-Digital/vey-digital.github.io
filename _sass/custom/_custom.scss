@@ -1,22 +1,24 @@
+/* keep nav from sitting in fallback search */
 .no-js .search-content { display: none !important; }
-/* Hide any masthead text title (show logo only) */
+
+/* hide masthead text; logo only */
 .masthead .site-title { display: none !important; }
 
-/* Make the logo bigger and keep proportions */
-.site-logo img {
-  height: 60px;     /* adjust to taste: 48–64px are typical */
-  max-height: 60px;
+/* OVERRIDE THEME CAP + make logo bigger */
+.masthead .site-logo img {
+  height: 72px !important;      /* bump this up/down to taste */
+  max-height: 72px !important;  /* override theme's 2rem cap */
   width: auto;
   vertical-align: middle;
 }
 
-/* Give the header a bit more breathing room for the larger logo */
-.masthead__inner-wrap {
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-}
+/* give header a bit more room for the taller logo */
+.masthead__inner-wrap { padding-top: 0.7rem; padding-bottom: 0.7rem; }
 
-/* Optional: scale down logo slightly on small screens */
+/* responsive tweaks */
+@media (max-width: 900px) {
+  .masthead .site-logo img { height: 56px !important; max-height: 56px !important; }
+}
 @media (max-width: 600px) {
-  .site-logo img { height: 60px; max-height: 60px; }
+  .masthead .site-logo img { height: 48px !important; max-height: 48px !important; }
 }
