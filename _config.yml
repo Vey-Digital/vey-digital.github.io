@@ -29,12 +29,8 @@ date_format: "%b %-d, %Y"   # e.g., Oct 5, 2025
 
 # Footer social links
 footer:
-  align: center
   links:
-  footer:
-  align: center
-  links:
-    - label: "X"
+    - label: ""   # icon-only (removes the extra "X" text)
       icon: "fa-brands fa-x-twitter"
       url: "https://twitter.com/YourHandle"
     - label: "GitHub"
@@ -43,3 +39,6 @@ footer:
     - label: "Discord"
       icon: "fa-brands fa-discord"
       url: "https://discord.gg/yourInviteCode"
+    - label: "Feed"
+      icon: "fa-solid fa-rss"
+      url: "/feed.xml"
