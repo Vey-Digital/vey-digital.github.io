@@ -69,7 +69,7 @@ Want closer, real-time conversation and quick feedback? **Join us on Discord.**
 
 ## Start here
 - Open the **YC Startup Playbook** → [/playbook/](/playbook/)
-- Browse **Videos** (quick how-tos) → [/videos/](/videos/)
+- Browse **Videos** (Upskill quicklys) → [/videos/](/videos/)
 - Read the latest on the **Blog** → [/blog/](/blog/)
 
 Based in **Seattle, WA**.
