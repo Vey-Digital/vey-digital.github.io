@@ -41,3 +41,26 @@ h3.vd-title{
   line-height:1.25;
   letter-spacing:.005em;
 }
+/* Brand "VeyDigital" in masthead uses the theme's primary color */
+.site-title a,
+.masthead__title a {
+  color: $primary-color !important; /* from your skin */
+}
+
+/* Nav links follow theme link/primary colors */
+.masthead__menu-item a {
+  color: $link-color;               /* skin link color */
+}
+
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus,
+.masthead__menu-item a[aria-current="page"] {
+  color: $primary-color !important; /* active/hover matches theme primary */
+  text-decoration: none;
+}
+
+/* If you add icon fonts later, let them inherit the link color */
+.masthead__menu-item i { 
+  color: currentColor;
+  margin-right: .4rem;
+}
