@@ -6,47 +6,52 @@ classes: wide   # <— wider page container so cards can be wider
 ---
 
 <!-- Page-scoped styles with high specificity + !important -->
+<!-- Page-scoped styles with high specificity + !important -->
 <style>
   /* Scope everything to this page only */
   #videos-page .vd-grid{
     display:grid !important;
-    gap:1.1rem !important;
+    gap:1rem !important;
     align-items:start !important;
-    grid-template-columns:1fr !important;           /* 1 col mobile */
-    max-width:1360px !important;                    /* was 1500px */
+    grid-template-columns:1fr !important;                /* 1 col mobile */
+    max-width:1180px !important;                         /* narrower container */
     margin-inline:auto !important;
-    padding-inline:10px !important;
+    padding-inline:8px !important;
   }
   @media (min-width:768px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(2, minmax(360px, 1fr)) !important; }
+    #videos-page .vd-grid{ grid-template-columns:repeat(2, minmax(340px, 1fr)) !important; }
   }
   @media (min-width:1100px){
-    /* EXACTLY 3 columns, slightly narrower than before */
-    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(440px, 1fr)) !important; } /* was 460px */
+    /* EXACTLY 3 columns, each narrower than before */
+    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(360px, 1fr)) !important; }
   }
   @media (min-width:1400px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(440px, 1fr)) !important; } /* lock at 3 */
+    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(360px, 1fr)) !important; } /* lock at 3 */
   }
 
-  /* Wider shape, not taller */
+  /* Standard shape; not tall */
   #videos-page .vd-embed{
     position:relative !important;
     width:100% !important;
-    aspect-ratio:21 / 9 !important;     /* keeps height modest */
-    min-height:160px !important;
+    aspect-ratio:16 / 9 !important;                      /* back to 16:9 */
+    min-height:150px !important;                         /* keeps it from feeling tall */
     overflow:hidden !important;
     border-radius:.6rem !important;
     background:#000 !important;
   }
   #videos-page .vd-embed iframe{
-    position:absolute !important; inset:0 !important;
-    width:100% !important; height:100% !important;
-    border:0 !important; display:block !important;
+    position:absolute !important;
+    inset:0 !important;
+    width:100% !important;
+    height:100% !important;
+    border:0 !important;
+    display:block !important;
   }
 
   #videos-page .vd-card{ display:flex !important; flex-direction:column !important; gap:.5rem !important; }
   #videos-page h3.vd-title{ margin:.35rem 0 .1rem !important; font-weight:600 !important; font-size:.95rem !important; line-height:1.25 !important; }
 </style>
+
 
 
 <section id="videos-page">
