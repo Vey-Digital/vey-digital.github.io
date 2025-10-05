@@ -11,9 +11,6 @@ excerpt: "Start small, prove value, and scale with evidence. Here’s a one-week
 categories: [Playbooks]
 tags: [AI, automation, analytics, operations, marketing]
 classes: wide
-# Optional teaser image for the blog grid:
-# header:
-#   teaser: /assets/images/ai-one-win-teaser.jpg
 ---
 
 AI only helps if it improves a number you care about. This plan shows how to ship **one useful win in a week**, using the tools you already have. It’s the approach we use at **VeyDigital**: keep scope tight, make decisions with data, and standardize what works.
