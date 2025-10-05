@@ -5,14 +5,15 @@ permalink: /videos/
 ---
 
 <!-- Page-scoped styles with high specificity + !important -->
+<!-- Page-scoped styles with high specificity + !important -->
 <style>
   /* Scope everything to this page only */
   #videos-page .vd-grid{
     display:grid !important;
     gap:1rem !important;
     align-items:start !important;
-    grid-template-columns:1fr !important;     /* 1 col mobile */
-    max-width:1260px !important;              /* wider cards */
+    grid-template-columns:1fr !important;           /* 1 col mobile */
+    max-width:1320px !important;                    /* slightly wider cards */
     margin-inline:auto !important;
     padding-inline:8px !important;
   }
@@ -20,18 +21,18 @@ permalink: /videos/
     #videos-page .vd-grid{ grid-template-columns:repeat(2,minmax(0,1fr)) !important; }
   }
   @media (min-width:1100px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; }
+    #videos-page .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; } /* lock at 3 */
   }
   @media (min-width:1400px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; } /* lock at 3 */
+    #videos-page .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; } /* still 3 */
   }
 
   /* Wider, not taller */
   #videos-page .vd-embed{
     position:relative !important;
     width:100% !important;
-    aspect-ratio: 2 / 1 !important;           /* wider than 16:9 */
-    min-height:160px !important;              /* keep it from getting tall */
+    aspect-ratio:21 / 9 !important;                 /* wider than 16:9 to keep height down */
+    min-height:160px !important;                    /* prevents tall players */
     overflow:hidden !important;
     border-radius:.6rem !important;
     background:#000 !important;
@@ -48,6 +49,7 @@ permalink: /videos/
   #videos-page .vd-card{ display:flex !important; flex-direction:column !important; gap:.5rem !important; }
   #videos-page h3.vd-title{ margin:.35rem 0 .1rem !important; font-weight:600 !important; font-size:.95rem !important; line-height:1.25 !important; }
 </style>
+
 
 <section id="videos-page">
   <div class="vd-grid">
