@@ -9,7 +9,6 @@ plugins:
 
 # Header / branding
 logo: "/assets/veydigital+logo2.png"
-
 masthead_title: ""   # show logo only, no duplicate text
 
 # Locale / theme options
