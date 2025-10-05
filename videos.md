@@ -2,7 +2,7 @@
 layout: single
 title: "Videos"
 permalink: /videos/
-classes: wide
+- classes: wide
 ---
 
 <div class="vd-grid">
