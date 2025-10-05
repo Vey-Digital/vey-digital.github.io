@@ -108,3 +108,13 @@
 .blog--no-feed .archive__subtitle,
 .blog--no-feed .entries { display: none !important; }
 
+.site-footer {
+  text-align: center;
+}
+.site-footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+
