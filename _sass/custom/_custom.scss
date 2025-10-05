@@ -141,4 +141,7 @@ footer, .site-footer, .footer {
 .page__footer-follow a:hover {
   opacity: 0.8;
 }
-
+/* If any theme partial injects a label for the X link, hide it */
+.page__footer-follow a[href*="twitter.com"] .label {
+  display: none !important;
+}
