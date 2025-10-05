@@ -32,3 +32,12 @@
 /* Cards */
 .vd-card  { display: flex; flex-direction: column; gap: .5rem; }
 .vd-title { margin: .6rem 0 .25rem; font-weight: 600; }
+/* put in your <style> block or _sass/custom/_custom.scss */
+
+h3.vd-title{
+  margin:.3rem 0 .1rem;
+  font-weight:600;
+  font-size:.9rem;     /* smaller */
+  line-height:1.25;
+  letter-spacing:.005em;
+}
