@@ -12,8 +12,8 @@ classes: wide   # <— wider page container so cards can be wider
     display:grid !important;
     gap:1.1rem !important;
     align-items:start !important;
-    grid-template-columns:1fr !important;                 /* 1 col mobile */
-    max-width: 1500px !important;                         /* wider container = wider cards */
+    grid-template-columns:1fr !important;           /* 1 col mobile */
+    max-width:1360px !important;                    /* was 1500px */
     margin-inline:auto !important;
     padding-inline:10px !important;
   }
@@ -21,35 +21,33 @@ classes: wide   # <— wider page container so cards can be wider
     #videos-page .vd-grid{ grid-template-columns:repeat(2, minmax(360px, 1fr)) !important; }
   }
   @media (min-width:1100px){
-    /* EXACTLY 3 columns, each with a wider minimum */
-    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(460px, 1fr)) !important; }
+    /* EXACTLY 3 columns, slightly narrower than before */
+    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(440px, 1fr)) !important; } /* was 460px */
   }
   @media (min-width:1400px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(460px, 1fr)) !important; } /* lock at 3 */
+    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(440px, 1fr)) !important; } /* lock at 3 */
   }
 
   /* Wider shape, not taller */
   #videos-page .vd-embed{
     position:relative !important;
     width:100% !important;
-    aspect-ratio: 21 / 9 !important;                      /* wider than 16:9 to keep height down */
-    min-height: 160px !important;                         /* prevents tall players */
+    aspect-ratio:21 / 9 !important;     /* keeps height modest */
+    min-height:160px !important;
     overflow:hidden !important;
     border-radius:.6rem !important;
     background:#000 !important;
   }
   #videos-page .vd-embed iframe{
-    position:absolute !important;
-    inset:0 !important;
-    width:100% !important;
-    height:100% !important;
-    border:0 !important;
-    display:block !important;
+    position:absolute !important; inset:0 !important;
+    width:100% !important; height:100% !important;
+    border:0 !important; display:block !important;
   }
 
   #videos-page .vd-card{ display:flex !important; flex-direction:column !important; gap:.5rem !important; }
   #videos-page h3.vd-title{ margin:.35rem 0 .1rem !important; font-weight:600 !important; font-size:.95rem !important; line-height:1.25 !important; }
 </style>
+
 
 <section id="videos-page">
   <div class="vd-grid">
