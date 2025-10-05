@@ -1,5 +1,7 @@
 title: Vey Digital
-# logo: /assets/images/logo.png   # remove or comment this line
+logo: /assets/images/logo.png     # make sure this file actually exists
+masthead_title: ""                # hides the text next to the logo
+
 
 
 description: Startup playbooks, videos, and guides
