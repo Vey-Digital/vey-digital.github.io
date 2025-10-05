@@ -1,8 +1,9 @@
 title: VeyDigital
+
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-logo: "https://vey-digital.github.io/assets/veydigital_logo2.png"
-masthead_title: ""
+logo: /assets/veydigital_logo2.png
+masthead_title: ""   # hide text next to logo
