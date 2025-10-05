@@ -14,3 +14,7 @@
 
 /* Prevent nav from sitting in fallback search */
 .no-js .search-content { display: none !important; }
+.page__footer .social-icons a { font-size: 1.15rem; }
+@media (max-width: 600px) {
+.masthead .site-logo img { height: 56px !important; }
+}
