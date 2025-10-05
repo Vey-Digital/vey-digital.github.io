@@ -32,7 +32,7 @@ classes: wide
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </div>
-    <h3 class="vd-title">God Complex: Elon Musk vs Sam Altman and the AI Battle</h3>
+    <h5 class="vd-title">God Complex: Elon Musk vs Sam Altman and the AI Battle</h5>
   </article>
 
   <!-- 3 -->
