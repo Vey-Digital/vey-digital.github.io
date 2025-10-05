@@ -103,3 +103,8 @@
 /* Text */
 .vd-title { margin: 10px 0 2px; font-size: 1.05rem; }
 .vd-meta  { margin: 0; opacity: .7; font-size: .9rem; }
+
+/* Hide the posts list only on the Blog page while you prepare real posts */
+.blog--no-feed .archive__subtitle,
+.blog--no-feed .entries { display: none !important; }
+
