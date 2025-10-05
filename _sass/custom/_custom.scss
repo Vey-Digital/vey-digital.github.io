@@ -4,8 +4,8 @@
 
 /* Make the logo bigger and keep proportions */
 .site-logo img {
-  height: 56px;     /* adjust to taste: 48–64px are typical */
-  max-height: 56px;
+  height: 60px;     /* adjust to taste: 48–64px are typical */
+  max-height: 60px;
   width: auto;
   vertical-align: middle;
 }
@@ -18,5 +18,5 @@
 
 /* Optional: scale down logo slightly on small screens */
 @media (max-width: 600px) {
-  .site-logo img { height: 44px; max-height: 56px; }
+  .site-logo img { height: 60px; max-height: 60px; }
 }
