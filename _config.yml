@@ -25,7 +25,9 @@ show_excerpts: true
 excerpt_separator: "<!--more-->"
 timezone: America/Los_Angeles
 date_format: "%b %-d, %Y"   # e.g., Oct 5, 2025
-
+# manual Feed and disable the auto one
+atom_feed:
+  hide: true
 
 # Footer social links
 footer:
