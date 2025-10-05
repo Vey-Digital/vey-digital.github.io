@@ -2,6 +2,7 @@
 layout: single
 title: "Videos"
 permalink: /videos/
+classes: wide   # <— wider page container so cards can be wider
 ---
 
 <!-- Page-scoped styles with high specificity + !important -->
@@ -9,29 +10,30 @@ permalink: /videos/
   /* Scope everything to this page only */
   #videos-page .vd-grid{
     display:grid !important;
-    gap:1rem !important;
+    gap:1.1rem !important;
     align-items:start !important;
-    grid-template-columns:1fr !important;           /* 1 col mobile */
-    max-width:1320px !important;                    /* slightly wider cards container */
+    grid-template-columns:1fr !important;                 /* 1 col mobile */
+    max-width: 1500px !important;                         /* wider container = wider cards */
     margin-inline:auto !important;
-    padding-inline:8px !important;
+    padding-inline:10px !important;
   }
   @media (min-width:768px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(2,minmax(0,1fr)) !important; }
+    #videos-page .vd-grid{ grid-template-columns:repeat(2, minmax(360px, 1fr)) !important; }
   }
   @media (min-width:1100px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; } /* lock at 3 */
+    /* EXACTLY 3 columns, each with a wider minimum */
+    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(460px, 1fr)) !important; }
   }
   @media (min-width:1400px){
-    #videos-page .vd-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) !important; }
+    #videos-page .vd-grid{ grid-template-columns:repeat(3, minmax(460px, 1fr)) !important; } /* lock at 3 */
   }
 
-  /* Wider in length (more horizontal), not taller */
+  /* Wider shape, not taller */
   #videos-page .vd-embed{
     position:relative !important;
     width:100% !important;
-    aspect-ratio: 32 / 9 !important;                /* << wider shape than 16:9 */
-    min-height: 140px !important;                   /* keeps height modest */
+    aspect-ratio: 21 / 9 !important;                      /* wider than 16:9 to keep height down */
+    min-height: 160px !important;                         /* prevents tall players */
     overflow:hidden !important;
     border-radius:.6rem !important;
     background:#000 !important;
