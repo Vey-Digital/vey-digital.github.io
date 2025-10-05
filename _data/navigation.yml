@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Playbook"
+    url: /playbook/
+  - title: "Videos"
+    url: /videos/
+  - title: "Blog"
+    url: /blog/
