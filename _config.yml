@@ -31,7 +31,6 @@ date_format: "%b %-d, %Y"   # e.g., Oct 5, 2025
 footer:
   align: center
   links:
-    - label: "X"
       icon: "fa-brands fa-x-twitter"
       url: "https://twitter.com/YourHandle"
     - label: "GitHub"
