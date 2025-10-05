@@ -64,3 +64,23 @@ h3.vd-title{
   color: currentColor;
   margin-right: .4rem;
 }
+/* Bigger VeyDigital logo in the masthead */
+.site-logo img {
+  height: 60px;          /* adjust this number to taste */
+  max-height: 60px;      /* keep it from shrinking due to theme defaults */
+  width: auto;           /* maintain aspect ratio */
+}
+
+/* Slightly bigger on larger screens; smaller on phones */
+@media (min-width: 992px) {
+  .site-logo img { height: 72px; max-height: 72px; }
+}
+@media (max-width: 480px) {
+  .site-logo img { height: 48px; max-height: 48px; }
+}
+
+/* Keep header tidy if the logo gets taller */
+.masthead {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
