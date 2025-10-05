@@ -1,16 +1,16 @@
-/* Hide the text title only when a logo is present */
+/* Hide text title only when a logo renders */
 .site-logo + .site-title { display: none !important; }
 
-/* Force a larger logo (override theme's 2rem cap) */
+/* Bigger logo */
 .masthead .site-logo img {
-  height: 84px !important;     /* tweak to taste */
-  max-height: none !important; /* remove cap */
+  height: 84px !important;
+  max-height: none !important;
   width: auto !important;
   vertical-align: middle;
 }
 
-/* Give the header room for the taller logo */
+/* (Optional) a bit more vertical room */
 .masthead__inner-wrap { padding-top: 0.8rem; padding-bottom: 0.8rem; }
 
-/* Keep nav from sitting in the fallback search field (safety) */
+/* Prevent nav from sitting in fallback search */
 .no-js .search-content { display: none !important; }
