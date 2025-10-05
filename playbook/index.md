@@ -1,7 +1,6 @@
 ---
 layout: single
 title: YC Startup Playbook
-permalink: /playbook/
 classes: wide
 ---
 
