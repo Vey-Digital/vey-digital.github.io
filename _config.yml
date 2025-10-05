@@ -1,7 +1,7 @@
-
-logo: /assets/veydigital_logo2.png
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-masthead_title: ""   # show only the logo in the header
+
+logo: /assets/veydigital_logo2.png
+masthead_title: ""   # show only the logo (prevents duplicate text)
