@@ -1,1 +1,22 @@
 .no-js .search-content { display: none !important; }
+/* Hide any masthead text title (show logo only) */
+.masthead .site-title { display: none !important; }
+
+/* Make the logo bigger and keep proportions */
+.site-logo img {
+  height: 56px;     /* adjust to taste: 48–64px are typical */
+  max-height: 56px;
+  width: auto;
+  vertical-align: middle;
+}
+
+/* Give the header a bit more breathing room for the larger logo */
+.masthead__inner-wrap {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+/* Optional: scale down logo slightly on small screens */
+@media (max-width: 600px) {
+  .site-logo img { height: 44px; max-height: 44px; }
+}
