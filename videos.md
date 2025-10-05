@@ -2,8 +2,10 @@
 layout: single
 title: "Videos"
 permalink: /videos/
-- classes: wide
 ---
+
+<!-- your HTML grid/cards go here -->
+
 
 <div class="vd-grid">
 
