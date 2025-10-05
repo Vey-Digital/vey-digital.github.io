@@ -9,13 +9,13 @@ classes: wide
 
   <!-- 1 -->
   <article class="vd-card">
-    <div class="vd-embed" style="aspect-ratio:16/9;min-height:240px;">
+    <div class="vd-embed">
       <iframe
-        src="https://www.youtube-nocookie.com/embed/CRraHg4Ks_g?start=6&rel=0&modestbranding=1"
+        width="560" height="315"
+        src="https://www.youtube.com/embed/CRraHg4Ks_g"
         title="Demis Hassabis On The Future of Work in the Age of AI"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen></iframe>
     </div>
     <h3 class="vd-title">Demis Hassabis On The Future of Work in the Age of AI</h3>
@@ -24,13 +24,13 @@ classes: wide
 
   <!-- 2 -->
   <article class="vd-card">
-    <div class="vd-embed" style="aspect-ratio:16/9;min-height:240px;">
+    <div class="vd-embed">
       <iframe
-        src="https://www.youtube-nocookie.com/embed/XaG2QNfiPnk?start=3&rel=0&modestbranding=1"
+        width="560" height="315"
+        src="https://www.youtube.com/embed/XaG2QNfiPnk"
         title="God Complex: Elon Musk vs Sam Altman and the AI Battle"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen></iframe>
     </div>
     <h3 class="vd-title">God Complex: Elon Musk vs Sam Altman and the AI Battle</h3>
@@ -39,13 +39,13 @@ classes: wide
 
   <!-- 3 -->
   <article class="vd-card">
-    <div class="vd-embed" style="aspect-ratio:16/9;min-height:240px;">
+    <div class="vd-embed">
       <iframe
-        src="https://www.youtube-nocookie.com/embed/dwyvBjBIDHQ?start=10&rel=0&modestbranding=1"
+        width="560" height="315"
+        src="https://www.youtube.com/embed/dwyvBjBIDHQ"
         title="How is China using AI in the classroom? | The Take"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen></iframe>
     </div>
     <h3 class="vd-title">How is China using AI in the classroom? | The Take</h3>
@@ -54,13 +54,13 @@ classes: wide
 
   <!-- 4 -->
   <article class="vd-card">
-    <div class="vd-embed" style="aspect-ratio:16/9;min-height:240px;">
+    <div class="vd-embed">
       <iframe
-        src="https://www.youtube-nocookie.com/embed/UclrVWafRAI?rel=0&modestbranding=1"
+        width="560" height="315"
+        src="https://www.youtube.com/embed/UclrVWafRAI"
         title="The AI Safety Expert: These Are The Only 5 Jobs That Will Remain In 2030! — Dr. Roman Yampolskiy"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen></iframe>
     </div>
     <h3 class="vd-title">The AI Safety Expert: These Are The Only 5 Jobs That Will Remain In 2030! — Dr. Roman Yampolskiy</h3>
