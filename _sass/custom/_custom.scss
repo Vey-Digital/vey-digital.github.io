@@ -108,13 +108,23 @@
 .blog--no-feed .archive__subtitle,
 .blog--no-feed .entries { display: none !important; }
 
-.site-footer {
-  text-align: center;
-}
-.site-footer .footer-links {
+footer, .site-footer, .footer {
+  text-align: center !important;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 1.2rem;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: inherit;
+}
 
