@@ -47,7 +47,7 @@ We build clean dashboards leaders trust, improve conversion with structured expe
     font-weight: 700;
   }
 
-  /* Keep the H1 "About" in the normal content column (no centering/transform) */
+  /* Keep the H1 "About" in the normal content column */
   .page__title {
     text-align: left;
     position: static;
@@ -78,41 +78,54 @@ We build clean dashboards leaders trust, improve conversion with structured expe
     }
   }
 
-  /* ---------------- Two-up grid for Optional Add-Ons + Case in Brief ---------------- */
-  .vd-two-up {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;                    /* more breathing room between columns */
-    align-items: start;
-    margin-top: .5rem;
-    margin-bottom: 1.25rem;
+  /* ---------- Wide wrapper + clean 2-col grid for the two side tables ---------- */
+  .vd-wide {
+    width: 100%;
+    margin: 0 auto;
   }
   @media (min-width: 1024px) {
-    .vd-two-up { grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
+    .vd-wide { width: min(1400px, 96vw); max-width: 1400px; }
   }
-  .vd-two-up > * { min-width: 0; }         /* let tables shrink to fit side-by-side */
-  .vd-two-up h3 { margin: 0 0 .75rem 0; }
 
-  /* Card styling around each column for a professional look */
+  .vd-two-up {
+    display: grid;
+    grid-template-columns: 1fr;                  /* mobile */
+    gap: 2rem;                                   /* comfortable spacing */
+    align-items: stretch;                        /* equal heights */
+  }
+  @media (min-width: 1024px) {
+    .vd-two-up { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
   .vd-two-up .vd-col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
     background: #fff;
     border: 1px solid #e6e9ef;
     border-radius: 12px;
     padding: 1rem 1rem .75rem;
     box-shadow: 0 1px 2px rgba(16,24,40,.04);
+    min-width: 0;                                 /* prevent overflow from long content */
   }
+  .vd-two-up .vd-col h3 { margin: .25rem 0 .75rem; }
 
-  /* Fine-tune table spacing inside cards */
   .vd-two-up .vd-col table.vd-plain {
+    flex: 1;                                      /* ensures cards equalize height */
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
+    table-layout: fixed;                          /* consistent column sizing */
   }
   .vd-two-up .vd-col table.vd-plain th,
   .vd-two-up .vd-col table.vd-plain td {
-    padding: 12px 16px;           /* nicer density for side tables */
-    border-color: #e6e9ef;
+    padding: 12px 16px;
     line-height: 1.55;
+    border-color: #e6e9ef;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: anywhere;
   }
   .vd-two-up .vd-col table.vd-plain thead th {
     background: #1E3A8A;
@@ -121,181 +134,18 @@ We build clean dashboards leaders trust, improve conversion with structured expe
   }
   .vd-two-up .vd-col table.vd-plain tbody tr:nth-child(even) td { background: #f8fafc; }
   .vd-two-up .vd-col table.vd-plain tbody tr:hover td { background: #f1f5fb; }
-
-  /* Rounded corners */
   .vd-two-up .vd-col table.vd-plain thead th:first-child { border-top-left-radius: 10px; }
   .vd-two-up .vd-col table.vd-plain thead th:last-child  { border-top-right-radius: 10px; }
   .vd-two-up .vd-col table.vd-plain tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
   .vd-two-up .vd-col table.vd-plain tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }
 
-  /* Column width balance (desktop) */
+  /* SAME column split for both side tables so inner columns line up */
   @media (min-width: 1024px) {
-    /* Optional Add-Ons: label/content */
-    .vd-two-up .vd-col:first-child table.vd-plain thead th:nth-child(1),
-    .vd-two-up .vd-col:first-child table.vd-plain tbody td:nth-child(1) { width: 42%; }
-    .vd-two-up .vd-col:first-child table.vd-plain thead th:nth-child(2),
-    .vd-two-up .vd-col:first-child table.vd-plain tbody td:nth-child(2) { width: 58%; }
-
-    /* Case in Brief: aspect/summary */
-    .vd-two-up .vd-col:last-child table.vd-plain thead th:nth-child(1),
-    .vd-two-up .vd-col:last-child table.vd-plain tbody td:nth-child(1) { width: 28%; }
-    .vd-two-up .vd-col:last-child table.vd-plain thead th:nth-child(2),
-    .vd-two-up .vd-col:last-child table.vd-plain tbody td:nth-child(2) { width: 72%; }
+    .vd-two-up .vd-col table.vd-plain thead th:nth-child(1),
+    .vd-two-up .vd-col table.vd-plain tbody td:nth-child(1) { width: 38% !important; }
+    .vd-two-up .vd-col table.vd-plain thead th:nth-child(2),
+    .vd-two-up .vd-col table.vd-plain tbody td:nth-child(2) { width: 62% !important; }
   }
-
-  /* === FIX: Wide wrapper + clean 2-col grid (no width fighting) === */
-
-/* Align this section to the same wide width as the Deliverables table */
-.vd-wide {
-  width: 100%;
-  margin: 0 auto;
-}
-@media (min-width: 1024px) {
-  .vd-wide {
-    width: min(1400px, 96vw);
-    max-width: 1400px;
-  }
-}
-
-/* Two uniform columns with ample gap; stacks on mobile */
-.vd-two-up {
-  display: grid;
-  grid-template-columns: 1fr;      /* mobile */
-  gap: 2rem;                       /* comfortable spacing */
-  align-items: start;
-}
-@media (min-width: 1024px) {
-  .vd-two-up { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-
-/* Card look without shrinking content */
-.vd-two-up .vd-col {
-  background: #fff;
-  border: 1px solid #e6e9ef;
-  border-radius: 12px;
-  padding: 1rem 1rem .75rem;
-  box-shadow: 0 1px 2px rgba(16,24,40,.04);
-  min-width: 0;                    /* let tables shrink inside columns */
-}
-.vd-two-up .vd-col h3 { margin: .25rem 0 .75rem; }
-
-/* Tables inside the cards */
-.vd-two-up .vd-col table.vd-plain {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-}
-
-/* Professional padding + readable line-height */
-.vd-two-up .vd-col table.vd-plain th,
-.vd-two-up .vd-col table.vd-plain td {
-  padding: 12px 16px;
-  line-height: 1.55;
-  border-color: #e6e9ef;
-  width: auto !important;          /* override any previous width rules */
-}
-
-/* Keep your brand header */
-.vd-two-up .vd-col table.vd-plain thead th {
-  background: #1E3A8A;
-  color: #fff;
-  font-weight: 700;
-}
-
-/* Gentle zebra + hover */
-.vd-two-up .vd-col table.vd-plain tbody tr:nth-child(even) td { background: #f8fafc; }
-.vd-two-up .vd-col table.vd-plain tbody tr:hover td { background: #f1f5fb; }
-
-/* Rounded corners */
-.vd-two-up .vd-col table.vd-plain thead th:first-child { border-top-left-radius: 10px; }
-.vd-two-up .vd-col table.vd-plain thead th:last-child  { border-top-right-radius: 10px; }
-.vd-two-up .vd-col table.vd-plain tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
-.vd-two-up .vd-col table.vd-plain tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }
-/* === FINAL ALIGNMENT FIX: two cards same width + same height === */
-
-/* Make the two-up section use the same wide width as the big table */
-.vd-wide {
-  width: 100%;
-  margin: 0 auto;
-}
-@media (min-width: 1024px) {
-  .vd-wide { width: min(1400px, 96vw); max-width: 1400px; }
-}
-
-/* Two equal columns; cards stretch to the same height */
-.vd-two-up {
-  display: grid;
-  grid-template-columns: 1fr;                 /* mobile */
-  gap: 2rem;
-  align-items: stretch;                       /* stretch items to equal row height */
-}
-@media (min-width: 1024px) {
-  .vd-two-up { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-
-/* Cards fill the track height; content flows nicely */
-.vd-two-up .vd-col {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  box-sizing: border-box;
-  background: #fff;
-  border: 1px solid #e6e9ef;
-  border-radius: 12px;
-  padding: 1rem 1rem .75rem;
-  box-shadow: 0 1px 2px rgba(16,24,40,.04);
-  min-width: 0;                                /* prevent overflow from long content */
-}
-
-.vd-two-up .vd-col h3 {
-  margin: .25rem 0 .75rem;
-}
-
-/* Tables inside cards take remaining height so both cards equalize */
-.vd-two-up .vd-col table.vd-plain {
-  flex: 1;                                     /* makes both cards the same height */
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  table-layout: fixed;                         /* consistent column sizing */
-}
-
-/* Consistent, readable cell spacing */
-.vd-two-up .vd-col table.vd-plain th,
-.vd-two-up .vd-col table.vd-plain td {
-  padding: 12px 16px;
-  line-height: 1.55;
-  border-color: #e6e9ef;
-  white-space: normal;
-  word-break: normal;
-  overflow-wrap: anywhere;
-}
-
-/* Brand header */
-.vd-two-up .vd-col table.vd-plain thead th {
-  background: #1E3A8A;
-  color: #fff;
-  font-weight: 700;
-}
-
-/* Gentle zebra + hover */
-.vd-two-up .vd-col table.vd-plain tbody tr:nth-child(even) td { background: #f8fafc; }
-.vd-two-up .vd-col table.vd-plain tbody tr:hover td { background: #f1f5fb; }
-
-/* Rounded corners */
-.vd-two-up .vd-col table.vd-plain thead th:first-child { border-top-left-radius: 10px; }
-.vd-two-up .vd-col table.vd-plain thead th:last-child  { border-top-right-radius: 10px; }
-.vd-two-up .vd-col table.vd-plain tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
-.vd-two-up .vd-col table.vd-plain tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }
-
-/* Make both side tables use the SAME column split so widths match visually */
-@media (min-width: 1024px) {
-  .vd-two-up .vd-col table.vd-plain thead th:nth-child(1),
-  .vd-two-up .vd-col table.vd-plain tbody td:nth-child(1) { width: 38% !important; }
-  .vd-two-up .vd-col table.vd-plain thead th:nth-child(2),
-  .vd-two-up .vd-col table.vd-plain tbody td:nth-child(2) { width: 62% !important; }
-}
-
 </style>
 
 <table class="vd-plain vd-delivers-wide">
@@ -347,42 +197,44 @@ We build clean dashboards leaders trust, improve conversion with structured expe
   </tbody>
 </table>
 
-<div class="vd-two-up">
-  <div class="vd-col">
-    <h3>Optional Add-Ons</h3>
-    <table class="vd-plain">
-      <thead>
-        <tr>
-          <th>Category</th>
-          <th>Details</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td><strong>Advanced Strategy &amp; Insights</strong></td><td>SEO &amp; site-performance audits</td></tr>
-        <tr><td><strong>User Experience</strong></td><td>Journey mapping</td></tr>
-        <tr><td><strong>Competitive Analysis</strong></td><td>Competitor benchmarking dashboards</td></tr>
-        <tr><td><strong>Predictive Analytics</strong></td><td>Churn / retention modeling</td></tr>
-        <tr><td><strong>AI Integration</strong></td><td>Chat + content assistants with compliance guardrails</td></tr>
-      </tbody>
-    </table>
-  </div>
+<div class="vd-wide">
+  <div class="vd-two-up">
+    <div class="vd-col">
+      <h3>Optional Add-Ons</h3>
+      <table class="vd-plain">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Advanced Strategy &amp; Insights</strong></td><td>SEO &amp; site-performance audits</td></tr>
+          <tr><td><strong>User Experience</strong></td><td>Journey mapping</td></tr>
+          <tr><td><strong>Competitive Analysis</strong></td><td>Competitor benchmarking dashboards</td></tr>
+          <tr><td><strong>Predictive Analytics</strong></td><td>Churn / retention modeling</td></tr>
+          <tr><td><strong>AI Integration</strong></td><td>Chat + content assistants with compliance guardrails</td></tr>
+        </tbody>
+      </table>
+    </div>
 
-  <div class="vd-col">
-    <h3>Case in Brief — Global NGO</h3>
-    <table class="vd-plain">
-      <thead>
-        <tr>
-          <th>Aspect</th>
-          <th>Summary</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td><strong>Problem</strong></td><td>20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts</td></tr>
-        <tr><td><strong>Fix</strong></td><td>Google Cloud-native analytics layer; standardized KPIs/UTMs; daily brief with one key action; secure country-level views</td></tr>
-        <tr><td><strong>Triggers</strong></td><td>Donate-drop nudges; lapsed-donor reactivation</td></tr>
-        <tr><td><strong>Results (typical)</strong></td><td>+10–20% conversion · –15–25% cost per gift · same-day anomaly detection · 2–4 hrs/week saved per team</td></tr>
-      </tbody>
-    </table>
+    <div class="vd-col">
+      <h3>Case in Brief — Global NGO</h3>
+      <table class="vd-plain">
+        <thead>
+          <tr>
+            <th>Aspect</th>
+            <th>Summary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Problem</strong></td><td>20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts</td></tr>
+          <tr><td><strong>Fix</strong></td><td>Google Cloud-native analytics layer; standardized KPIs/UTMs; daily brief with one key action; secure country-level views</td></tr>
+          <tr><td><strong>Triggers</strong></td><td>Donate-drop nudges; lapsed-donor reactivation</td></tr>
+          <tr><td><strong>Results (typical)</strong></td><td>+10–20% conversion · –15–25% cost per gift · same-day anomaly detection · 2–4 hrs/week saved per team</td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 
@@ -408,6 +260,3 @@ We build clean dashboards leaders trust, improve conversion with structured expe
 ## Join the community
 
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
-
-
-
