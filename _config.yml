@@ -29,3 +29,6 @@ footer:
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/yourInvite"
 masthead_title: ""
+url: "https://vey-digital.github.io"
+baseurl: ""
+remote_theme: "mmistakes/minimal-mistakes"
