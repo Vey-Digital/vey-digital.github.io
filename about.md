@@ -4,19 +4,6 @@ title: About
 permalink: /about/
 ---
 <style>
-/* Make H1, intro, the section title, and the table share the same wide width */
-@media (min-width: 1024px){
-  .page__title, .vd-wide, .vd-wide-title, table.vd-delivers-wide{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(1400px, 96vw);
-    max-width: 1400px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 /* Tighten spacing a bit */
 .page__title { margin-bottom: .5rem; }
