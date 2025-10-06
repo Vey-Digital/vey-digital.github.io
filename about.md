@@ -5,144 +5,49 @@ permalink: /about/
 ---
 
 <style>
-/* ========== Page-local styles (single block to avoid SCSS build issues) ========== */
-
-/* Align H1, intro, section title, and wide table */
-@media (min-width: 1024px) {
-  .page__title,
-  .vd-wide-block,
-  .vd-wide-title {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(1400px, 96vw);
-    max-width: 1400px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .vd-wide-block { margin-bottom: 1rem; }
-}
-
-/* Base table style */
-table.vd-plain {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  table-layout: auto;
-  margin: 0 0 1.25rem 0;
-}
-table.vd-plain td,
-table.vd-plain th {
-  border: 1px solid #e6e9ef;
-  padding: 10px 14px;
-  vertical-align: top;
-  line-height: 1.5;
-  white-space: normal;
-  word-break: normal;
-  hyphens: auto;
-}
-table.vd-plain thead th {
-  background: #1E3A8A; /* brand blue */
-  color: #fff;
-  text-align: left;
-  font-weight: 700;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-table.vd-plain tbody tr:nth-child(even) td { background: #f8fafc; }
-table.vd-plain tbody tr:hover td { background: #f1f5fb; }
-
-/* Widen ONLY the Deliverables table + match the section title */
-@media (min-width: 1024px) {
-  table.vd-delivers-wide {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(1400px, 96vw);
-    max-width: 1400px;
-  }
-  .vd-wide-title {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(1400px, 96vw);
-    max-width: 1400px;
-    margin: 0 0 .75rem 0;
-    text-align: left;
+/* Align H1, intro, section title, and table to the same left edge & width */
+@media (min-width: 1024px){
+  .page__title, .vd-wide, .vd-wide-title{
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    width:min(1400px,96vw);
+    max-width:1400px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
   }
 }
 
-/* Cards: Optional add-ons + Case in brief */
-.vd-callouts{
-  display:grid;
-  grid-template-columns:1fr;
-  gap:2rem;
-  align-items:start;
-  margin:1.25rem 0 0;
-}
-@media (min-width:1024px){
-  .vd-callouts{ grid-template-columns:repeat(2,minmax(0,1fr)); }
-}
-.vd-card{
-  background:#fff;
-  border:1px solid #e6e9ef;
-  border-radius:14px;
-  padding:1.25rem 1.25rem 1rem;
-  box-shadow:0 1px 2px rgba(16,24,40,.06);
-}
-.vd-card h3{
-  margin:.25rem 0 1rem;
-  font-size:1.25rem;
-  line-height:1.3;
-  position:relative;
-  padding-left:.75rem;
-}
-.vd-card h3::before{
-  content:"";
-  position:absolute;
-  left:0; top:.15rem; bottom:.15rem;
-  width:4px; border-radius:3px;
-  background:#1E3A8A;
-}
-.vd-pills{
-  display:flex; flex-wrap:wrap; gap:.5rem .6rem;
-  list-style:none; padding:0; margin:0;
-}
-.vd-pills li{
-  background:#eef2ff;
-  border:1px solid #e0e7ff;
-  color:#0f172a;
-  padding:.45rem .65rem;
-  border-radius:999px;
-  font-size:.95rem;
-  line-height:1.2;
-  white-space:nowrap;
-}
-.vd-brief{ list-style:none; padding:0; margin:0 0 1rem; }
-.vd-brief li{ margin:.5rem 0; line-height:1.55; }
-.vd-brief li span{
-  display:inline-block;
-  min-width:78px;
-  font-weight:700;
-  color:#1E3A8A;
-}
-.vd-metrics{
-  display:grid; gap:.75rem;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-}
-@media (min-width:520px){ .vd-metrics{ gap:1rem; } }
-.vd-metric{
-  background:#f8fafc;
+/* Simple, readable callout */
+.vd-callout{
   border:1px solid #e6e9ef;
   border-radius:12px;
-  padding:.75rem .9rem;
+  padding:1rem 1.25rem;
+  background:#f8fafc;
+  margin:1rem 0;
 }
-.vd-num{ font-size:1.15rem; font-weight:800; color:#1E3A8A; letter-spacing:.2px; }
-.vd-label{ font-size:.9rem; color:#334155; margin-top:.1rem; }
+.vd-callout strong{ color:#1E3A8A; }
+
+/* Table styling */
+table.vd-plain{ width:100%; border-collapse:collapse; font-family:Arial,Helvetica,sans-serif; }
+table.vd-plain th, table.vd-plain td{ border:1px solid #e6e9ef; padding:10px 14px; vertical-align:top; line-height:1.5; }
+table.vd-plain thead th{ background:#1E3A8A; color:#fff; text-align:left; font-weight:700; }
+table.vd-plain tbody tr:nth-child(even) td{ background:#f8fafc; }
+
+/* Keep only the Deliverables table wide */
+@media (min-width:1024px){
+  table.vd-delivers-wide{
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    width:min(1400px,96vw);
+    max-width:1400px;
+  }
+}
 </style>
 
-<div class="vd-wide-block">
+<div class="vd-wide">
   <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.</p>
   <p>We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.</p>
 </div>
@@ -198,34 +103,10 @@ table.vd-plain tbody tr:hover td { background: #f1f5fb; }
   </tbody>
 </table>
 
-<div class="vd-callouts">
-  <section class="vd-card">
-    <h3>Optional add-ons</h3>
-    <ul class="vd-pills">
-      <li>SEO &amp; site-performance audits</li>
-      <li>Journey mapping</li>
-      <li>Competitor benchmarking dashboards</li>
-      <li>Predictive analytics (churn/retention)</li>
-      <li>AI chat/content assistants with guardrails</li>
-    </ul>
-  </section>
-
-  <section class="vd-card">
-    <h3>Case in brief — Global NGO</h3>
-    <ul class="vd-brief">
-      <li><span>Problem</span> 20+ countries with siloed web/ad/CRM data, messy UTMs, and slow readouts.</li>
-      <li><span>Fix</span> Google Cloud–native analytics layer, standardized KPIs/UTMs, daily one-action brief, secure country views.</li>
-      <li><span>Triggers</span> Donate-drop nudges; lapsed-donor reactivation.</li>
-    </ul>
-    <div class="vd-metrics">
-      <div class="vd-metric"><div class="vd-num">+10–20%</div><div class="vd-label">conversion</div></div>
-      <div class="vd-metric"><div class="vd-num">–15–25%</div><div class="vd-label">cost per gift</div></div>
-      <div class="vd-metric"><div class="vd-num">Same-day</div><div class="vd-label">anomaly detection</div></div>
-      <div class="vd-metric"><div class="vd-num">2–4 hrs/wk</div><div class="vd-label">saved per team</div></div>
-    </div>
-  </section>
+<div class="vd-wide vd-callout">
+  <p><strong>Optional add-ons:</strong> SEO &amp; site-performance audits; journey mapping; competitor benchmarking dashboards; predictive analytics for churn/retention; and AI chat/content assistants with compliance guardrails.</p>
+  <p><strong>Case in brief — Global NGO:</strong> 20+ countries had siloed web/ad/CRM data, messy UTMs, and slow readouts. We built a Google Cloud-native analytics layer, standardized KPIs/UTMs, shipped a daily one-action brief, and delivered secure country-level views. Triggers included donate-drop nudges and lapsed-donor reactivation. Typical results: +10–20% conversion, −15–25% cost per gift, same-day anomaly detection, and 2–4 hours/week saved per team.</p>
 </div>
 
 ## Join the community
-
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
