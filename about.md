@@ -15,20 +15,15 @@ We build clean dashboards leaders trust, improve conversion with structured expe
 - Enablement — workshops, playbooks, and quick-reference guides  
 - Ongoing Insights — what changed this week and what to do next
 
-**How we work**
-1) **Discover (1–2 weeks):** clarify goals, KPIs, tracking gaps, and data sources  
-2) **Build (4–12 weeks):** dashboards, ETL/automations, CRO roadmap, governance  
-3) **Enable (ongoing):** handover, training, and monthly/quarterly insights
-
 <h2 class="vd-wide-title">What VeyDigital Delivers</h2>
 
 <style>
-  /* Base table style */
+  /* Base table style (page scoped) */
   table.vd-plain {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    table-layout: auto;              /* natural sizing (no scroll) */
+    table-layout: auto;             /* natural sizing (no scroll) */
     margin: 0 0 1.25rem 0;
   }
   table.vd-plain td,
@@ -36,7 +31,7 @@ We build clean dashboards leaders trust, improve conversion with structured expe
     border: 1px solid #ddd;
     padding: 8px;
     vertical-align: top;
-    white-space: normal;             /* wrap text, don’t cut it off */
+    white-space: normal;
     word-break: normal;
     hyphens: auto;
   }
@@ -46,33 +41,56 @@ We build clean dashboards leaders trust, improve conversion with structured expe
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #1E3A8A;       /* VeyDigital deep blue */
+    background-color: #1E3A8A;      /* VeyDigital deep blue */
     color: #fff;
     font-weight: 700;
   }
 
-  /* Widen ONLY the Delivers table on desktop + align titles to it */
+  /* Ensure the H1 “About” stays in the normal content column */
+  .page__title {
+    text-align: left;
+    position: static;
+    transform: none;
+    width: auto;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Widen ONLY the Delivers table + align its section title to match */
   @media (min-width: 1024px) {
     table.vd-delivers-wide {
       position: relative;
       left: 50%;
-      transform: translateX(-50%);   /* center on viewport */
-      width: min(1400px, 96vw);      /* wider, but never beyond screen */
+      transform: translateX(-50%);
+      width: min(1400px, 96vw);
       max-width: 1400px;
     }
-    /* Page H1 (“About”) and H2 above the table */
-    .page__title,
     .vd-wide-title {
       text-align: left;
       position: relative;
       left: 50%;
       transform: translateX(-50%);
-      width: min(1400px, 96vw);      /* match table width */
+      width: min(1400px, 96vw);
       max-width: 1400px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 0 .75rem 0;
     }
-    .vd-wide-title { margin: 0 0 .75rem 0; }
+  }
+
+  /* Two-up grid: Optional Add-Ons + Case in Brief side-by-side on desktop */
+  .vd-two-up {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    align-items: start;
+    margin-top: .5rem;
+    margin-bottom: 1.25rem;
+  }
+  @media (min-width: 1024px) {
+    .vd-two-up { grid-template-columns: 1fr 1fr; }
+  }
+  .vd-two-up h3 {
+    margin-top: 0;   /* tighten heading spacing within columns */
   }
 </style>
 
@@ -125,40 +143,44 @@ We build clean dashboards leaders trust, improve conversion with structured expe
   </tbody>
 </table>
 
-## Optional Add-Ons
+<div class="vd-two-up">
+  <div class="vd-col">
+    <h3>Optional Add-Ons</h3>
+    <table class="vd-plain">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Advanced Strategy &amp; Insights</strong></td><td>SEO &amp; site-performance audits</td></tr>
+        <tr><td><strong>User Experience</strong></td><td>Journey mapping</td></tr>
+        <tr><td><strong>Competitive Analysis</strong></td><td>Competitor benchmarking dashboards</td></tr>
+        <tr><td><strong>Predictive Analytics</strong></td><td>Churn / retention modeling</td></tr>
+        <tr><td><strong>AI Integration</strong></td><td>Chat + content assistants with compliance guardrails</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-<table class="vd-plain">
-  <thead>
-    <tr>
-      <th>Category</th>
-      <th>Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td><strong>Advanced Strategy &amp; Insights</strong></td><td>SEO &amp; site-performance audits</td></tr>
-    <tr><td><strong>User Experience</strong></td><td>Journey mapping</td></tr>
-    <tr><td><strong>Competitive Analysis</strong></td><td>Competitor benchmarking dashboards</td></tr>
-    <tr><td><strong>Predictive Analytics</strong></td><td>Churn / retention modeling</td></tr>
-    <tr><td><strong>AI Integration</strong></td><td>Chat + content assistants with compliance guardrails</td></tr>
-  </tbody>
-</table>
-
-## Case in Brief — Global NGO
-
-<table class="vd-plain">
-  <thead>
-    <tr>
-      <th>Aspect</th>
-      <th>Summary</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td><strong>Problem</strong></td><td>20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts</td></tr>
-    <tr><td><strong>Fix</strong></td><td>Google Cloud-native analytics layer; standardized KPIs/UTMs; daily brief with one key action; secure country-level views</td></tr>
-    <tr><td><strong>Triggers</strong></td><td>Donate-drop nudges; lapsed-donor reactivation</td></tr>
-    <tr><td><strong>Results (typical)</strong></td><td>+10–20% conversion · –15–25% cost per gift · same-day anomaly detection · 2–4 hrs/week saved per team</td></tr>
-  </tbody>
-</table>
+  <div class="vd-col">
+    <h3>Case in Brief — Global NGO</h3>
+    <table class="vd-plain">
+      <thead>
+        <tr>
+          <th>Aspect</th>
+          <th>Summary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Problem</strong></td><td>20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts</td></tr>
+        <tr><td><strong>Fix</strong></td><td>Google Cloud-native analytics layer; standardized KPIs/UTMs; daily brief with one key action; secure country-level views</td></tr>
+        <tr><td><strong>Triggers</strong></td><td>Donate-drop nudges; lapsed-donor reactivation</td></tr>
+        <tr><td><strong>Results (typical)</strong></td><td>+10–20% conversion · –15–25% cost per gift · same-day anomaly detection · 2–4 hrs/week saved per team</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
 ## Sample Deliverables &amp; Timelines
 
