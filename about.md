@@ -18,7 +18,7 @@ We build clean dashboards leaders trust, improve conversion with structured expe
 <h2 class="vd-wide-title">What VeyDigital Delivers</h2>
 
 <style>
-  /* Base table style (page scoped) */
+  /* ---------------- Base table style (page-scoped) ---------------- */
   table.vd-plain {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -28,15 +28,16 @@ We build clean dashboards leaders trust, improve conversion with structured expe
   }
   table.vd-plain td,
   table.vd-plain th {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 1px solid #e6e9ef;
+    padding: 10px 14px;
     vertical-align: top;
     white-space: normal;
     word-break: normal;
     hyphens: auto;
+    line-height: 1.5;
   }
-  table.vd-plain tr:nth-child(even) { background-color: #f2f2f2; }
-  table.vd-plain tr:hover { background-color: #ddd; }
+  table.vd-plain tr:nth-child(even) { background-color: #f8fafc; }
+  table.vd-plain tr:hover { background-color: #f1f5fb; }
   table.vd-plain th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -46,7 +47,7 @@ We build clean dashboards leaders trust, improve conversion with structured expe
     font-weight: 700;
   }
 
-  /* Ensure the H1 “About” stays in the normal content column */
+  /* Keep the H1 "About" in the normal content column (no centering/transform) */
   .page__title {
     text-align: left;
     position: static;
@@ -57,7 +58,7 @@ We build clean dashboards leaders trust, improve conversion with structured expe
     margin-right: 0;
   }
 
-  /* Widen ONLY the Delivers table + align its section title to match */
+  /* ---------- Widen ONLY the Deliverables table + match its section title ---------- */
   @media (min-width: 1024px) {
     table.vd-delivers-wide {
       position: relative;
@@ -77,20 +78,69 @@ We build clean dashboards leaders trust, improve conversion with structured expe
     }
   }
 
-  /* Two-up grid: Optional Add-Ons + Case in Brief side-by-side on desktop */
+  /* ---------------- Two-up grid for Optional Add-Ons + Case in Brief ---------------- */
   .vd-two-up {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.25rem;
+    gap: 2rem;                    /* more breathing room between columns */
     align-items: start;
     margin-top: .5rem;
     margin-bottom: 1.25rem;
   }
   @media (min-width: 1024px) {
-    .vd-two-up { grid-template-columns: 1fr 1fr; }
+    .vd-two-up { grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
   }
-  .vd-two-up h3 {
-    margin-top: 0;   /* tighten heading spacing within columns */
+  .vd-two-up > * { min-width: 0; }         /* let tables shrink to fit side-by-side */
+  .vd-two-up h3 { margin: 0 0 .75rem 0; }
+
+  /* Card styling around each column for a professional look */
+  .vd-two-up .vd-col {
+    background: #fff;
+    border: 1px solid #e6e9ef;
+    border-radius: 12px;
+    padding: 1rem 1rem .75rem;
+    box-shadow: 0 1px 2px rgba(16,24,40,.04);
+  }
+
+  /* Fine-tune table spacing inside cards */
+  .vd-two-up .vd-col table.vd-plain {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  .vd-two-up .vd-col table.vd-plain th,
+  .vd-two-up .vd-col table.vd-plain td {
+    padding: 12px 16px;           /* nicer density for side tables */
+    border-color: #e6e9ef;
+    line-height: 1.55;
+  }
+  .vd-two-up .vd-col table.vd-plain thead th {
+    background: #1E3A8A;
+    color: #fff;
+    font-weight: 700;
+  }
+  .vd-two-up .vd-col table.vd-plain tbody tr:nth-child(even) td { background: #f8fafc; }
+  .vd-two-up .vd-col table.vd-plain tbody tr:hover td { background: #f1f5fb; }
+
+  /* Rounded corners */
+  .vd-two-up .vd-col table.vd-plain thead th:first-child { border-top-left-radius: 10px; }
+  .vd-two-up .vd-col table.vd-plain thead th:last-child  { border-top-right-radius: 10px; }
+  .vd-two-up .vd-col table.vd-plain tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+  .vd-two-up .vd-col table.vd-plain tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }
+
+  /* Column width balance (desktop) */
+  @media (min-width: 1024px) {
+    /* Optional Add-Ons: label/content */
+    .vd-two-up .vd-col:first-child table.vd-plain thead th:nth-child(1),
+    .vd-two-up .vd-col:first-child table.vd-plain tbody td:nth-child(1) { width: 42%; }
+    .vd-two-up .vd-col:first-child table.vd-plain thead th:nth-child(2),
+    .vd-two-up .vd-col:first-child table.vd-plain tbody td:nth-child(2) { width: 58%; }
+
+    /* Case in Brief: aspect/summary */
+    .vd-two-up .vd-col:last-child table.vd-plain thead th:nth-child(1),
+    .vd-two-up .vd-col:last-child table.vd-plain tbody td:nth-child(1) { width: 28%; }
+    .vd-two-up .vd-col:last-child table.vd-plain thead th:nth-child(2),
+    .vd-two-up .vd-col:last-child table.vd-plain tbody td:nth-child(2) { width: 72%; }
   }
 </style>
 
