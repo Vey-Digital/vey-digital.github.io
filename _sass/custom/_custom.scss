@@ -61,3 +61,16 @@ a, a:visited { color: #ffffff; }
 .page__content p { color: #ffffff; }
 .page__content { padding-right: 0; padding-left: 0; }  /* remove if you added it earlier */
 table { color: #fff; }  /* remove: makes all table text white */
+
+/* Header logo sizing and spacing */
+.site-logo img {
+  max-height: 42px;
+  width: auto;
+  display: block;
+}
+
+/* Center align logo + title in header if needed */
+.masthead__inner-wrap {
+  align-items: center;
+}
+
