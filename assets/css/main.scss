@@ -1,14 +1,17 @@
 ---
-# Only the main Sass file needs front matter for Jekyll to process it
+# Only this file needs YAML front matter so Jekyll compiles SCSS
 ---
 
-/* Define brand variables BEFORE importing the skin/theme */
-$primary-color: #1E3A8A;   // Deep Tech Blue
-$accent-color:  #3B82F6;   // Electric Blue
-$highlight-color:#FACC15;  // Warm Yellow
+/* VeyDigital – main SCSS entry */
 
+/* 1) Define brand variables FIRST */
+$primary-color: #1E3A8A;    // Deep Tech Blue
+$accent-color:  #3B82F6;    // Electric Blue
+$highlight-color:#FACC15;   // Warm Yellow
+
+/* 2) Import Minimal Mistakes */
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
-/* Your project overrides */
+/* 3) Import your overrides */
 @import "custom/custom";
