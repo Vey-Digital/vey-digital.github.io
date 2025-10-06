@@ -4,7 +4,25 @@ title: About
 permalink: /about/
 ---
 <style>
-/* --- About page: tighten intro spacing --- */
+/* Make H1, intro, the section title, and the table share the same wide width */
+@media (min-width: 1024px){
+  .page__title, .vd-wide, .vd-wide-title, table.vd-delivers-wide{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1400px, 96vw);
+    max-width: 1400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Tighten spacing a bit */
+.page__title { margin-bottom: .5rem; }
+.vd-intro p { margin: .4rem 0; line-height: 1.6; }
+.vd-wide-title { margin-top: 1rem; margin-bottom: .6rem; }
+</style>
 
 /* Reduce space under the H1 “About” */
 .page__title {
@@ -69,10 +87,11 @@ table.vd-plain tbody tr:nth-child(even) td{ background:#f8fafc; }
 }
 </style>
 
-<div class="vd-wide">
-  <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.</p>
+<div class="vd-wide vd-intro">
+  <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.
   <p>We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.</p>
 </div>
+
 
 <h2 class="vd-wide-title">What VeyDigital Delivers</h2>
 
