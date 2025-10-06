@@ -33,7 +33,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Vey-Digital"
-    - label: "X"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/YourHandle"
     - label: "Discord"
