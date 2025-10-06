@@ -1,10 +1,12 @@
 ---
+title: About VeyDigital
 layout: single
-title: "About"
 permalink: /about/
 toc: false
-classes: wide
 ---
+
+Short intro about VeyDigital goes here.
+
 
 VeyDigital helps teams turn AI, cloud-native analytics, and lightweight automations into clear outcomes.
 
