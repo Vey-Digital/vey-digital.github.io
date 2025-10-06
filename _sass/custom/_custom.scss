@@ -1,4 +1,4 @@
-/* ================= VeyDigital — custom overrides (final, single-file) ================ */
+/* ================= VeyDigital — custom overrides ================= */
 
 /* Readable body + links */
 .page__content,
@@ -9,62 +9,9 @@
 .page__content a { color: #1f4aa0; }
 .page__content a:hover { color: #1E3A8A; }
 
-/* Wider content on desktop */
-@media (min-width: 1100px) {
-  .page,
-  .page__inner-wrap,
-  .page__content {
-    max-width: 1360px !important; /* bump to 1440 if you want even wider */
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* --- Tables: no horizontal scroll; full width; no ugly word-splits --- */
-.page__content .table-wrapper { overflow-x: visible !important; }
-
-.page__content .table-wrapper > table,
-.page__content table {
-  display: table !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  table-layout: fixed !important;   /* allows controlled column widths */
-  border-collapse: collapse;
-}
-
-.page__content th,
-.page__content td {
-  padding: 14px 18px;
-  vertical-align: top;
-  white-space: normal !important;
-  word-break: normal !important;     /* avoid mid-word breaks */
-  overflow-wrap: anywhere;           /* wrap long phrases without scroll */
-  hyphens: auto;
-}
-
-.page__content th {
-  background: #1E3A8A;              /* Deep Tech Blue */
-  color: #fff;
-  text-align: left;
-  font-weight: 700;
-}
-
-.page__content tr:nth-child(even) { background: #f7f9fc; }
-
-/* --- Column widths for 4-col “What VeyDigital Delivers” table (safe globally) --- */
-/* Only applies when a table actually has 4 columns; 2-col tables are unaffected. */
-.page__content table thead th:nth-child(1),
-.page__content table tbody td:nth-child(1) { width: 26% !important; min-width: 260px; }
-.page__content table thead th:nth-child(2),
-.page__content table tbody td:nth-child(2) { width: 34% !important; }
-.page__content table thead th:nth-child(3),
-.page__content table tbody td:nth-child(3) { width: 22% !important; }
-.page__content table thead th:nth-child(4),
-.page__content table tbody td:nth-child(4) { width: 18% !important; }
-
-/* --- Header logo size (desktop + mobile) --- */
+/* Header logo size */
 .site-logo img {
-  height: 96px !important;          /* adjust 90–120px to taste */
+  height: 96px !important;
   max-height: none !important;
   width: auto;
   display: block;
@@ -74,6 +21,11 @@
 @media (max-width: 600px) {
   .site-logo img { height: 56px !important; }
 }
+
+/* =================================================================
+   YOUR REQUESTED WIDENING BLOCK (added verbatim, placed last)
+   ================================================================= */
+
 /* ===== WIDEN ABOUT PAGE TABLE (no scroll, no ugly breaks) ===== */
 
 /* 1) Give the content area more width on desktop */
