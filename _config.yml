@@ -3,7 +3,8 @@ description: AI, cloud analytics, and lightweight automations
 url: https://vey-digital.github.io
 baseurl: ""
 
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+remote_theme: "mmistakes/minimal-mistakes"
+
 # theme: jekyll-theme-primer   # ← ensure this is removed or commented out
 
 plugins:
