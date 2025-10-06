@@ -7,14 +7,6 @@ permalink: /about/
 VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.  
 We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.
 
-**What we’re great at**
-- Analytics & Reporting — one clear view across web, ads, CRM, and sales  
-- Conversion Optimization (CRO) — structured A/B testing that drives learnings  
-- Automation & Integration — lightweight, reliable pipelines  
-- Governance — consistent tracking, UTMs, and naming standards  
-- Enablement — workshops, playbooks, and quick-reference guides  
-- Ongoing Insights — what changed this week and what to do next
-
 <h2 class="vd-wide-title">What VeyDigital Delivers</h2>
 
 <style>
