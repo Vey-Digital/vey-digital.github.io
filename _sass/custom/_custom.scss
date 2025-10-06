@@ -22,29 +22,20 @@
   .site-logo img { height: 56px !important; }
 }
 
-/* ===== WIDEN PAGE (apply from typical desktop widths) ===== */
-@media (min-width: 1100px) {            /* was 1500px (too late to trigger) */
-  .page,
-  .page__inner-wrap,
-  .page__content {
-    max-width: 1360px !important;       /* bump to 1440 if you want even wider */
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+/* ===== Leave the page width alone (so only one table gets wider) ===== */
+/* (If you previously widened .page/.page__content globally, remove that block) */
 
 /* ===== TABLES: don't override your HTML tables (class="vd-plain") ===== */
 
-/* Theme wraps *markdown* tables in .table-wrapper; harmless for HTML tables,
-   but keep visible just in case */
+/* Theme wraps *markdown* tables in .table-wrapper; keep visible just in case */
 .page__content .table-wrapper { overflow-x: visible !important; }
 
-/* Only target non-HTML custom tables. Leave your page tables (vd-plain) alone. */
+/* Only target non-HTML custom tables; leave your .vd-plain HTML tables alone */
 .page__content .table-wrapper > table:not(.vd-plain),
 .page__content table:not(.vd-plain) {
   width: 100% !important;
   max-width: 100% !important;
-  table-layout: auto !important;        /* natural sizing; avoids scroll/cutoff */
+  table-layout: auto !important;      /* natural sizing; avoids scroll/cutoff */
   border-collapse: collapse;
 }
 
@@ -54,13 +45,13 @@
   padding: 14px 18px;
   vertical-align: top;
   white-space: normal !important;
-  word-break: normal !important;        /* avoid mid-word splits */
+  word-break: normal !important;      /* avoid mid-word splits */
   hyphens: none !important;
 }
 
 /* Header style (safe globally) */
 .page__content th {
-  background: #1E3A8A;                  /* Deep Tech Blue */
+  background: #1E3A8A;                /* Deep Tech Blue */
   color: #fff;
   text-align: left;
   font-weight: 700;
@@ -68,24 +59,28 @@
 
 .page__content tr:nth-child(even) { background: #f7f9fc; }
 
-/* ===== REMOVE the global 4-column width forcing (it breaks 2-col tables) ===== */
-/* Delete any nth-child width rules you previously added.  */
-/* Widen ONLY the "What VeyDigital Delivers" table (no scroll) */
+/* ===== WIDEN ONLY the “What VeyDigital Delivers” table ===== */
+/* In about.md, ensure that table has: class="vd-plain vd-delivers-wide" */
+
 @media (min-width: 1024px) {
   table.vd-delivers-wide {
+    /* make it wider than the content column but never wider than the viewport */
     position: relative;
     left: 50%;
-    transform: translateX(-50%);     /* center on viewport */
-    width: min(1400px, 96vw);        /* wider than content, but never wider than screen */
+    transform: translateX(-50%);
+    width: min(1400px, 96vw);
     max-width: 1400px;
+    table-layout: fixed;              /* honor column widths below */
+    border-collapse: collapse;
   }
 }
 
-/* Keep text wrapping clean so nothing gets cut off */
-table.vd-delivers-wide th,
-table.vd-delivers-wide td {
-  white-space: normal;
-  word-break: normal;
-  overflow-wrap: anywhere;
-  hyphens: auto;
-}
+/* Column widths for that specific 4-column table */
+table.vd-delivers-wide th:nth-child(1),
+table.vd-delivers-wide td:nth-child(1) { width: 26% !important; min-width: 260px; }
+table.vd-delivers-wide th:nth-child(2),
+table.vd-delivers-wide td:nth-child(2) { width: 34% !important; }
+table.vd-delivers-wide th:nth-child(3),
+table.vd-delivers-wide td:nth-child(3) { width: 22% !important; }
+table.vd-delivers-wide th:nth-child(4),
+table.vd-delivers-wide td:nth-child(4) { width: 18% !important; }
