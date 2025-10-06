@@ -79,7 +79,133 @@ We build clean dashboards leaders trust, improve conversion with structured expe
       margin: 0 0 .75rem 0;
     }
   }
+<!-- ===== VeyDigital: Add-ons + Case in brief (styled cards) ===== -->
+<div class="vd-callouts">
+  <section class="vd-card">
+    <h3>Optional add-ons</h3>
+    <ul class="vd-pills">
+      <li>SEO &amp; site-performance audits</li>
+      <li>Journey mapping</li>
+      <li>Competitor benchmarking dashboards</li>
+      <li>Predictive analytics (churn/retention)</li>
+      <li>AI chat/content assistants with guardrails</li>
+    </ul>
+  </section>
+
+  <section class="vd-card">
+    <h3>Case in brief — Global NGO</h3>
+    <ul class="vd-brief">
+      <li><span>Problem</span> 20+ countries with siloed web/ad/CRM data, messy UTMs, and slow readouts.</li>
+      <li><span>Fix</span> Google Cloud–native analytics layer, standardized KPIs/UTMs, daily one-action brief, secure country views.</li>
+      <li><span>Triggers</span> Donate-drop nudges; lapsed-donor reactivation.</li>
+    </ul>
+
+    <div class="vd-metrics">
+      <div class="vd-metric">
+        <div class="vd-num">+10–20%</div>
+        <div class="vd-label">conversion</div>
+      </div>
+      <div class="vd-metric">
+        <div class="vd-num">–15–25%</div>
+        <div class="vd-label">cost per gift</div>
+      </div>
+      <div class="vd-metric">
+        <div class="vd-num">Same-day</div>
+        <div class="vd-label">anomaly detection</div>
+      </div>
+      <div class="vd-metric">
+        <div class="vd-num">2–4 hrs/wk</div>
+        <div class="vd-label">saved per team</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+/* ===== Page-local styles for the two cards (safe for Jekyll) ===== */
+.vd-callouts{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:2rem;
+  align-items:start;
+  margin:1.25rem 0 0;
+}
+@media (min-width:1024px){
+  .vd-callouts{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+
+/* Card */
+.vd-card{
+  background:#fff;
+  border:1px solid #e6e9ef;
+  border-radius:14px;
+  padding:1.25rem 1.25rem 1rem;
+  box-shadow:0 1px 2px rgba(16,24,40,.06);
+}
+.vd-card h3{
+  margin:.25rem 0 1rem;
+  font-size:1.25rem;
+  line-height:1.3;
+  position:relative;
+  padding-left:.75rem;
+}
+.vd-card h3::before{
+  content:"";
+  position:absolute;
+  left:0; top:.15rem; bottom:.15rem;
+  width:4px; border-radius:3px;
+  background:#1E3A8A; /* brand blue */
+}
+
+/* Pills list */
+.vd-pills{
+  display:flex; flex-wrap:wrap; gap:.5rem .6rem;
+  list-style:none; padding:0; margin:0;
+}
+.vd-pills li{
+  background:#eef2ff;            /* soft indigo */
+  border:1px solid #e0e7ff;
+  color:#0f172a;
+  padding:.45rem .65rem;
+  border-radius:999px;
+  font-size:.95rem;
+  line-height:1.2;
+  white-space:nowrap;
+}
+
+/* Brief list */
+.vd-brief{ list-style:none; padding:0; margin:0 0 1rem; }
+.vd-brief li{ margin:.5rem 0; line-height:1.55; }
+.vd-brief li span{
+  display:inline-block;
+  min-width:78px;
+  font-weight:700;
+  color:#1E3A8A;
+}
+
+/* Metrics grid */
+.vd-metrics{
+  display:grid; gap:.75rem;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+@media (min-width:520px){
+  .vd-metrics{ gap:1rem; }
+}
+.vd-metric{
+  background:#f8fafc;
+  border:1px solid #e6e9ef;
+  border-radius:12px;
+  padding:.75rem .9rem;
+}
+.vd-num{
+  font-size:1.15rem; font-weight:800; color:#1E3A8A;
+  letter-spacing:.2px;
+}
+.vd-label{
+  font-size:.9rem; color:#334155; margin-top:.1rem;
+}
 </style>
+
 
 <table class="vd-plain vd-delivers-wide">
   <thead>
