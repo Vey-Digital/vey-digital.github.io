@@ -22,7 +22,17 @@ VeyDigital builds AI-powered analytics, lightweight automations, and clean dashb
 
 ## Who Benefits
 
-Nonprofits & NGOs • E-commerce brands • Startups & tech teams • Education • Healthcare • Public sector • Professional services • Hospitality & travel
+| Sector | Examples |
+|---------|-----------|
+| **Nonprofits & NGOs** | Donor tracking, fundraising analytics, grant reporting |
+| **E-commerce Brands** | Conversion tracking, customer segmentation, ad performance |
+| **Startups & Tech Teams** | Product analytics, growth dashboards, workflow automation |
+| **Education** | Enrollment dashboards, student engagement insights |
+| **Healthcare** | Patient journey analytics, outreach performance tracking |
+| **Public Sector** | Transparency dashboards, citizen engagement metrics |
+| **Professional Services** | Lead management, ROI reporting, client dashboards |
+| **Hospitality & Travel** | Booking analytics, campaign tracking, guest experience insights |
+
 
 ---
 
