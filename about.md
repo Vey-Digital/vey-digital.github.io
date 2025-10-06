@@ -75,11 +75,5 @@ VeyDigital builds AI-powered analytics, lightweight automations, and clean dashb
 
 ---
 
-## Start here
-[Open the YC Startup Playbook →](/playbook/)
-[Browse Videos (Upskill quickly) →](/videos/)
-[Read the latest on the Blog →](/blog/)
-
----
 
 
