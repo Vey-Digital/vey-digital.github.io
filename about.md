@@ -141,6 +141,24 @@ We build clean dashboards leaders trust, improve conversion with structured expe
   position:relative;
   padding-left:.75rem;
 }
+<style>
+@media (min-width: 1024px) {
+  /* Keep H1, intro, and section title aligned with the wide table */
+  .page__title,
+  .vd-wide-title,
+  .vd-wide-block {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1400px, 96vw);
+    max-width: 1400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .vd-wide-block { margin-bottom: 1rem; }
+}
+</style>
 
 </style>
 
