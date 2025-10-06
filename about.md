@@ -88,7 +88,7 @@ table.vd-plain tbody tr:nth-child(even) td{ background:#f8fafc; }
 </style>
 
 <div class="vd-wide vd-intro">
-  <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.
+  <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.</p>
   <p>We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.</p>
 </div>
 
