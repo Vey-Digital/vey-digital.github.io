@@ -1,11 +1,9 @@
 title: VeyDigital
 description: AI, cloud analytics, and lightweight automations
-url: https://vey-digital.github.io
+url: "https://vey-digital.github.io"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
-
-# theme: jekyll-theme-primer   # ← ensure this is removed or commented out
 
 plugins:
   - jekyll-remote-theme
@@ -18,4 +16,4 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-paginate: 0
+
