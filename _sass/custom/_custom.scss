@@ -54,3 +54,8 @@ tr:nth-child(even) {
   word-break: normal;
   white-space: normal;
 }
+
+/* REMOVE these broad rules */
+a, a:visited { color: #ffffff; }
+.page__content p { color: #ffffff; }
+.page__content { padding-right: 0; padding-left: 0; }
