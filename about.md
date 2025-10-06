@@ -72,7 +72,6 @@ Want closer, real-time conversation and quick feedback? **Join us on Discord.**
 - Browse **Videos** (Upskill quickly) → [/videos/](/videos/)
 - Read the latest on the **Blog** → [/blog/](/blog/)
 
-Based in **Seattle, WA**.
 ## Based in Seattle, WA
 
 <div class="map-box">
