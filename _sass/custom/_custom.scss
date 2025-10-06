@@ -1,66 +1,54 @@
-/* ===== Professional page width (cap at 1200) ===== */
-@media (min-width: 1100px) {
-  .page,
-  .page__inner-wrap,
-  .page__content {
-    max-width: 1200px !important;   /* was 1400 / full-bleed */
-  }
-}
+/* ================= VeyDigital – stable, professional ================= */
 
-/* ===== Section container for wide (but not full-bleed) content ===== */
-.section-wide {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px; /* gentle gutter */
-}
+/* --- Keep body readable on light backgrounds --- */
+body,
+.page__content,
+.page__content p,
+.page__content li,
+.page__content td { color: #111 !important; }
+.page__content a { color: #1f4aa0; }
+.page__content a:hover { color: #1E3A8A; }
 
-/* ===== Modern table styling ===== */
-.section-wide table {
+/* --- Use the theme’s normal width (no full-bleed) --- */
+/* (Remove any .bleed rules you had earlier) */
+
+/* --- Polished table (scoped) --- */
+.pro-table {
+  max-width: 1100px;           /* centered, not cramped, not too wide */
+  margin: 0 auto 1.5rem auto;
+  padding: 0 16px;             /* gentle gutters */
+}
+.pro-table table {
   width: 100%;
   border-collapse: collapse;
   table-layout: auto;
   font-size: 0.98rem;
-  line-height: 1.5;
+  line-height: 1.55;
   background: #fff;
   border: 1px solid rgba(0,0,0,.06);
-  border-radius: 10px;
-  overflow: hidden; /* rounds corners on header */
-  box-shadow: 0 2px 12px rgba(0,0,0,.04);
+  border-radius: 12px;
+  overflow: hidden;            /* rounded corners on header */
+  box-shadow: 0 2px 10px rgba(0,0,0,.04);
 }
-
-.section-wide th,
-.section-wide td {
-  padding: 14px 18px;
-  vertical-align: top;
-}
-
-.section-wide thead th {
-  background: #1E3A8A;  /* Deep Tech Blue */
+.pro-table th,
+.pro-table td { padding: 14px 18px; vertical-align: top; }
+.pro-table thead th {
+  background: #1E3A8A;         /* Deep Tech Blue */
   color: #fff;
   font-weight: 700;
 }
+.pro-table tbody tr:nth-child(even) { background: #f7f9fc; }
+.pro-table tbody tr:hover { background: #eef3ff; }
 
-.section-wide tbody tr:nth-child(even) {
-  background: #f7f9fc; /* subtle zebra */
-}
+.pro-table td:first-child { min-width: 230px; font-weight: 700; }
+.pro-table td:nth-child(2) { min-width: 340px; }
+.pro-table td:last-child   { min-width: 220px; }
 
-.section-wide tbody tr:hover {
-  background: #eef3ff; /* gentle hover */
-}
-
-/* Column niceties */
-.section-wide td:first-child { min-width: 230px; font-weight: 700; }
-.section-wide td:nth-child(2) { min-width: 340px; }
-.section-wide td:last-child { min-width: 220px; }
-
-/* Headings & spacing polish */
-.page__content h2, .page__content h3 { margin-top: 1.6rem; }
-.page__content h3 { font-size: 1.4rem; }
-
-/* Keep the dark CTA you liked */
+/* --- Dark CTA (kept, scoped) --- */
 .cta-dark { background:#1E3A8A; color:#fff; padding:1rem 1.5rem; border-radius:14px; }
 .cta-dark a { color:#fff; text-decoration:none; }
 .cta-dark a:hover { text-decoration:underline; }
 
-/* Logo size (kept reasonable) */
-.site-logo img { max-height: 72px; width:auto; display:block; }
+/* --- Logo size (sane) --- */
+.site-logo img { max-height: 64px; width:auto; display:block; }
+.masthead__inner-wrap { align-items: center; gap: .5rem; }
