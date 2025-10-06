@@ -211,6 +211,90 @@ We build clean dashboards leaders trust, improve conversion with structured expe
 .vd-two-up .vd-col table.vd-plain thead th:last-child  { border-top-right-radius: 10px; }
 .vd-two-up .vd-col table.vd-plain tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
 .vd-two-up .vd-col table.vd-plain tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }
+/* === FINAL ALIGNMENT FIX: two cards same width + same height === */
+
+/* Make the two-up section use the same wide width as the big table */
+.vd-wide {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .vd-wide { width: min(1400px, 96vw); max-width: 1400px; }
+}
+
+/* Two equal columns; cards stretch to the same height */
+.vd-two-up {
+  display: grid;
+  grid-template-columns: 1fr;                 /* mobile */
+  gap: 2rem;
+  align-items: stretch;                       /* stretch items to equal row height */
+}
+@media (min-width: 1024px) {
+  .vd-two-up { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Cards fill the track height; content flows nicely */
+.vd-two-up .vd-col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #e6e9ef;
+  border-radius: 12px;
+  padding: 1rem 1rem .75rem;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+  min-width: 0;                                /* prevent overflow from long content */
+}
+
+.vd-two-up .vd-col h3 {
+  margin: .25rem 0 .75rem;
+}
+
+/* Tables inside cards take remaining height so both cards equalize */
+.vd-two-up .vd-col table.vd-plain {
+  flex: 1;                                     /* makes both cards the same height */
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;                         /* consistent column sizing */
+}
+
+/* Consistent, readable cell spacing */
+.vd-two-up .vd-col table.vd-plain th,
+.vd-two-up .vd-col table.vd-plain td {
+  padding: 12px 16px;
+  line-height: 1.55;
+  border-color: #e6e9ef;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+/* Brand header */
+.vd-two-up .vd-col table.vd-plain thead th {
+  background: #1E3A8A;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Gentle zebra + hover */
+.vd-two-up .vd-col table.vd-plain tbody tr:nth-child(even) td { background: #f8fafc; }
+.vd-two-up .vd-col table.vd-plain tbody tr:hover td { background: #f1f5fb; }
+
+/* Rounded corners */
+.vd-two-up .vd-col table.vd-plain thead th:first-child { border-top-left-radius: 10px; }
+.vd-two-up .vd-col table.vd-plain thead th:last-child  { border-top-right-radius: 10px; }
+.vd-two-up .vd-col table.vd-plain tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+.vd-two-up .vd-col table.vd-plain tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }
+
+/* Make both side tables use the SAME column split so widths match visually */
+@media (min-width: 1024px) {
+  .vd-two-up .vd-col table.vd-plain thead th:nth-child(1),
+  .vd-two-up .vd-col table.vd-plain tbody td:nth-child(1) { width: 38% !important; }
+  .vd-two-up .vd-col table.vd-plain thead th:nth-child(2),
+  .vd-two-up .vd-col table.vd-plain tbody td:nth-child(2) { width: 62% !important; }
+}
 
 </style>
 
