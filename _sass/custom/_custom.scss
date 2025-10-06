@@ -70,3 +70,22 @@
 
 /* ===== REMOVE the global 4-column width forcing (it breaks 2-col tables) ===== */
 /* Delete any nth-child width rules you previously added.  */
+/* Widen ONLY the "What VeyDigital Delivers" table (no scroll) */
+@media (min-width: 1024px) {
+  table.vd-delivers-wide {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);     /* center on viewport */
+    width: min(1400px, 96vw);        /* wider than content, but never wider than screen */
+    max-width: 1400px;
+  }
+}
+
+/* Keep text wrapping clean so nothing gets cut off */
+table.vd-delivers-wide th,
+table.vd-delivers-wide td {
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
