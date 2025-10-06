@@ -1,6 +1,4 @@
-/* -----------------------------------------------------
-   VeyDigital Custom Overrides
-   ----------------------------------------------------- */
+/* VeyDigital Custom Overrides (NO front matter, NO variables here) */
 
 a {
   color: $accent-color;
@@ -35,22 +33,3 @@ button {
   background-color: $primary-color;
   color: #fff;
 }
-
-# Only this file needs YAML front matter
----
-
-/* -----------------------------------------------------
-   VeyDigital Main SCSS
-   ----------------------------------------------------- */
-
-/* 🎨 Define brand colors first */
-$primary-color: #1E3A8A;   // Deep Tech Blue
-$accent-color:  #3B82F6;   // Electric Blue
-$highlight-color:#FACC15;  // Warm Yellow
-
-/* 🧩 Import Minimal Mistakes core + skin AFTER variables */
-@import "minimal-mistakes/skins/default";
-@import "minimal-mistakes";
-
-/* 🧠 Import custom overrides */
-@import "custom/custom";
