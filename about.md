@@ -87,10 +87,4 @@ SEO & site performance audits • Journey mapping • Competitor benchmarking da
 
 ---
 
-## Based in Seattle, WA
 
-<iframe
-  title="Map: Seattle, WA"
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-122.4594%2C47.495%2C-122.224%2C47.734&layer=mapnik&marker=47.6062%2C-122.3321"
-  width="100%" height="300" style="border:0;" loading="lazy" allowfullscreen>
-</iframe>
