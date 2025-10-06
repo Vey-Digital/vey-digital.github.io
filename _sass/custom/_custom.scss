@@ -1,20 +1,7 @@
----
----
-
 /* -----------------------------------------------------
-   VeyDigital Custom Styles
+   VeyDigital Custom Overrides
    ----------------------------------------------------- */
 
-/* 🎨 Define brand colors first */
-$primary-color: #1E3A8A;   // Deep Tech Blue
-$accent-color: #3B82F6;    // Electric Blue
-$highlight-color: #FACC15; // Warm Yellow
-
-/* 🧩 Import Minimal Mistakes core + skin AFTER variables */
-@import "minimal-mistakes/skins/default";
-@import "minimal-mistakes";
-
-/* 🧠 Custom styling overrides */
 a {
   color: $accent-color;
 
@@ -48,6 +35,3 @@ button {
   background-color: $primary-color;
   color: #fff;
 }
-
-/* Optionally import more custom styles (if you have them) */
-@import "custom/custom";
