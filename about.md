@@ -105,7 +105,7 @@ We build clean dashboards leaders trust, improve conversion with structured expe
     background: #fff;
     border: 1px solid #e6e9ef;
     border-radius: 12px;
-    padding: 1rem 1rem .75rem;
+    padding: 10rem 1rem .75rem;
     box-shadow: 0 1px 2px rgba(16,24,40,.04);
     min-width: 0;                                 /* prevent overflow from long content */
   }
