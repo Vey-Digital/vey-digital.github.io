@@ -142,6 +142,76 @@ We build clean dashboards leaders trust, improve conversion with structured expe
     .vd-two-up .vd-col:last-child table.vd-plain thead th:nth-child(2),
     .vd-two-up .vd-col:last-child table.vd-plain tbody td:nth-child(2) { width: 72%; }
   }
+
+  /* === FIX: Wide wrapper + clean 2-col grid (no width fighting) === */
+
+/* Align this section to the same wide width as the Deliverables table */
+.vd-wide {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .vd-wide {
+    width: min(1400px, 96vw);
+    max-width: 1400px;
+  }
+}
+
+/* Two uniform columns with ample gap; stacks on mobile */
+.vd-two-up {
+  display: grid;
+  grid-template-columns: 1fr;      /* mobile */
+  gap: 2rem;                       /* comfortable spacing */
+  align-items: start;
+}
+@media (min-width: 1024px) {
+  .vd-two-up { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Card look without shrinking content */
+.vd-two-up .vd-col {
+  background: #fff;
+  border: 1px solid #e6e9ef;
+  border-radius: 12px;
+  padding: 1rem 1rem .75rem;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+  min-width: 0;                    /* let tables shrink inside columns */
+}
+.vd-two-up .vd-col h3 { margin: .25rem 0 .75rem; }
+
+/* Tables inside the cards */
+.vd-two-up .vd-col table.vd-plain {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* Professional padding + readable line-height */
+.vd-two-up .vd-col table.vd-plain th,
+.vd-two-up .vd-col table.vd-plain td {
+  padding: 12px 16px;
+  line-height: 1.55;
+  border-color: #e6e9ef;
+  width: auto !important;          /* override any previous width rules */
+}
+
+/* Keep your brand header */
+.vd-two-up .vd-col table.vd-plain thead th {
+  background: #1E3A8A;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Gentle zebra + hover */
+.vd-two-up .vd-col table.vd-plain tbody tr:nth-child(even) td { background: #f8fafc; }
+.vd-two-up .vd-col table.vd-plain tbody tr:hover td { background: #f1f5fb; }
+
+/* Rounded corners */
+.vd-two-up .vd-col table.vd-plain thead th:first-child { border-top-left-radius: 10px; }
+.vd-two-up .vd-col table.vd-plain thead th:last-child  { border-top-right-radius: 10px; }
+.vd-two-up .vd-col table.vd-plain tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+.vd-two-up .vd-col table.vd-plain tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }
+
 </style>
 
 <table class="vd-plain vd-delivers-wide">
@@ -254,3 +324,6 @@ We build clean dashboards leaders trust, improve conversion with structured expe
 ## Join the community
 
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
+
+
+
