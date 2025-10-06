@@ -1,5 +1,14 @@
 ---
+# Only the main Sass file needs front matter for Jekyll to process it
 ---
+
+/* Define brand variables BEFORE importing the skin/theme */
+$primary-color: #1E3A8A;   // Deep Tech Blue
+$accent-color:  #3B82F6;   // Electric Blue
+$highlight-color:#FACC15;  // Warm Yellow
+
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
+
+/* Your project overrides */
 @import "custom/custom";
