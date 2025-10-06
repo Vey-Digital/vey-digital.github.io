@@ -1,54 +1,38 @@
-/* ================= VeyDigital – stable, professional ================= */
+/* ==========================================================
+   FIX: Remove horizontal scroll and expand table gracefully
+   ========================================================== */
 
-/* --- Keep body readable on light backgrounds --- */
-body,
+/* Let the table area breathe a bit more */
 .page__content,
-.page__content p,
-.page__content li,
-.page__content td { color: #111 !important; }
-.page__content a { color: #1f4aa0; }
-.page__content a:hover { color: #1E3A8A; }
-
-/* --- Use the theme’s normal width (no full-bleed) --- */
-/* (Remove any .bleed rules you had earlier) */
-
-/* --- Polished table (scoped) --- */
 .pro-table {
-  max-width: 1100px;           /* centered, not cramped, not too wide */
-  margin: 0 auto 1.5rem auto;
-  padding: 0 16px;             /* gentle gutters */
+  overflow-x: visible !important;   /* remove forced scroll */
+  max-width: 1250px !important;     /* gently increase content area */
+  margin: 0 auto;
 }
+
+/* Tables stretch nicely but respect padding */
 .pro-table table {
   width: 100%;
+  max-width: 1250px;                /* fits your layout without overflow */
+  table-layout: fixed;              /* keeps cells equal width */
   border-collapse: collapse;
-  table-layout: auto;
-  font-size: 0.98rem;
-  line-height: 1.55;
-  background: #fff;
-  border: 1px solid rgba(0,0,0,.06);
-  border-radius: 12px;
-  overflow: hidden;            /* rounded corners on header */
-  box-shadow: 0 2px 10px rgba(0,0,0,.04);
 }
+
+/* Adjust columns so no content is cut off */
 .pro-table th,
-.pro-table td { padding: 14px 18px; vertical-align: top; }
-.pro-table thead th {
-  background: #1E3A8A;         /* Deep Tech Blue */
-  color: #fff;
-  font-weight: 700;
+.pro-table td {
+  word-break: normal;
+  white-space: normal;
+  padding: 14px 20px;
 }
-.pro-table tbody tr:nth-child(even) { background: #f7f9fc; }
-.pro-table tbody tr:hover { background: #eef3ff; }
 
-.pro-table td:first-child { min-width: 230px; font-weight: 700; }
-.pro-table td:nth-child(2) { min-width: 340px; }
-.pro-table td:last-child   { min-width: 220px; }
-
-/* --- Dark CTA (kept, scoped) --- */
-.cta-dark { background:#1E3A8A; color:#fff; padding:1rem 1.5rem; border-radius:14px; }
-.cta-dark a { color:#fff; text-decoration:none; }
-.cta-dark a:hover { text-decoration:underline; }
-
-/* --- Logo size (sane) --- */
-.site-logo img { max-height: 64px; width:auto; display:block; }
-.masthead__inner-wrap { align-items: center; gap: .5rem; }
+/* Optional: On small screens, make the table scrollable again (responsive) */
+@media (max-width: 800px) {
+  .pro-table {
+    overflow-x: auto !important;
+    max-width: 100% !important;
+  }
+  .pro-table table {
+    min-width: 700px; /* avoid squishing text too tightly */
+  }
+}
