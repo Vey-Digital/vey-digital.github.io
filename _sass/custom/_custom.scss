@@ -34,3 +34,23 @@ th {
 tr:nth-child(even) {
   background-color: rgba(255,255,255,0.05);
 }
+/* Make tables span full content width */
+.page__content table {
+  width: 100%;
+  max-width: none;
+  table-layout: auto;
+}
+
+/* Optional: reduce side padding so the table aligns nicely under Blog */
+.page__content {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Keep text readable on large screens */
+.page__content td,
+.page__content th {
+  padding: 0.75em 1em;
+  word-break: normal;
+  white-space: normal;
+}
