@@ -1,3 +1,11 @@
+---
+layout: single
+title: About
+permalink: /about/
+---
+
+<!-- your About content and tables go here -->
+
 <h3>What VeyDigital Delivers</h3>
 
 <style>
@@ -141,3 +149,4 @@
 
 <h3>Join the community</h3>
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
+
