@@ -1,35 +1,17 @@
-/* VeyDigital Custom Overrides (NO front matter, NO variables here) */
-
-a {
-  color: $accent-color;
-
-  &:hover {
-    color: darken($accent-color, 10%);
-  }
+/* Fix link text color for dark background sections */
+a,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.page__content h1,
-.page__content h2,
-.page__content h3 {
-  color: $primary-color;
+a:hover,
+a:focus {
+  color: lighten(#ffffff, 15%);
+  text-decoration: underline;
 }
 
-.site-title {
-  color: $primary-color;
-}
-
-.btn,
-button {
-  background-color: $accent-color;
-  border-color: $accent-color;
-  color: #fff;
-
-  &:hover {
-    background-color: darken($accent-color, 8%);
-  }
-}
-
-.page__footer {
-  background-color: $primary-color;
-  color: #fff;
+/* Optional: adjust paragraph text in that section if it's dark */
+.page__content p {
+  color: #ffffff;
 }
