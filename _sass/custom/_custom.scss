@@ -48,4 +48,34 @@
 @media (max-width: 600px) {
   .site-logo img { height: 56px !important; }
 }
+/* ===== Fix: wider table + no letter-breaking ===== */
+
+/* Give the page a touch more width on desktop */
+@media (min-width: 1100px) {
+  .page,
+  .page__inner-wrap,
+  .page__content { max-width: 1360px !important; }
+}
+
+/* Use the full width (no scroll) */
+.page__content .table-wrapper { overflow-x: visible !important; }
+.page__content table {
+  width: 100% !important;
+  max-width: 100% !important;
+  table-layout: auto !important;  /* let columns size naturally */
+}
+
+/* Stop splitting words into letters */
+.page__content th,
+.page__content td {
+  word-break: normal !important;      /* override any break-all */
+  overflow-wrap: normal !important;    /* don't break mid-word */
+  hyphens: none !important;
+}
+
+/* Make the first column wider so names don't wrap awkwardly */
+.page__content table tr > *:first-child { width: 26% !important; min-width: 260px; }
+.page__content table tr > *:nth-child(2) { width: 34% !important; }
+.page__content table tr > *:nth-child(3) { width: 22% !important; }
+.page__content table tr > *:nth-child(4) { width: 18% !important; }
 
