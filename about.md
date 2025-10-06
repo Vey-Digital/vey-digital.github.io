@@ -27,7 +27,7 @@ permalink: /about/
 .page__title { margin-bottom: .5rem; }
 .vd-wide p { margin: .45rem 0; line-height: 1.6; }
 .vd-wide-title { margin-top: 1rem; margin-bottom: .6rem; }
-</style>
+
 
 <div class="vd-wide">
   <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.</p>
