@@ -1,10 +1,3 @@
----
-layout: single
-title: "Blog"
-permalink: /blog/
-classes: wide
----
-
 <!-- Keep whatever intro text you want here. 
      No posts feed will render with layout: single. -->
 
