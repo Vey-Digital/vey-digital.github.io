@@ -3,7 +3,36 @@ layout: single
 title: About
 permalink: /about/
 ---
+<!-- CLEAN START: minimal, non-conflicting rules -->
 <style>
+/* About page — align H1, intro, section title, and the wide table */
+@media (min-width: 1024px){
+  .page__title,
+  .vd-wide,               /* wrap for the two intro paragraphs */
+  .vd-wide-title,         /* “What VeyDigital Delivers” */
+  table.vd-delivers-wide  /* your wide table */
+  {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1400px, 96vw);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+}
+
+/* Tight, consistent spacing (no !important needed) */
+.page__title { margin-bottom: .5rem; }
+.vd-wide p { margin: .45rem 0; line-height: 1.6; }
+.vd-wide-title { margin-top: 1rem; margin-bottom: .6rem; }
+</style>
+
+<div class="vd-wide">
+  <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.</p>
+  <p>We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.</p>
+</div>
 
 /* Reduce space under the H1 “About” */
 .page__title {
