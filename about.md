@@ -5,10 +5,8 @@ permalink: /about/
 toc: false
 ---
 
-Short intro about VeyDigital goes here.
+VeyDigital builds AI-powered analytics, lightweight automations, and clean dashboards that help teams move faster with data.
 
-
-VeyDigital helps teams turn AI, cloud-native analytics, and lightweight automations into clear outcomes.
 
 ## What VeyDigital Delivers
 
