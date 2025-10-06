@@ -4,6 +4,22 @@ title: About
 permalink: /about/
 ---
 
+VeyDigital turns scattered marketing, web, and CRM data into clear decisions.  
+We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.
+
+**What we’re great at**
+- Analytics & Reporting — one clear view across web, ads, CRM, and sales  
+- Conversion Optimization (CRO) — structured A/B testing that drives learnings  
+- Automation & Integration — lightweight, reliable pipelines  
+- Governance — consistent tracking, UTMs, and naming standards  
+- Enablement — workshops, playbooks, and quick-reference guides  
+- Ongoing Insights — what changed this week and what to do next
+
+**How we work**
+1) **Discover (1–2 weeks):** clarify goals, KPIs, tracking gaps, and data sources  
+2) **Build (4–12 weeks):** dashboards, ETL/automations, CRO roadmap, governance  
+3) **Enable (ongoing):** handover, training, and monthly/quarterly insights
+
 <h2 class="vd-wide-title">What VeyDigital Delivers</h2>
 
 <style>
@@ -44,7 +60,6 @@ permalink: /about/
       width: min(1400px, 96vw);      /* wider, but never beyond screen */
       max-width: 1400px;
     }
-
     /* Page H1 (“About”) and H2 above the table */
     .page__title,
     .vd-wide-title {
@@ -105,4 +120,65 @@ permalink: /about/
       <td><strong>Performance Insights</strong></td>
       <td>Weekly or monthly briefs focused on what changed — and what to do next.</td>
       <td>Strategy notes with prioritized actions</td>
-      <td>Google Sheets, Power BI, AI Assis
+      <td>Google Sheets, Power BI, AI Assistant</td>
+    </tr>
+  </tbody>
+</table>
+
+## Optional Add-Ons
+
+<table class="vd-plain">
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Advanced Strategy &amp; Insights</strong></td><td>SEO &amp; site-performance audits</td></tr>
+    <tr><td><strong>User Experience</strong></td><td>Journey mapping</td></tr>
+    <tr><td><strong>Competitive Analysis</strong></td><td>Competitor benchmarking dashboards</td></tr>
+    <tr><td><strong>Predictive Analytics</strong></td><td>Churn / retention modeling</td></tr>
+    <tr><td><strong>AI Integration</strong></td><td>Chat + content assistants with compliance guardrails</td></tr>
+  </tbody>
+</table>
+
+## Case in Brief — Global NGO
+
+<table class="vd-plain">
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Problem</strong></td><td>20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts</td></tr>
+    <tr><td><strong>Fix</strong></td><td>Google Cloud-native analytics layer; standardized KPIs/UTMs; daily brief with one key action; secure country-level views</td></tr>
+    <tr><td><strong>Triggers</strong></td><td>Donate-drop nudges; lapsed-donor reactivation</td></tr>
+    <tr><td><strong>Results (typical)</strong></td><td>+10–20% conversion · –15–25% cost per gift · same-day anomaly detection · 2–4 hrs/week saved per team</td></tr>
+  </tbody>
+</table>
+
+## Sample Deliverables &amp; Timelines
+
+<table class="vd-plain">
+  <thead>
+    <tr>
+      <th>Deliverable</th>
+      <th>Timeline</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>KPI Dashboards</td><td>8–12 weeks</td></tr>
+    <tr><td>CRO Testing Roadmap</td><td>Quarterly cycles</td></tr>
+    <tr><td>Training &amp; Workshops</td><td>Within 3 months</td></tr>
+    <tr><td>Data Governance Framework</td><td>6–8 weeks</td></tr>
+    <tr><td>Automation Pipelines</td><td>3–4 months</td></tr>
+    <tr><td>Ongoing Insights</td><td>Continuous</td></tr>
+  </tbody>
+</table>
+
+## Join the community
+
+<p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
