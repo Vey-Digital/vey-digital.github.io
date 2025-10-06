@@ -1,6 +1,6 @@
-/* ================= VeyDigital — clean overrides ================ */
+/* ================= VeyDigital — custom overrides (final, single-file) ================ */
 
-/* readable body/link colors */
+/* Readable body + links */
 .page__content,
 .page__content p,
 .page__content li,
@@ -9,73 +9,106 @@
 .page__content a { color: #1f4aa0; }
 .page__content a:hover { color: #1E3A8A; }
 
-/* kill horizontal scroll the theme adds */
+/* Wider content on desktop */
+@media (min-width: 1100px) {
+  .page,
+  .page__inner-wrap,
+  .page__content {
+    max-width: 1360px !important; /* bump to 1440 if you want even wider */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* --- Tables: no horizontal scroll; full width; no ugly word-splits --- */
 .page__content .table-wrapper { overflow-x: visible !important; }
 
-/* tables fit the container, no cut off */
 .page__content .table-wrapper > table,
 .page__content table {
   display: table !important;
   width: 100% !important;
   max-width: 100% !important;
-  table-layout: auto !important;
+  table-layout: fixed !important;   /* allows controlled column widths */
   border-collapse: collapse;
 }
 
 .page__content th,
-.page__content td { padding: 14px 18px; vertical-align: top; white-space: normal; word-break: break-word; }
+.page__content td {
+  padding: 14px 18px;
+  vertical-align: top;
+  white-space: normal !important;
+  word-break: normal !important;     /* avoid mid-word breaks */
+  overflow-wrap: anywhere;           /* wrap long phrases without scroll */
+  hyphens: auto;
+}
 
 .page__content th {
-  background: #1E3A8A;   /* Deep Tech Blue */
+  background: #1E3A8A;              /* Deep Tech Blue */
   color: #fff;
   text-align: left;
+  font-weight: 700;
 }
 
 .page__content tr:nth-child(even) { background: #f7f9fc; }
 
-/* Bigger header logo */
+/* --- Column widths for 4-col “What VeyDigital Delivers” table (safe globally) --- */
+/* Only applies when a table actually has 4 columns; 2-col tables are unaffected. */
+.page__content table thead th:nth-child(1),
+.page__content table tbody td:nth-child(1) { width: 26% !important; min-width: 260px; }
+.page__content table thead th:nth-child(2),
+.page__content table tbody td:nth-child(2) { width: 34% !important; }
+.page__content table thead th:nth-child(3),
+.page__content table tbody td:nth-child(3) { width: 22% !important; }
+.page__content table thead th:nth-child(4),
+.page__content table tbody td:nth-child(4) { width: 18% !important; }
+
+/* --- Header logo size (desktop + mobile) --- */
 .site-logo img {
-  height: 96px !important;   /* try 96–120px if you want larger */
+  height: 96px !important;          /* adjust 90–120px to taste */
   max-height: none !important;
   width: auto;
   display: block;
 }
-
-/* Keep header nicely aligned */
 .masthead__inner-wrap { align-items: center; gap: .5rem; }
 
-/* Don’t let it overpower on small screens */
 @media (max-width: 600px) {
   .site-logo img { height: 56px !important; }
 }
-/* ===== Fix: wider table + no letter-breaking ===== */
+/* ===== WIDEN ABOUT PAGE TABLE (no scroll, no ugly breaks) ===== */
 
-/* Give the page a touch more width on desktop */
+/* 1) Give the content area more width on desktop */
 @media (min-width: 1100px) {
   .page,
   .page__inner-wrap,
-  .page__content { max-width: 1360px !important; }
+  .page__content {
+    max-width: 1360px !important;   /* bump to 1440 if you want even wider */
+  }
 }
 
-/* Use the full width (no scroll) */
+/* 2) Use full width for tables (no scroll wrappers) */
 .page__content .table-wrapper { overflow-x: visible !important; }
+.page__content .table-wrapper > table,
 .page__content table {
   width: 100% !important;
   max-width: 100% !important;
-  table-layout: auto !important;  /* let columns size naturally */
+  table-layout: fixed !important;    /* lets us control column widths */
+  border-collapse: collapse;
 }
 
-/* Stop splitting words into letters */
+/* 3) Stop letters from breaking onto new lines */
 .page__content th,
 .page__content td {
-  word-break: normal !important;      /* override any break-all */
-  overflow-wrap: normal !important;    /* don't break mid-word */
+  white-space: normal !important;
+  word-break: normal !important;     /* avoid break-all style splits */
   hyphens: none !important;
 }
 
-/* Make the first column wider so names don't wrap awkwardly */
-.page__content table tr > *:first-child { width: 26% !important; min-width: 260px; }
-.page__content table tr > *:nth-child(2) { width: 34% !important; }
-.page__content table tr > *:nth-child(3) { width: 22% !important; }
-.page__content table tr > *:nth-child(4) { width: 18% !important; }
-
+/* 4) Column widths for 4-col “What VeyDigital Delivers” table */
+.page__content table thead th:nth-child(1),
+.page__content table tbody td:nth-child(1) { width: 26% !important; min-width: 260px; }
+.page__content table thead th:nth-child(2),
+.page__content table tbody td:nth-child(2) { width: 34% !important; }
+.page__content table thead th:nth-child(3),
+.page__content table tbody td:nth-child(3) { width: 22% !important; }
+.page__content table thead th:nth-child(4),
+.page__content table tbody td:nth-child(4) { width: 18% !important; }
