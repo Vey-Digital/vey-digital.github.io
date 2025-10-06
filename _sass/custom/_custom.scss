@@ -49,7 +49,15 @@ classes: wide about-compact
 ---
 
 ## Who Benefits
-Nonprofits & NGOs • E-commerce brands • Startups & tech teams • Education • Healthcare • Public sector • Professional services • Hospitality & travel.
+<nav class="pillset" aria-label="Who Benefits">
+  <a class="pill" href="#">Nonprofits & NGOs</a>
+  <a class="pill pill--active" href="#">E-commerce brands</a>
+  <a class="pill" href="#">Startups & tech teams</a>
+  <a class="pill" href="#">Education</a>
+  <a class="pill" href="#">Healthcare</a>
+  <a class="pill" href="#">Hospitality & travel</a>
+</nav>
+
 
 ---
 
