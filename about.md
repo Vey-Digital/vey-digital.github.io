@@ -6,7 +6,8 @@ permalink: /about/
 
 <!-- your About content and tables go here -->
 
-<h3>What VeyDigital Delivers</h3>
+<h2 class="vd-wide-title">What VeyDigital Delivers</h2>
+
 
 <style>
   /* Base table style */
