@@ -5,12 +5,6 @@ permalink: /about/
 ---
 <style>
 
-/* Tighten spacing a bit */
-.page__title { margin-bottom: .5rem; }
-.vd-intro p { margin: .4rem 0; line-height: 1.6; }
-.vd-wide-title { margin-top: 1rem; margin-bottom: .6rem; }
-</style>
-
 /* Reduce space under the H1 “About” */
 .page__title {
   margin-bottom: .35rem !important;
