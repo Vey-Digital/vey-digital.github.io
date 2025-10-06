@@ -1,4 +1,4 @@
 ---
-layout: redirect
-redirect_to: /videos/
+layout: home
+title: VeyDigital
 ---
