@@ -3,26 +3,29 @@ layout: single
 title: About
 permalink: /about/
 ---
-
-<!-- Tight, aligned intro -->
 <style>
-/* Keep H1, intro, and wide table aligned on desktop */
-@media (min-width: 1024px){
-  .page__title, .vd-wide-block, .vd-wide-title{
-    position:relative; left:50%; transform:translateX(-50%);
-    width:min(1400px,96vw); max-width:1400px; text-align:left;
-    margin-left:auto; margin-right:auto;
-  }
-}
-/* Reduce space under H1 (“About”) */
-.page__title{ margin-bottom: .4rem; }
-/* Tighten paragraph spacing in the intro only */
-.vd-intro p{ margin: .4rem 0; line-height: 1.55; }
+/* --- About page: tighten intro spacing --- */
 
-<div class="vd-wide-block vd-intro">
-  <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.</p>
-  <p>We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.</p>
-</div>
+/* Reduce space under the H1 “About” */
+.page__title {
+  margin-bottom: .35rem !important;
+}
+
+/* Tighten the first two paragraphs after the title */
+.page__content > p:first-of-type {
+  margin-top: 0 !important;
+}
+.page__content > p:first-of-type,
+.page__content > p:nth-of-type(2) {
+  margin: .4rem 0 .4rem !important;
+  line-height: 1.55;
+}
+
+/* Slightly reduce space before the Deliverables heading */
+.vd-wide-title {
+  margin-top: .9rem !important;
+  margin-bottom: .5rem !important;
+}
 
 /* Align H1, intro, section title, and table to the same left edge & width */
 @media (min-width: 1024px){
