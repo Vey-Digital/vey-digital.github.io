@@ -9,7 +9,7 @@ VeyDigital builds AI-powered analytics, lightweight automations, and clean dashb
 
 ### What VeyDigital Delivers
 
-{: .section-wide}
+{: .pro-table}
 | Service | Description | Deliverable | Tools |
 |---|---|---|---|
 | **Digital Analytics & Reporting** | Automated dashboards across web, ads, CRM, and sales so leaders get one clear view. | Insight dashboards with weekly/monthly updates | GA4, GTM, BigQuery, Power BI, Cloud BI Studio |
