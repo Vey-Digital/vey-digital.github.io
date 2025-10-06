@@ -10,22 +10,18 @@ VeyDigital builds AI-powered analytics, lightweight automations, and clean dashb
 <div class="bleed">
 
 ### What VeyDigital Delivers
+
 | Service | Description | Deliverable | Tools |
 |---|---|---|---|
-<!-- rows... -->
-
-</div>
-
-### What VeyDigital Delivers
-
-| Service | Description | Deliverable | Tools |
-|----------|--------------|--------------|--------|
 | **Digital Analytics & Reporting** | Automated dashboards across web, ads, CRM, and sales so leaders get one clear view. | Insight dashboards with weekly/monthly updates | GA4, GTM, BigQuery, Power BI, Cloud BI Studio |
 | **Conversion Optimization (CRO)** | Structured A/B testing for pages, funnels, ads, and emails. | Test plans, results, and next-step recommendations | Optimizely/VWO, GA4 Experiments |
 | **Automation & Integration** | Lightweight pipelines to move marketing/sales data reliably. | Documented ETL workflows (e.g., BigQuery/Supabase + automation tools) | BigQuery, Supabase, Power Automate, Zapier |
 | **Governance & Tracking Standards** | Clear UTM taxonomy, naming conventions, and campaign tracking. | Tracking framework + onboarding guide | Google Tag Manager, GA4, Data Studio |
 | **Capacity Building & Training** | Short workshops and reusable guides so teams can self-serve. | Workshops/bootcamps, quick-reference manuals, skills assessments | Power BI, Looker Studio, Custom LMS |
 | **Performance Insights** | Weekly or monthly briefs focused on what changed—and what to do next. | Strategy notes with prioritized actions | Google Sheets, Power BI, AI Assistant |
+
+</div>
+
 
 
 ## Who Benefits
