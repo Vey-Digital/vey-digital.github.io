@@ -1,100 +1,80 @@
-/* ---- Videos: max 3 columns ---- */
-.vd-grid {
-  display: grid;
-  gap: 1rem;
-  align-items: start;
-  grid-template-columns: 1fr;     /* 1 col on mobile */
-  max-width: 1080px;              /* keeps grid from getting too wide */
-  margin-inline: auto;            /* center the grid */
-  padding-inline: 8px;
-}
-@media (min-width: 768px)  { .vd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (min-width: 1100px) { .vd-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (min-width: 1500px) { .vd-grid { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; } } /* lock at 3 */
+---
+layout: single
+title: "About"
+permalink: /about/
+toc: false
+classes: wide about-compact
+---
 
-/* Player */
-.vd-embed {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  min-height: 160px;
-  overflow: hidden;
-  border-radius: .6rem;
-  background: #000;
-}
-.vd-embed iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  display: block;
-}
+## What VeyDigital Delivers
 
-/* Cards & title */
-.vd-card  { display: flex; flex-direction: column; gap: .5rem; }
-h3.vd-title {
-  margin: .3rem 0 .1rem;
-  font-weight: 600;
-  font-size: .9rem;
-  line-height: 1.25;
-  letter-spacing: .005em;
-}
+- **Digital Analytics & Reporting** — Automated dashboards from web, ads, CRM, and sales so leaders get one clear view.  
+  **Deliverable:** Insight dashboards with weekly/monthly updates.  
+  **Tools:** GA4, GTM, BigQuery, Power BI, cloud BI studio.
 
-/* ---- Masthead logo size ---- */
-.masthead .site-logo img,
-.masthead__inner-wrap .site-logo img,
-.greedy-nav .site-logo img {
-  display: block;
-  width: auto !important;
-  height: 96px !important;      /* adjust to taste */
-  max-height: 96px !important;
-}
-.masthead { padding-top: .35rem !important; padding-bottom: .35rem !important; }
+- **Conversion Optimization (CRO)** — Structured A/B testing for pages, funnels, ads, and emails.  
+  **Deliverable:** Test plans, results, and next-step recommendations.  
+  **Tools:** Optimizely/VWO, GA4 experiments.
 
-@media (max-width: 480px) {
-  .masthead .site-logo img,
-  .masthead__inner-wrap .site-logo img,
-  .greedy-nav .site-logo img {
-    height: 56px !important;
-    max-height: 56px !important;
-  }
-  /* Map embed */
-.map-box {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 4 / 3;     /* wider map without getting tall */
-  min-height: 280px;
-  border-radius: .6rem;
-  overflow: hidden;
-  background: #e6eef5;
-}
-.map-box iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-.map-meta { margin-top: .4rem; font-size: .9rem; }
+- **Automation & Integration** — Lightweight data pipelines to move marketing/sales data reliably.  
+  **Deliverable:** Documented ETL workflows (e.g., BigQuery/Supabase + automation tools).
 
-}
+- **Governance & Tracking Standards** — Clear UTM taxonomy, naming conventions, and campaign tracking.  
+  **Deliverable:** Tracking framework + onboarding guide.
 
-/* Hide screen-reader-only anchor text correctly (prevents "Permalink" from showing) */
-.sr-only {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
-}
+- **Capacity Building & Training** — Short workshops and reusable guides so teams can self-serve.  
+  **Deliverable:** Workshops/bootcamps, quick-reference manuals, skills assessments.
 
-/* Smaller headings on the About page only */
-.about-compact h1 { font-size: 1.75rem; }
-.about-compact h2 { font-size: 1.15rem; }
-.about-compact h3 { font-size: 1.0rem;  }
+- **Performance Insights** — Weekly or monthly briefs focused on what changed and what to do next.  
+  **Deliverable:** Strategy notes with prioritized actions.
 
+---
+
+## Who Benefits
+Nonprofits & NGOs • E-commerce brands • Startups & tech teams • Education • Healthcare • Public sector • Professional services • Hospitality & travel.
+
+---
+
+## Sample Deliverables & Timelines
+- **KPI Dashboards** — connect CRM + analytics + paid media. **Timeline:** 8–12 weeks.  
+- **CRO Testing Roadmap** — hypotheses, test setup, readouts. **Timeline:** quarterly cycles.  
+- **Training & Workshops** — 2-day bootcamp + refreshers. **Timeline:** within 3 months.  
+- **Data Governance Framework** — conventions + documentation + onboarding. **Timeline:** 6–8 weeks.  
+- **Automation Pipelines** — cloud data flows for marketing/CRM. **Timeline:** 3–4 months.  
+- **Ongoing Insights** — weekly or monthly optimization reports. **Timeline:** continuous (retainer).
+
+---
+
+## Optional Add-Ons
+SEO & performance audits • Journey mapping • Competitor dashboards • Predictive analytics (churn/retention) • AI chat/content assistants with guardrails.
+
+---
+
+## Case in brief — Global NGO
+**Problem:** 20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts.  
+**Fix:** Google cloud-native analytics + standardized KPIs/UTMs; daily brief with one action; secure country views.  
+**Triggers:** donate-drop nudges; lapsed-donor reactivation.  
+**Results (typical):** +10–20% conversion · −15–25% cost per gift · same-day anomaly detection · 2–4 hrs/week saved per team.
+
+---
+
+## Join the community
+Want closer, real-time conversation and quick feedback? **[Join our Discord ↗](https://discord.gg/yourInviteCode)**  
+*Note: Discord isn’t end-to-end encrypted. For sensitive topics, contact us directly.*
+
+---
+
+## Start here
+- [Open the YC Startup Playbook →](/playbook/)  
+- [Browse Videos (Upskill quickly) →](/videos/)  
+- [Read the latest on the Blog →](/blog/)
+
+---
+
+## Based in Seattle, WA
+<div class="map-box">
+  <iframe
+    title="Map: Seattle, WA"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-122.4594%2C47.495%2C-122.224%2C47.734&layer=mapnik&marker=47.6062%2C-122.3321"
+    loading="lazy" allowfullscreen></iframe>
+</div>
