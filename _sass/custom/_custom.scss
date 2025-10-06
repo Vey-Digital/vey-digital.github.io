@@ -33,6 +33,19 @@
 
 .page__content tr:nth-child(even) { background: #f7f9fc; }
 
-/* header logo size */
-.site-logo img { max-height: 92px; width: auto; display: block; }
+/* Bigger header logo */
+.site-logo img {
+  height: 96px !important;   /* try 96–120px if you want larger */
+  max-height: none !important;
+  width: auto;
+  display: block;
+}
+
+/* Keep header nicely aligned */
 .masthead__inner-wrap { align-items: center; gap: .5rem; }
+
+/* Don’t let it overpower on small screens */
+@media (max-width: 600px) {
+  .site-logo img { height: 56px !important; }
+}
+
