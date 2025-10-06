@@ -73,4 +73,40 @@ table { color: #fff; }  /* remove: makes all table text white */
 .masthead__inner-wrap {
   align-items: center;
 }
+/* Bigger header logo */
+.site-logo img {
+  max-height: 56px;   /* try 56–64px; adjust to taste */
+  width: auto;
+  display: block;
+}
+
+/* keep header nicely aligned vertically */
+.masthead__inner-wrap {
+  align-items: center;
+  gap: .5rem;
+}
+
+/* Wider content area on desktop so tables can expand */
+@media (min-width: 1100px) {
+  .page,
+  .page__inner-wrap {
+    max-width: 1200px;     /* increase to 1280px if you want even wider */
+  }
+
+  .page__content {
+    padding-right: 1.25rem;
+    padding-left:  1.25rem;
+  }
+}
+
+/* Make tables use the full content width */
+.page__content table {
+  width: 100%;
+  max-width: none;
+  table-layout: auto;
+}
+.page__content th {
+  background-color: #1E3A8A;  /* Deep Tech Blue */
+  color: #fff;
+}
 
