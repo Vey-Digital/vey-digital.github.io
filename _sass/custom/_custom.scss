@@ -57,3 +57,7 @@
 .page__content a:hover {
   color: #1E3A8A;
 }
+a, a:visited { color: #ffffff; }
+.page__content p { color: #ffffff; }
+.page__content { padding-right: 0; padding-left: 0; }  /* remove if you added it earlier */
+table { color: #fff; }  /* remove: makes all table text white */
