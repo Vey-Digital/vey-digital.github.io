@@ -1,64 +1,65 @@
-/* Fix link text color for dark background sections */
-a,
-a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
+/* =====================================================
+   VeyDigital Custom Styles — Fixed & Scoped Version
+   ===================================================== */
 
-a:hover,
-a:focus {
-  color: lighten(#ffffff, 15%);
-  text-decoration: underline;
-}
-
-/* Optional: adjust paragraph text in that section if it's dark */
-.page__content p {
-  color: #ffffff;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  color: #fff; /* white text for dark sections */
-}
-
-th, td {
-  padding: 0.75em;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
-}
-
-th {
-  background-color: #1E3A8A; /* Deep Tech Blue */
-  text-align: left;
-}
-
-tr:nth-child(even) {
-  background-color: rgba(255,255,255,0.05);
-}
-/* Make tables span full content width */
+/* ---------- TABLE STYLING ---------- */
 .page__content table {
   width: 100%;
   max-width: none;
   table-layout: auto;
+  border-collapse: collapse;
 }
 
-/* Optional: reduce side padding so the table aligns nicely under Blog */
-.page__content {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-/* Keep text readable on large screens */
-.page__content td,
-.page__content th {
+.page__content th,
+.page__content td {
   padding: 0.75em 1em;
   word-break: normal;
   white-space: normal;
 }
 
-/* REMOVE these broad rules */
-a, a:visited { color: #ffffff; }
-.page__content p { color: #ffffff; }
-.page__content { padding-right: 0; padding-left: 0; }
+.page__content th {
+  background-color: #1E3A8A; /* Deep Tech Blue */
+  color: #ffffff;
+  text-align: left;
+}
 
-.page__content table { width: 100%; max-width: none; table-layout: auto; }
+.page__content tr:nth-child(even) {
+  background-color: rgba(30, 58, 138, 0.05);
+}
 
+/* ---------- DARK SECTION STYLES ---------- */
+/* Use this class ONLY where background is dark */
+.cta-dark,
+.cta-dark p {
+  color: #ffffff;
+}
+
+.cta-dark a,
+.cta-dark a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cta-dark a:hover,
+.cta-dark a:focus {
+  color: lighten(#ffffff, 15%);
+  text-decoration: underline;
+}
+
+/* ---------- GENERAL PAGE FIX ---------- */
+/* Restore normal body and paragraph color */
+.page__content,
+.page__content p,
+.page__content a {
+  color: #111111; /* default readable text */
+}
+
+/* Optional link hover for normal sections */
+.page__content a:hover {
+  color: #1E3A8A; /* Deep Tech Blue hover */
+}
+
+/* Keep content spacing consistent */
+.page__content {
+  padding: 1.5em;
+}
