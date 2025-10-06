@@ -73,3 +73,14 @@ Want closer, real-time conversation and quick feedback? **Join us on Discord.**
 - Read the latest on the **Blog** → [/blog/](/blog/)
 
 Based in **Seattle, WA**.
+## Based in Seattle, WA
+
+<div class="map-box">
+  <iframe
+    title="Map: Seattle, WA"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-122.4594%2C47.495%2C-122.224%2C47.734&layer=mapnik&marker=47.6062%2C-122.3321"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+<p class="map-meta"><a href="https://www.openstreetmap.org/?mlat=47.6062&mlon=-122.3321#map=12/47.6062/-122.3321" target="_blank" rel="noopener">Open full map ↗</a></p>
+
