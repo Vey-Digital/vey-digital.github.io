@@ -1,44 +1,35 @@
 title: VeyDigital
-description: AI news to skills. Lightweight analytics & automations.
+description: AI, cloud analytics, and lightweight automations
+url: https://vey-digital.github.io
+baseurl: ""   # keep empty for user.github.io root sites
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "default"
+# IMPORTANT: do NOT set `theme:` when using remote_theme
+# theme: jekyll-theme-primer   # ← leave removed
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  # If you aren't using pagination, don't load it:
+  # - jekyll-paginate
 
-# Header / branding
-logo: "/assets/veydigital+logo2.png"
-masthead_title: ""   # show logo only, no duplicate text
+markdown: kramdown
+kramdown:
+  input: GFM
 
-# Locale / theme options
-locale: en-US
-timezone: America/Los_Angeles
-minimal_mistakes_skin: default
-search: true
-search_full_content: true
+# If you enabled jekyll-paginate before and got the "no index.html" warning,
+# either add an index.html with paginator or just leave paginate disabled:
+paginate: 0
 
-# Blog list behavior
-paginate: 9
-paginate_path: "/blog/page:num/"
-show_excerpts: true
-excerpt_separator: "<!--more-->"
-timezone: America/Los_Angeles
-date_format: "%b %-d, %Y"   # e.g., Oct 5, 2025
-# manual Feed and disable the auto one
-atom_feed:
-  hide: true
-
-# Footer social links
-footer:
-  links:
-    - label: ""   # icon-only (removes the extra "X" text)
-      icon: "fa-brands fa-x-twitter"
-      url: "https://twitter.com/YourHandle"
-    - label: "GitHub"
-      icon: "fa-brands fa-github"
-      url: "https://github.com/Vey-Digital"
-    - label: "Discord"
-      icon: "fa-brands fa-discord"
-      url: "https://discord.gg/yourInviteCode"
-
+# Optional: keeps junk out of the build
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - Gemfile
+  - Gemfile.lock
