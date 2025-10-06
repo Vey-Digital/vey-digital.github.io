@@ -7,6 +7,14 @@ toc: false
 
 VeyDigital builds AI-powered analytics, lightweight automations, and clean dashboards that help teams move faster with data.
 
+<div class="bleed">
+
+### What VeyDigital Delivers
+| Service | Description | Deliverable | Tools |
+|---|---|---|---|
+<!-- rows... -->
+
+</div>
 
 ### What VeyDigital Delivers
 
