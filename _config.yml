@@ -4,7 +4,9 @@ url: "https://vey-digital.github.io"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
-
+logo: "/assets/veydigital+logo2.png"
+logo_alt: "VeyDigital logo"
+masthead_title: ""     # hides text next to logo (optional)
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
