@@ -103,10 +103,7 @@ table.vd-plain tbody tr:nth-child(even) td{ background:#f8fafc; }
   </tbody>
 </table>
 
-<div class="vd-wide vd-callout">
-  <p><strong>Optional add-ons:</strong> SEO &amp; site-performance audits; journey mapping; competitor benchmarking dashboards; predictive analytics for churn/retention; and AI chat/content assistants with compliance guardrails.</p>
-  <p><strong>Case in brief — Global NGO:</strong> 20+ countries had siloed web/ad/CRM data, messy UTMs, and slow readouts. We built a Google Cloud-native analytics layer, standardized KPIs/UTMs, shipped a daily one-action brief, and delivered secure country-level views. Triggers included donate-drop nudges and lapsed-donor reactivation. Typical results: +10–20% conversion, −15–25% cost per gift, same-day anomaly detection, and 2–4 hours/week saved per team.</p>
-</div>
+
 
 ## Join the community
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
