@@ -2,72 +2,95 @@
 layout: single
 title: "About"
 permalink: /about/
+toc: false
+classes: wide
 ---
 
-# About
+VeyDigital helps teams turn AI, cloud-native analytics, and lightweight automations into clear outcomes.
 
 ## What VeyDigital Delivers
-**Digital Analytics & Reporting** — Automated dashboards that pull from web, ads, CRM, and sales so leaders get one clear view.  
-**Deliverable:** Insight dashboards with weekly/monthly updates.  
-**Tools (examples):** GA4, GTM, BigQuery, Power BI, cloud BI studio.
 
-**Conversion Optimization (CRO)** — Structured A/B testing for pages, funnels, ads, and emails.  
-**Deliverable:** Test plans, results, and next-step recommendations.  
-**Tools:** Optimizely/VWO, GA4 experiments.
+- **📊 Digital Analytics & Reporting**  
+  Automated dashboards across web, ads, CRM, and sales so leaders get one clear view.  
+  **Deliverable:** Insight dashboards with weekly/monthly updates  
+  **Tools:** GA4, GTM, BigQuery, Power BI, cloud BI studio
 
-**Automation & Integration** — Lightweight data pipelines to move marketing/sales data reliably.  
-**Deliverable:** Documented ETL workflows (e.g., BigQuery/Supabase + automation tools).
+- **🧪 Conversion Optimization (CRO)**  
+  Structured A/B testing for pages, funnels, ads, and emails.  
+  **Deliverable:** Test plans, results, and next-step recommendations  
+  **Tools:** Optimizely/VWO, GA4 experiments
 
-**Governance & Tracking Standards** — Clear UTM taxonomy, naming conventions, and campaign tracking.  
-**Deliverable:** Tracking framework + onboarding guide.
+- **🔗 Automation & Integration**  
+  Lightweight pipelines to move marketing/sales data reliably.  
+  **Deliverable:** Documented ETL workflows (e.g., BigQuery/Supabase + automation tools)
 
-**Capacity Building & Training** — Short workshops and reusable guides so teams can self-serve.  
-**Deliverable:** Workshops/bootcamps, quick-reference manuals, skills assessments.
+- **🧭 Governance & Tracking Standards**  
+  Clear UTM taxonomy, naming conventions, and campaign tracking.  
+  **Deliverable:** Tracking framework + onboarding guide
 
-**Performance Insights** — Weekly or monthly briefs focused on what changed and what to do next.  
-**Deliverable:** Strategy notes with prioritized actions.
+- **🎓 Capacity Building & Training**  
+  Short workshops and reusable guides so teams can self-serve.  
+  **Deliverable:** Workshops/bootcamps, quick-reference manuals, skills assessments
+
+- **📈 Performance Insights**  
+  Weekly or monthly briefs focused on what changed—and what to do next.  
+  **Deliverable:** Strategy notes with prioritized actions
+
+---
 
 ## Who Benefits
-Nonprofits and NGOs • E-commerce brands • Startups and tech teams • Education and healthcare orgs • Public sector programs • Professional services • Hospitality and travel.
+
+Nonprofits & NGOs • E-commerce brands • Startups & tech teams • Education • Healthcare • Public sector • Professional services • Hospitality & travel
+
+---
 
 ## Sample Deliverables & Timelines
-**KPI Dashboards** — connect CRM + analytics + paid media.  
-**Timeline:** 8–12 weeks.
 
-**CRO Testing Roadmap** — hypotheses, test setup, readouts.  
-**Timeline:** Quarterly cycles.
+| Deliverable               | Timeline         |
+|---------------------------|------------------|
+| KPI Dashboards            | 8–12 weeks       |
+| CRO Testing Roadmap       | Quarterly cycles |
+| Training & Workshops      | Within 3 months  |
+| Data Governance Framework | 6–8 weeks        |
+| Automation Pipelines      | 3–4 months       |
+| Ongoing Insights          | Continuous       |
 
-**Training & Workshops** — 2-day bootcamp + refreshers.  
-**Timeline:** within 3 months.
-
-**Data Governance Framework** — conventions + documentation + onboarding.  
-**Timeline:** 6–8 weeks.
-
-**Automation Pipelines** — cloud data flows for marketing/CRM.  
-**Timeline:** 3–4 months.
-
-**Ongoing Insights** — weekly or monthly optimization reports.  
-**Timeline:** Continuous (retainer).
+---
 
 ## Optional Add-Ons
-SEO and site performance audits • Donor/customer journey mapping • Competitor benchmarking dashboards • Predictive analytics (e.g., churn/retention/likelihood) • AI chat or content assistants with guardrails.
+
+SEO & site performance audits • Journey mapping • Competitor benchmarking dashboards • Predictive analytics (churn/retention) • AI chat/content assistants with guardrails
+
+---
 
 ## Case in brief — Global NGO
-**Problem:** 20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts.  
-**Fix:** Google’s cloud-native analytics layer + standardized KPIs/UTMs; daily brief with one action; secure, country-level views.  
-**Triggers:** donate-drop nudges, lapsed-donor reactivation.  
-**Results (typical):** +10–20% conversion, −15–25% cost per gift, same-day anomaly detection, 2–4 hrs/week saved per team.
+
+- **Problem:** 20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts  
+- **Fix:** Google cloud-native analytics layer; standardized KPIs/UTMs; daily brief with one action; secure country-level views  
+- **Triggers:** Donate-drop nudges; lapsed-donor reactivation  
+- **Results (typical):** +10–20% conversion · −15–25% cost per gift · same-day anomaly detection · 2–4 hrs/week saved per team
+
+---
 
 ## Join the community
-Want closer, real-time conversation and quick feedback? Join us on Discord.  
-**Join our Discord ↗**
 
-*Note: Discord is great for real-time chat, but it isn’t end-to-end encrypted. For sensitive topics, contact us directly.*
+[Join our Discord ↗](https://discord.gg/yourInviteCode){: .btn .btn--primary target="_blank" rel="noopener" }  
+*Note: Discord isn’t end-to-end encrypted. For sensitive topics, contact us directly.*
+
+---
 
 ## Start here
-Open the YC Startup Playbook → /playbook/  
-Browse Videos (Upskill quickly) → /videos/  
-Read the latest on the Blog → /blog/
+
+[Open the YC Startup Playbook →](/playbook/){: .btn }  
+[Browse Videos (Upskill quickly) →](/videos/){: .btn }  
+[Read the latest on the Blog →](/blog/){: .btn }
+
+---
 
 ## Based in Seattle, WA
 
+<iframe
+  title="Map: Seattle, WA"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-122.4594%2C47.495%2C-122.224%2C47.734&layer=mapnik&marker=47.6062%2C-122.3321"
+  width="100%" height="300" style="border:0;" loading="lazy" allowfullscreen>
+</iframe>
