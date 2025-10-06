@@ -1,41 +1,28 @@
-/* =====================================================
-   VeyDigital — Clean, Scoped Overrides (fixed)
-   ===================================================== */
+/* ================= VeyDigital – final overrides ================= */
 
-/* ---------- RESET readable text on light pages ---------- */
+/* --- Keep body readable on light backgrounds --- */
 body,
 .page__content,
 .page__content p,
 .page__content li,
 .page__content td {
-  color: #111 !important;     /* ensure dark text */
+  color: #111 !important;
 }
+.page__content a { color: #1f4aa0; }
+.page__content a:hover { color: #1E3A8A; }
 
-.page__content a {
-  color: #1f4aa0;             /* normal link color */
-}
-.page__content a:hover {
-  color: #1E3A8A;             /* brand hover */
-}
-
-/* ---------- PAGE WIDTH (desktop) ---------- */
+/* --- Wider content on desktop (strong override) --- */
 @media (min-width: 1100px) {
+  .container,
   .page,
   .page__inner-wrap,
   .page__content {
-    max-width: 1400px;        /* widen page so tables stretch further */
+    max-width: 1400px !important;   /* bump to 1500 if you want even wider */
   }
-  .page__inner-wrap {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .page__content {
-    padding-right: 1.25rem;
-    padding-left:  1.25rem;
-  }
+  .page__inner-wrap { margin-left: auto; margin-right: auto; }
 }
 
-/* ---------- OPTIONAL: full-bleed helper for special blocks ---------- */
+/* --- Full-bleed helper (edge-to-edge sections) --- */
 .bleed {
   position: relative;
   left: 50%;
@@ -43,27 +30,18 @@ body,
   margin-left: -50vw;
   margin-right: -50vw;
   width: 100vw;
-  padding-left: 24px;         /* gutters */
+  padding-left: 24px;
   padding-right: 24px;
 }
-.bleed table {
-  width: 100%;
-  max-width: 1280px;          /* keep readable cap */
-  margin: 0 auto;
-  table-layout: auto;
-}
 
-/* ---------- TABLES (standard) ---------- */
+/* --- Tables --- */
 .page__content table {
-  width: 100%;
-  max-width: none;
+  width: 100% !important;
+  max-width: none !important;
   table-layout: auto;
   border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
 }
-
 .page__content th,
 .page__content td {
   padding: 1em 1.25em;
@@ -71,36 +49,25 @@ body,
   word-break: normal;
   white-space: normal;
 }
-
 .page__content th {
-  background-color: #1E3A8A;  /* Deep Tech Blue */
-  color: #ffffff !important;
-  text-align: left;
+  background-color: #1E3A8A;
+  color: #fff !important;
 }
-
 .page__content tr:nth-child(even) {
-  background-color: rgba(30, 58, 138, 0.05);
+  background-color: rgba(30,58,138,0.05);
 }
 
-/* ---------- DARK CTA ONLY (scoped) ---------- */
+/* --- Dark CTA (scoped) --- */
 .cta-dark {
-  background-color: #1E3A8A;  /* Deep Tech Blue */
-  color: #ffffff;
-  padding: 1em 1.5em;
-  border-radius: 12px;
-  margin-top: 2em;
+  background-color: #1E3A8A;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 14px;
 }
-.cta-dark p { margin: 0.25em 0; }
-
 .cta-dark a,
-.cta-dark a:visited { color: #ffffff; text-decoration: none; }
-.cta-dark a:hover,
-.cta-dark a:focus   { color: #ffffff; text-decoration: underline; }
+.cta-dark a:visited { color: #fff; text-decoration: none; }
+.cta-dark a:hover { color: #fff; text-decoration: underline; }
 
-/* ---------- HEADER LOGO ---------- */
-.site-logo img {
-  max-height: 80px;           /* adjust 56–80px to taste */
-  width: auto;
-  display: block;
-}
+/* --- Header logo --- */
+.site-logo img { max-height: 80px; width: auto; display: block; }
 .masthead__inner-wrap { align-items: center; gap: .5rem; }
