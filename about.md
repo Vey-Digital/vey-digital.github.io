@@ -70,4 +70,4 @@ Browse Videos (Upskill quickly) → /videos/
 Read the latest on the Blog → /blog/
 
 ## Based in Seattle, WA
-Open full map ↗
+
