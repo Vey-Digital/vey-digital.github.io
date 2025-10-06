@@ -1,3 +1,5 @@
+<table class="vd-plain">
+
 <h3>What VeyDigital Delivers</h3>
 
 <style>
