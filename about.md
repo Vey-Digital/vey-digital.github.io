@@ -4,30 +4,44 @@ title: "About"
 permalink: /about/
 toc: true
 toc_sticky: true
+classes: wide
 ---
+
 
 <!-- Scoped, minimal styles (won't affect other pages) -->
 <style>
-  #about-page { --max: 1120px; --gap: 1rem; --radius: 14px; --muted: #667085; }
+  /* Scope */
+  #about-page { --max: 1280px; --gap: 1rem; --radius: 14px; --muted: #667085; }
   #about-page .wrap { max-width: var(--max); margin-inline: auto; padding-inline: 12px; }
 
-  /* Simple grids */
+  /* Cards grid — wider columns */
   #about-page .cards { display: grid; gap: var(--gap); }
-  @media (min-width: 800px){ #about-page .cards.cols-3 { grid-template-columns: repeat(3, minmax(0,1fr)); } }
-  @media (min-width: 800px){ #about-page .cards.cols-2 { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+  /* 1 col on mobile */
+  #about-page .cards.cols-3 { grid-template-columns: 1fr; }
+  #about-page .cards.cols-2 { grid-template-columns: 1fr; }
 
-  /* Card + pill patterns */
+  /* 2 cols on tablet/desktop (wider cards even with TOC) */
+  @media (min-width: 800px){
+    #about-page .cards.cols-3 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    #about-page .cards.cols-2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  }
+
+  /* Only go to 3 cols on very wide screens */
+  @media (min-width: 1400px){
+    #about-page .cards.cols-3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  }
+
+  /* Cards, pills, map (unchanged basics) */
   #about-page .card { background:#fff; border:1px solid #eee; border-radius: var(--radius); padding: 1rem; }
   #about-page .card h3 { margin: .2rem 0 .5rem; font-size: 1.02rem; }
   #about-page .muted { color: var(--muted); }
   #about-page .meta { color: var(--muted); font-size: .92rem; margin:.25rem 0 0; }
   #about-page .pills { display:flex; flex-wrap:wrap; gap:.55rem; }
   #about-page .pill { border:1px solid #e6e6e6; border-radius:999px; padding:.35rem .65rem; font-size:.92rem; }
-
-  /* Map (lightweight, no key) */
-  #about-page .map { position:relative; width:100%; aspect-ratio: 21/9; min-height:260px; border:1px solid #e6e6e6; border-radius: var(--radius); overflow:hidden; background:#e6eef5; }
+  #about-page .map { position:relative; width:100%; aspect-ratio:21/9; min-height:260px; border:1px solid #e6e6e6; border-radius: var(--radius); overflow:hidden; background:#e6eef5; }
   #about-page .map iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
 </style>
+
 
 <section id="about-page">
   <div class="wrap">
