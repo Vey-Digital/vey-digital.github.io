@@ -1,20 +1,19 @@
-<table class="vd-plain">
-
 <h3>What VeyDigital Delivers</h3>
 
 <style>
-  /* scoped to this page block only */
+  /* Base table style */
   table.vd-plain {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    table-layout: auto;             /* lets columns size naturally (no scroll) */
+    table-layout: auto;              /* natural sizing (no scroll) */
+    margin: 0 0 1.25rem 0;
   }
   table.vd-plain td, table.vd-plain th {
     border: 1px solid #ddd;
     padding: 8px;
     vertical-align: top;
-    white-space: normal;            /* wrap text, don’t cut it off */
+    white-space: normal;             /* wrap text, don’t cut it off */
     word-break: normal;
     hyphens: auto;
   }
@@ -24,12 +23,24 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #1E3A8A;      /* VeyDigital deep blue */
+    background-color: #1E3A8A;       /* VeyDigital deep blue */
     color: #fff;
+    font-weight: 700;
+  }
+
+  /* Widen ONLY the Deliveres table on desktop */
+  @media (min-width: 1024px) {
+    table.vd-delivers-wide {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);   /* center on viewport */
+      width: min(1400px, 96vw);      /* wider, but never beyond screen */
+      max-width: 1400px;
+    }
   }
 </style>
 
-<table class="vd-plain">
+<table class="vd-plain vd-delivers-wide">
   <tr>
     <th>Service</th>
     <th>Description</th>
@@ -73,36 +84,8 @@
     <td>Google Sheets, Power BI, AI Assistant</td>
   </tr>
 </table>
-<h3>Optional Add-Ons</h3>
 
-<style>
-  /* Scoped table style for this page only */
-  table.vd-plain {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;               /* use full content width */
-    table-layout: auto;        /* natural column sizing (no scroll) */
-  }
-  table.vd-plain td, table.vd-plain th {
-    border: 1px solid #ddd;
-    padding: 8px;
-    vertical-align: top;
-    white-space: normal;
-    word-break: normal;
-    overflow-wrap: anywhere;   /* wrap long phrases instead of cutting off */
-    hyphens: auto;
-  }
-  table.vd-plain tr:nth-child(even) { background-color: #f2f2f2; }
-  table.vd-plain tr:hover { background-color: #ddd; }
-  table.vd-plain th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #1E3A8A; /* VeyDigital deep blue */
-    color: #fff;
-    font-weight: 700;
-  }
-</style>
+<h3>Optional Add-Ons</h3>
 
 <table class="vd-plain">
   <thead>
