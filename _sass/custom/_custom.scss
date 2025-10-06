@@ -1,8 +1,11 @@
-/* =====================================================
-   VeyDigital Custom Styles — Fixed & Scoped Version
-   ===================================================== */
+/* ===========================
+   VeyDigital — clean overrides
+   =========================== */
 
-/* ---------- TABLE STYLING ---------- */
+/* ---- DO NOT set global text/link colors here ---- */
+/* Keep defaults from Minimal Mistakes so body text is dark on white */
+
+/* Tables: full width + tidy spacing */
 .page__content table {
   width: 100%;
   max-width: none;
@@ -24,15 +27,19 @@
 }
 
 .page__content tr:nth-child(even) {
-  background-color: rgba(30, 58, 138, 0.05);
+  background-color: rgba(30,58,138,0.05);
 }
 
-/* ---------- DARK SECTION STYLES ---------- */
-/* Use this class ONLY where background is dark */
-.cta-dark,
-.cta-dark p {
+/* Dark CTA block ONLY */
+.cta-dark {
+  background-color: #1E3A8A;  /* Deep Tech Blue */
   color: #ffffff;
+  padding: 1em 1.5em;
+  border-radius: 12px;
+  margin-top: 2em;
 }
+
+.cta-dark p { margin: 0.25em 0; }
 
 .cta-dark a,
 .cta-dark a:visited {
@@ -42,24 +49,11 @@
 
 .cta-dark a:hover,
 .cta-dark a:focus {
-  color: lighten(#ffffff, 15%);
+  color: #ffffff;
   text-decoration: underline;
 }
 
-/* ---------- GENERAL PAGE FIX ---------- */
-/* Restore normal body and paragraph color */
-.page__content,
-.page__content p,
-.page__content a {
-  color: #111111; /* default readable text */
-}
-
-/* Optional link hover for normal sections */
+/* Optional: brand hover color in NORMAL (light) sections */
 .page__content a:hover {
-  color: #1E3A8A; /* Deep Tech Blue hover */
-}
-
-/* Keep content spacing consistent */
-.page__content {
-  padding: 1.5em;
+  color: #1E3A8A;
 }
