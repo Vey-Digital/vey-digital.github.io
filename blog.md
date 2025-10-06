@@ -1,7 +1,11 @@
-<!-- Keep whatever intro text you want here. 
-     No posts feed will render with layout: single. -->
+---
+layout: posts
+title: Blog
+permalink: /blog/
+author_profile: false
+---
 
-
+<!-- Keep any intro text you want below. The posts feed comes from layout: posts. -->
 
 Our main **VeyDigital** website is under construction. While we finish it, here’s what’s coming and how you can try it before you buy.
 <!--more-->
