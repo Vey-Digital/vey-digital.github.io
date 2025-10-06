@@ -33,7 +33,29 @@ VeyDigital builds AI-powered analytics, lightweight automations, and clean dashb
 | **Hospitality & Travel** | Booking analytics, campaign tracking, guest experience insights |
 
 
+### Optional Add-Ons
+
+{: .pro-table}
+| Category | Details |
+|---|---|
+| **Advanced Strategy & Insights** | SEO & site-performance audits |
+| **User Experience** | Journey mapping |
+| **Competitive Analysis** | Competitor benchmarking dashboards |
+| **Predictive Analytics** | Churn / retention modeling |
+| **AI Integration** | Chat + content assistants with compliance guardrails |
+
 ---
+
+### Case in Brief — Global NGO
+
+{: .pro-table}
+| Aspect | Summary |
+|---|---|
+| **Problem** | 20 + countries, siloed web / ad / CRM data; messy UTMs; slow readouts |
+| **Fix** | Google Cloud-native analytics layer; standardized KPIs / UTMs; daily brief with one key action; secure country-level views |
+| **Triggers** | Donate-drop nudges; lapsed-donor reactivation |
+| **Results (typical)** | +10–20 % conversion · –15–25 % cost per gift · same-day anomaly detection · 2–4 hrs / week saved per team |
+
 
 ## Sample Deliverables & Timelines
 
@@ -46,22 +68,7 @@ VeyDigital builds AI-powered analytics, lightweight automations, and clean dashb
 | Automation Pipelines      | 3–4 months       |
 | Ongoing Insights          | Continuous       |
 
----
 
-## Optional Add-Ons
-
-SEO & site performance audits • Journey mapping • Competitor benchmarking dashboards • Predictive analytics (churn/retention) • AI chat/content assistants with guardrails
-
----
-
-## Case in brief — Global NGO
-
-- **Problem:** 20+ countries, siloed web/ad/CRM data; messy UTMs; slow readouts  
-- **Fix:** Google cloud-native analytics layer; standardized KPIs/UTMs; daily brief with one action; secure country-level views  
-- **Triggers:** Donate-drop nudges; lapsed-donor reactivation  
-- **Results (typical):** +10–20% conversion · −15–25% cost per gift · same-day anomaly detection · 2–4 hrs/week saved per team
-
----
 
 ## Join the community
 
