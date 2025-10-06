@@ -122,7 +122,7 @@ table.vd-plain tbody tr:nth-child(even) td{ background:#f8fafc; }
     </tr>
     <tr>
       <td><strong>Performance Insights</strong></td>
-      <td>Weekly or monthly briefs focused on what changed — and what to do next.</td>
+      <td>Weekly or monthly briefs focused on what changed and what to do next.</td>
       <td>Strategy notes with prioritized actions</td>
       <td>Google Sheets, Power BI, AI Assistant</td>
     </tr>
