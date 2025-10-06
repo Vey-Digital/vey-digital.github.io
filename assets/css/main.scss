@@ -1,17 +1,15 @@
 ---
-# Only this file needs YAML front matter so Jekyll compiles SCSS
 ---
 
-/* VeyDigital – main SCSS entry */
+/* Brand variables */
+$primary-color: #1E3A8A;
+$accent-color:  #3B82F6;
+$highlight-color:#FACC15;
 
-/* 1) Define brand variables FIRST */
-$primary-color: #1E3A8A;    // Deep Tech Blue
-$accent-color:  #3B82F6;    // Electric Blue
-$highlight-color:#FACC15;   // Warm Yellow
-
-/* 2) Import Minimal Mistakes */
+/* Theme + skin */
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
-/* 3) Import your overrides */
+/* Your overrides */
 @import "custom/custom";
+
