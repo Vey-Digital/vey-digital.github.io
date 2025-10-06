@@ -1,21 +1,33 @@
-/* ===========================
-   VeyDigital — clean overrides
-   =========================== */
+/* =====================================================
+   VeyDigital — Clean, Scoped Overrides (final)
+   ===================================================== */
 
-/* ---- DO NOT set global text/link colors here ---- */
-/* Keep defaults from Minimal Mistakes so body text is dark on white */
+/* ---------- PAGE WIDTH (desktop) ---------- */
+@media (min-width: 1100px) {
+  .page,
+  .page__inner-wrap,
+  .page__content {
+    max-width: 1400px;   /* widen page so tables stretch further */
+  }
+  .page__inner-wrap { margin-left: auto; margin-right: auto; }
+  .page__content { padding-right: 1.25rem; padding-left: 1.25rem; }
+}
 
-/* Tables: full width + tidy spacing */
+/* ---------- TABLES ---------- */
 .page__content table {
   width: 100%;
   max-width: none;
   table-layout: auto;
   border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.95rem;
 }
 
 .page__content th,
 .page__content td {
-  padding: 0.75em 1em;
+  padding: 1em 1.25em;
+  vertical-align: top;
   word-break: normal;
   white-space: normal;
 }
@@ -27,10 +39,10 @@
 }
 
 .page__content tr:nth-child(even) {
-  background-color: rgba(30,58,138,0.05);
+  background-color: rgba(30, 58, 138, 0.05);
 }
 
-/* Dark CTA block ONLY */
+/* ---------- DARK CTA ONLY (scoped) ---------- */
 .cta-dark {
   background-color: #1E3A8A;  /* Deep Tech Blue */
   color: #ffffff;
@@ -38,114 +50,21 @@
   border-radius: 12px;
   margin-top: 2em;
 }
-
 .cta-dark p { margin: 0.25em 0; }
 
 .cta-dark a,
-.cta-dark a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-
+.cta-dark a:visited { color: #ffffff; text-decoration: none; }
 .cta-dark a:hover,
-.cta-dark a:focus {
-  color: #ffffff;
-  text-decoration: underline;
-}
+.cta-dark a:focus   { color: #ffffff; text-decoration: underline; }
 
-/* Optional: brand hover color in NORMAL (light) sections */
-.page__content a:hover {
-  color: #1E3A8A;
-}
-a, a:visited { color: #ffffff; }
-.page__content p { color: #ffffff; }
-.page__content { padding-right: 0; padding-left: 0; }  /* remove if you added it earlier */
-table { color: #fff; }  /* remove: makes all table text white */
+/* ---------- NORMAL (light) SECTIONS ---------- */
+/* Keep default Minimal Mistakes colors; just add a brandy hover */
+.page__content a:hover { color: #1E3A8A; }
 
-/* Header logo sizing and spacing */
+/* ---------- HEADER LOGO ---------- */
 .site-logo img {
-  max-height: 42px;
+  max-height:80px;   /* adjust 56–64px if you want bigger */
   width: auto;
   display: block;
 }
-
-/* Center align logo + title in header if needed */
-.masthead__inner-wrap {
-  align-items: center;
-}
-/* Bigger header logo */
-.site-logo img {
-  max-height: 56px;   /* try 56–64px; adjust to taste */
-  width: auto;
-  display: block;
-}
-
-/* keep header nicely aligned vertically */
-.masthead__inner-wrap {
-  align-items: center;
-  gap: .5rem;
-}
-
-/* Wider content area on desktop so tables can expand */
-@media (min-width: 1100px) {
-  .page,
-  .page__inner-wrap {
-    max-width: 1200px;     /* increase to 1280px if you want even wider */
-  }
-
-  .page__content {
-    padding-right: 1.25rem;
-    padding-left:  1.25rem;
-  }
-}
-
-/* Make tables use the full content width */
-.page__content table {
-  width: 100%;
-  max-width: none;
-  table-layout: auto;
-}
-.page__content th {
-  background-color: #1E3A8A;  /* Deep Tech Blue */
-  color: #fff;
-}
-/* ===========================================
-   VeyDigital - Expand Table + Page Width
-   =========================================== */
-
-/* Make main content area wider on desktop */
-@media (min-width: 1100px) {
-  .page,
-  .page__inner-wrap,
-  .page__content {
-    max-width: 1400px;   /* increase or decrease to taste */
-  }
-
-  /* Center the wider page */
-  .page__inner-wrap {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* Make tables use full available width */
-.page__content table {
-  width: 100%;
-  max-width: none;
-  table-layout: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Optional: align headings and cells cleanly */
-.page__content th,
-.page__content td {
-  padding: 1em 1.25em;
-  vertical-align: top;
-}
-
-/* Slightly larger font for better readability */
-.page__content table {
-  font-size: 0.95rem;
-}
-
+.masthead__inner-wrap { align-items: center; gap: .5rem; }
