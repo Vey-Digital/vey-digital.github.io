@@ -73,7 +73,6 @@ VeyDigital builds AI-powered analytics, lightweight automations, and clean dashb
 ## Join the community
 
 [Join our Discord ↗](https://discord.gg/yourInviteCode){: .btn .btn--primary target="_blank" rel="noopener" }  
-*Note: Discord isn’t end-to-end encrypted. For sensitive topics, contact us directly.*
 
 ---
 
