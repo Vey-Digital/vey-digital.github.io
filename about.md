@@ -4,117 +4,76 @@ title: About
 permalink: /about/
 ---
 
-VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.  
-We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.
-
-<h2 class="vd-wide-title">What VeyDigital Delivers</h2>
-
 <style>
-  /* Page-local styles (kept here to avoid Sass build errors) */
+/* ========== Page-local styles (single block to avoid SCSS build issues) ========== */
 
-  /* Base table style */
-  table.vd-plain {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    table-layout: auto;
-    margin: 0 0 1.25rem 0;
-  }
-  table.vd-plain td,
-  table.vd-plain th {
-    border: 1px solid #e6e9ef;
-    padding: 10px 14px;
-    vertical-align: top;
-    line-height: 1.5;
-    white-space: normal;
-    word-break: normal;
-    hyphens: auto;
-  }
-  table.vd-plain thead th {
-    background: #1E3A8A; /* VeyDigital blue */
-    color: #fff;
+/* Align H1, intro, section title, and wide table */
+@media (min-width: 1024px) {
+  .page__title,
+  .vd-wide-block,
+  .vd-wide-title {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1400px, 96vw);
+    max-width: 1400px;
     text-align: left;
-    font-weight: 700;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  table.vd-plain tbody tr:nth-child(even) td { background: #f8fafc; }
-  table.vd-plain tbody tr:hover td { background: #f1f5fb; }
+  .vd-wide-block { margin-bottom: 1rem; }
+}
 
-  /* Keep the H1 "About" in the normal content column */
-  .page__title {
+/* Base table style */
+table.vd-plain {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto;
+  margin: 0 0 1.25rem 0;
+}
+table.vd-plain td,
+table.vd-plain th {
+  border: 1px solid #e6e9ef;
+  padding: 10px 14px;
+  vertical-align: top;
+  line-height: 1.5;
+  white-space: normal;
+  word-break: normal;
+  hyphens: auto;
+}
+table.vd-plain thead th {
+  background: #1E3A8A; /* brand blue */
+  color: #fff;
+  text-align: left;
+  font-weight: 700;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+table.vd-plain tbody tr:nth-child(even) td { background: #f8fafc; }
+table.vd-plain tbody tr:hover td { background: #f1f5fb; }
+
+/* Widen ONLY the Deliverables table + match the section title */
+@media (min-width: 1024px) {
+  table.vd-delivers-wide {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1400px, 96vw);
+    max-width: 1400px;
+  }
+  .vd-wide-title {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1400px, 96vw);
+    max-width: 1400px;
+    margin: 0 0 .75rem 0;
     text-align: left;
-    position: static;
-    transform: none;
-    width: auto;
-    max-width: none;
-    margin-left: 0;
-    margin-right: 0;
   }
+}
 
-  /* Widen ONLY the Deliverables table + align its section title */
-  @media (min-width: 1024px) {
-    table.vd-delivers-wide {
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-      width: min(1280px, 96vw); /* adjust 1200–1400 to taste */
-      max-width: 1280px;
-    }
-    .vd-wide-title {
-      text-align: left;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-      width: min(1280px, 96vw);
-      max-width: 1280px;
-      margin: 0 0 .75rem 0;
-    }
-  }
-<!-- ===== VeyDigital: Add-ons + Case in brief (styled cards) ===== -->
-<div class="vd-callouts">
-  <section class="vd-card">
-    <h3>Optional add-ons</h3>
-    <ul class="vd-pills">
-      <li>SEO &amp; site-performance audits</li>
-      <li>Journey mapping</li>
-      <li>Competitor benchmarking dashboards</li>
-      <li>Predictive analytics (churn/retention)</li>
-      <li>AI chat/content assistants with guardrails</li>
-    </ul>
-  </section>
-
-  <section class="vd-card">
-    <h3>Case in brief — Global NGO</h3>
-    <ul class="vd-brief">
-      <li><span>Problem</span> 20+ countries with siloed web/ad/CRM data, messy UTMs, and slow readouts.</li>
-      <li><span>Fix</span> Google Cloud–native analytics layer, standardized KPIs/UTMs, daily one-action brief, secure country views.</li>
-      <li><span>Triggers</span> Donate-drop nudges; lapsed-donor reactivation.</li>
-    </ul>
-
-    <div class="vd-metrics">
-      <div class="vd-metric">
-        <div class="vd-num">+10–20%</div>
-        <div class="vd-label">conversion</div>
-      </div>
-      <div class="vd-metric">
-        <div class="vd-num">–15–25%</div>
-        <div class="vd-label">cost per gift</div>
-      </div>
-      <div class="vd-metric">
-        <div class="vd-num">Same-day</div>
-        <div class="vd-label">anomaly detection</div>
-      </div>
-      <div class="vd-metric">
-        <div class="vd-num">2–4 hrs/wk</div>
-        <div class="vd-label">saved per team</div>
-      </div>
-    </div>
-  </section>
-</div>
-
-<style>
-/* ===== Page-local styles for the two cards (safe for Jekyll) ===== */
+/* Cards: Optional add-ons + Case in brief */
 .vd-callouts{
   display:grid;
   grid-template-columns:1fr;
@@ -125,8 +84,6 @@ We build clean dashboards leaders trust, improve conversion with structured expe
 @media (min-width:1024px){
   .vd-callouts{ grid-template-columns:repeat(2,minmax(0,1fr)); }
 }
-
-/* Card */
 .vd-card{
   background:#fff;
   border:1px solid #e6e9ef;
@@ -141,35 +98,64 @@ We build clean dashboards leaders trust, improve conversion with structured expe
   position:relative;
   padding-left:.75rem;
 }
-<style>
-@media (min-width: 1024px) {
-  /* Keep H1, intro, and section title aligned with the wide table */
-  .page__title,
-  .vd-wide-title,
-  .vd-wide-block {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(1400px, 96vw);
-    max-width: 1400px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .vd-wide-block { margin-bottom: 1rem; }
+.vd-card h3::before{
+  content:"";
+  position:absolute;
+  left:0; top:.15rem; bottom:.15rem;
+  width:4px; border-radius:3px;
+  background:#1E3A8A;
 }
+.vd-pills{
+  display:flex; flex-wrap:wrap; gap:.5rem .6rem;
+  list-style:none; padding:0; margin:0;
+}
+.vd-pills li{
+  background:#eef2ff;
+  border:1px solid #e0e7ff;
+  color:#0f172a;
+  padding:.45rem .65rem;
+  border-radius:999px;
+  font-size:.95rem;
+  line-height:1.2;
+  white-space:nowrap;
+}
+.vd-brief{ list-style:none; padding:0; margin:0 0 1rem; }
+.vd-brief li{ margin:.5rem 0; line-height:1.55; }
+.vd-brief li span{
+  display:inline-block;
+  min-width:78px;
+  font-weight:700;
+  color:#1E3A8A;
+}
+.vd-metrics{
+  display:grid; gap:.75rem;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+@media (min-width:520px){ .vd-metrics{ gap:1rem; } }
+.vd-metric{
+  background:#f8fafc;
+  border:1px solid #e6e9ef;
+  border-radius:12px;
+  padding:.75rem .9rem;
+}
+.vd-num{ font-size:1.15rem; font-weight:800; color:#1E3A8A; letter-spacing:.2px; }
+.vd-label{ font-size:.9rem; color:#334155; margin-top:.1rem; }
 </style>
 
-</style>
+<div class="vd-wide-block">
+  <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.</p>
+  <p>We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.</p>
+</div>
 
+<h2 class="vd-wide-title">What VeyDigital Delivers</h2>
 
 <table class="vd-plain vd-delivers-wide">
   <thead>
     <tr>
-    <th>Service</th>
-    <th>Description</th>
-    <th>Deliverable</th>
-    <th>Tools</th>
+      <th>Service</th>
+      <th>Description</th>
+      <th>Deliverable</th>
+      <th>Tools</th>
     </tr>
   </thead>
   <tbody>
@@ -212,8 +198,34 @@ We build clean dashboards leaders trust, improve conversion with structured expe
   </tbody>
 </table>
 
+<div class="vd-callouts">
+  <section class="vd-card">
+    <h3>Optional add-ons</h3>
+    <ul class="vd-pills">
+      <li>SEO &amp; site-performance audits</li>
+      <li>Journey mapping</li>
+      <li>Competitor benchmarking dashboards</li>
+      <li>Predictive analytics (churn/retention)</li>
+      <li>AI chat/content assistants with guardrails</li>
+    </ul>
+  </section>
 
-
+  <section class="vd-card">
+    <h3>Case in brief — Global NGO</h3>
+    <ul class="vd-brief">
+      <li><span>Problem</span> 20+ countries with siloed web/ad/CRM data, messy UTMs, and slow readouts.</li>
+      <li><span>Fix</span> Google Cloud–native analytics layer, standardized KPIs/UTMs, daily one-action brief, secure country views.</li>
+      <li><span>Triggers</span> Donate-drop nudges; lapsed-donor reactivation.</li>
+    </ul>
+    <div class="vd-metrics">
+      <div class="vd-metric"><div class="vd-num">+10–20%</div><div class="vd-label">conversion</div></div>
+      <div class="vd-metric"><div class="vd-num">–15–25%</div><div class="vd-label">cost per gift</div></div>
+      <div class="vd-metric"><div class="vd-num">Same-day</div><div class="vd-label">anomaly detection</div></div>
+      <div class="vd-metric"><div class="vd-num">2–4 hrs/wk</div><div class="vd-label">saved per team</div></div>
+    </div>
+  </section>
+</div>
 
 ## Join the community
+
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
