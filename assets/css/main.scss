@@ -1,14 +1,5 @@
 ---
 ---
-
-/* Brand variables (optional) */
-$primary-color: #1E3A8A;
-$accent-color:  #3B82F6;
-$highlight-color:#FACC15;
-
-/* Theme + skin */
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
-
-/* Your overrides */
 @import "custom/custom";
