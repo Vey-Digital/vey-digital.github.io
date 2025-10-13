@@ -14,7 +14,7 @@ classes: wide about-page
 <p>Our work is grounded in three key principles that guide every solution we build:</p>
 
 <ul class="vd-values">
-  <li><strong>Clarity:</strong>We design analytics frameworks that make complex data easy to understand and share. Clear insights lead to better decisions.</li>
+  <li><strong>Clarity:</strong> We design analytics frameworks that make complex data easy to understand and share. Clear insights lead to better decisions.</li>
   <li><strong>Automation:</strong> We streamline processes to reduce manual work, ensuring accuracy and consistency across your systems and reports.</li>
   <li><strong>Empowerment:</strong> We help teams build lasting capability through practical training and documentation, so you can manage and scale your own data systems with confidence.</li>
 </ul>
@@ -75,16 +75,17 @@ classes: wide about-page
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
 
 <style>
-/* --- Page width expansion --- */
+/* ---- Page width expansion (scoped to this page) ---- */
+.about-page .page__inner_wrap,
 .about-page .page__inner-wrap,
 .about-page .page__content,
-.vd-plain.vd-delivers-wide {
+.about-page .vd-plain.vd-delivers-wide {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* --- Values (no boxes, professional look) --- */
+/* ---- Values list (no boxes) ---- */
 .vd-values {
   list-style: none;
   padding: 0;
@@ -96,36 +97,41 @@ classes: wide about-page
   font-size: 1.05rem;
 }
 .vd-values strong {
-  color: #0b1f3a; /* Deep Tech Blue for emphasis */
+  color: #0b1f3a; /* Deep Tech Blue */
   display: inline-block;
   min-width: 140px;
 }
 
-/* --- Table polish --- */
-.vd-plain.vd-delivers-wide th,
-.vd-plain.vd-delivers-wide td {
+/* ---- Deliverables table polish + readable colors ---- */
+.about-page .vd-plain.vd-delivers-wide th,
+.about-page .vd-plain.vd-delivers-wide td {
   padding: 0.6rem 0.8rem;
   text-align: left;
   vertical-align: top;
+  color: #0b0f14 !important; /* force near-black text */
 }
-.vd-plain.vd-delivers-wide th {
-  background: #f4f6fa;
+.about-page .vd-plain.vd-delivers-wide th * ,
+.about-page .vd-plain.vd-delivers-wide td * {
+  color: inherit !important;
+}
+.about-page .vd-plain.vd-delivers-wide th {
+  background: #f4f6fa !important;
   font-weight: 700;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #ddd !important;
 }
-.vd-plain.vd-delivers-wide td {
+.about-page .vd-plain.vd-delivers-wide td {
   border-bottom: 1px solid #e6e6e6;
 }
-.vd-plain.vd-delivers-wide tr:last-child td {
+.about-page .vd-plain.vd-delivers-wide tr:last-child td {
   border-bottom: none;
 }
 
-/* --- Links --- */
-a {
+/* ---- Links (scoped) ---- */
+.about-page a {
   color: #1da1ff;
   text-decoration: none;
 }
-a:hover {
+.about-page a:hover {
   text-decoration: underline;
 }
 </style>
