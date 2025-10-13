@@ -24,8 +24,8 @@ To make digital analytics and AI automation accessible, actionable, and empoweri
 We build every solution around three guiding principles:
 
 **Clarity**  
-We design analytics frameworks that make complex data simple to understand and easy to share.  
-Clear insights lead to better decisions.
+We design analytics frameworks that make complex data simple to understand and easy to share. Clear insights lead to better decisions.  
+
 
 **Automation**  
 We leverage AI and automation to eliminate repetitive work, ensuring accuracy, speed, and consistency across your systems.
