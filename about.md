@@ -51,6 +51,6 @@ We help teams build lasting capability through practical training, documentation
 ## Join the Community
 
 Be part of a growing network of digital thinkers and data leaders.  
-Access free resources, tutorials, and case studies designed to help you master analytics, automation, and AI — wherever you are on your journey.
+Access free resources, tutorials, and case studies designed to help you master analytics, automation, and AI wherever you are on your journey.
 
 [Join Now →](#)
