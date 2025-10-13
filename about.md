@@ -5,130 +5,53 @@ permalink: /about/
 classes: wide about-page
 ---
 
+**VeyDigital** is a modern analytics and automation studio helping organizations simplify their data and scale their impact.  
+We bridge technology and strategy, combining advanced analytics, AI-powered automation, and creative insight to turn fragmented information into clarity, efficiency, and measurable growth.
 
-<p><strong>VeyDigital</strong> is a modern analytics and automation studio that helps organizations simplify their data and scale their impact. We combine technical precision with marketing insight to turn fragmented information into clear dashboards, automated workflows, and measurable growth strategies.</p>
+We believe that **data should empower people, not overwhelm them.**  
+Every project we deliver is grounded in reliability, transparency, and collaboration.  
+Whether improving marketing performance, modernizing internal reporting, or building an end-to-end analytics stack, VeyDigital provides the structure and intelligence to help you move faster and smarter.
 
-<p>At our core, we believe that data should empower people, not overwhelm them. Every project we deliver is built on reliability, clarity, and collaboration. Whether you're improving marketing performance, modernizing internal reporting, or creating an integrated analytics stack, VeyDigital provides the structure and strategy to help you get there faster.</p>
+---
 
-<h2 class="vd-wide-title">Our Philosophy</h2>
+## Mission
 
-<p>Our work is grounded in three key principles that guide every solution we build:</p>
+To make digital analytics and AI automation accessible, actionable, and empowering, transforming data into insight, and insight into impact.
 
-<ul class="vd-values">
-  <li><strong>Clarity:</strong> We design analytics frameworks that make complex data easy to understand and share. Clear insights lead to better decisions.</li>
-  <li><strong>Automation:</strong> We streamline processes to reduce manual work, ensuring accuracy and consistency across your systems and reports.</li>
-  <li><strong>Empowerment:</strong> We help teams build lasting capability through practical training and documentation, so you can manage and scale your own data systems with confidence.</li>
-</ul>
+---
 
-<h2 class="vd-wide-title">What VeyDigital Delivers</h2>
+## Our Philosophy
 
-<table class="vd-plain vd-delivers-wide">
-  <thead>
-    <tr>
-      <th>Service</th>
-      <th>Description</th>
-      <th>Deliverable</th>
-         </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Digital Analytics &amp; Reporting</strong></td>
-      <td>Centralized dashboards integrating data from web, ads, CRM, and sales systems.</td>
-      <td>Automated dashboards with performance summaries</td>
-    </tr>
-    <tr>
-      <td><strong>Conversion Optimization (CRO)</strong></td>
-      <td>Data-driven testing to increase engagement, conversions, and ROI.</td>
-      <td>A/B test plans, reports, and improvement recommendations</td>
-    </tr>
-    <tr>
-      <td><strong>Automation &amp; Integration</strong></td>
-      <td>Custom data pipelines that connect marketing, CRM, and analytics tools seamlessly.</td>
-      <td>Documented workflows and integration setup</td>
-    </tr>
-    <tr>
-      <td><strong>Governance &amp; Tracking Standards</strong></td>
-      <td>Campaign and data tracking frameworks to ensure clean, consistent reporting.</td>
-      <td>UTM conventions, documentation, and onboarding guide</td>
-    </tr>
-    <tr>
-      <td><strong>Capacity Building &amp; Training</strong></td>
-      <td>Practical workshops and resources to help teams build analytical confidence.</td>
-      <td>Training sessions, quick-start guides, and skill assessments</td>
-    </tr>
-    <tr>
-      <td><strong>Performance Insights</strong></td>
-      <td>Ongoing data reviews focused on key trends and recommended actions.</td>
-      <td>Monthly insights and strategy summaries</td>
-    </tr>
-  </tbody>
-</table>
+We build every solution around three guiding principles:
 
-<h2 class="vd-wide-title">Join the Community</h2>
-<p>We collaborate with professionals who value transparency, innovation, and measurable outcomes. Join our network to exchange ideas, explore best practices, and stay current with emerging trends in analytics and automation.</p>
-<p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
+**Clarity**  
+We design analytics frameworks that make complex data simple to understand and easy to share.  
+Clear insights lead to better decisions.
 
-<style>
-/* ---- Page width expansion (scoped to this page) ---- */
-.about-page .page__inner_wrap,
-.about-page .page__inner-wrap,
-.about-page .page__content,
-.about-page .vd-plain.vd-delivers-wide {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+**Automation**  
+We leverage AI and automation to eliminate repetitive work, ensuring accuracy, speed, and consistency across your systems.
 
-/* ---- Values list (no boxes) ---- */
-.vd-values {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 2rem;
-}
-.vd-values li {
-  margin-bottom: 0.9rem;
-  line-height: 1.6;
-  font-size: 1.05rem;
-}
-/* FIX spacing after labels like "Clarity:" */
-.vd-values strong {
-  color: #0b1f3a;              /* Deep Tech Blue */
-  display: inline;             /* normal inline, not inline-block */
-  min-width: unset;            /* remove fixed width that created gaps */
-  margin-right: .35rem;        /* add a normal space after the label */
-  white-space: nowrap;         /* keep label on one line */
-}
+**Empowerment**  
+We help teams build lasting capability through practical training, documentation, and support — so you can own your data with confidence.
 
-/* ---- Deliverables table polish + readable colors ---- */
-.about-page .vd-plain.vd-delivers-wide th,
-.about-page .vd-plain.vd-delivers-wide td {
-  padding: 0.6rem 0.8rem;
-  text-align: left;
-  vertical-align: top;
-  color: #0b0f14 !important;   /* force near-black text */
-}
-.about-page .vd-plain.vd-delivers-wide th *,
-.about-page .vd-plain.vd-delivers-wide td * {
-  color: inherit !important;
-}
-.about-page .vd-plain.vd-delivers-wide th {
-  background: #f4f6fa !important;
-  font-weight: 700;
-  border-bottom: 2px solid #ddd !important;
-}
-.about-page .vd-plain.vd-delivers-wide td {
-  border-bottom: 1px solid #e6e6e6;
-}
-.about-page .vd-plain.vd-delivers-wide tr:last-child td {
-  border-bottom: none;
-}
+---
 
-/* ---- Links (scoped) ---- */
-.about-page a {
-  color: #1da1ff;
-  text-decoration: none;
-}
-.about-page a:hover {
-  text-decoration: underline;
-}
-</style>
+## What We Deliver
+
+| **Service** | **Description** | **Deliverable** |
+|--------------|----------------|----------------|
+| **Digital Analytics & Reporting** | Centralized dashboards integrating data from web, ads, CRM, and sales systems. | Automated dashboards with performance summaries |
+| **Conversion Optimization (CRO)** | Data-driven testing to increase engagement, conversions, and ROI. | A/B test plans, reports, and recommendations |
+| **Automation & Integration** | Custom data pipelines connecting marketing, CRM, and analytics tools seamlessly. | Documented workflows and integration setup |
+| **Governance & Tracking Standards** | Campaign and data frameworks ensuring clean, consistent reporting. | UTM conventions, documentation, and onboarding guide |
+| **Capacity Building & Training** | Practical workshops and resources to strengthen internal analytics skills. | Training sessions, quick-start guides, and assessments |
+| **Performance Insights** | Ongoing data reviews highlighting trends and next actions. | Monthly insights and strategy summaries |
+
+---
+
+## Join the Community
+
+Be part of a growing network of digital thinkers and data leaders.  
+Access free resources, tutorials, and case studies designed to help you master analytics, automation, and AI — wherever you are on your journey.
+
+[Join Now →](#)
