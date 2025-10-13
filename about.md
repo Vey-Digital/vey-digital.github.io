@@ -28,45 +28,38 @@ classes: wide about-page
       <th>Service</th>
       <th>Description</th>
       <th>Deliverable</th>
-      <th>Tools</th>
-    </tr>
+         </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>Digital Analytics &amp; Reporting</strong></td>
       <td>Centralized dashboards integrating data from web, ads, CRM, and sales systems.</td>
       <td>Automated dashboards with performance summaries</td>
-      <td>GA4, GTM, BigQuery, Power BI, Cloud BI Studio</td>
     </tr>
     <tr>
       <td><strong>Conversion Optimization (CRO)</strong></td>
       <td>Data-driven testing to increase engagement, conversions, and ROI.</td>
       <td>A/B test plans, reports, and improvement recommendations</td>
-      <td>Optimizely, VWO, GA4 Experiments</td>
     </tr>
     <tr>
       <td><strong>Automation &amp; Integration</strong></td>
       <td>Custom data pipelines that connect marketing, CRM, and analytics tools seamlessly.</td>
       <td>Documented workflows and integration setup</td>
-      <td>BigQuery, Supabase, Power Automate, Zapier</td>
     </tr>
     <tr>
       <td><strong>Governance &amp; Tracking Standards</strong></td>
       <td>Campaign and data tracking frameworks to ensure clean, consistent reporting.</td>
       <td>UTM conventions, documentation, and onboarding guide</td>
-      <td>Google Tag Manager, GA4, Data Studio</td>
     </tr>
     <tr>
       <td><strong>Capacity Building &amp; Training</strong></td>
       <td>Practical workshops and resources to help teams build analytical confidence.</td>
       <td>Training sessions, quick-start guides, and skill assessments</td>
-      <td>Power BI, Looker Studio, Custom LMS</td>
     </tr>
     <tr>
       <td><strong>Performance Insights</strong></td>
       <td>Ongoing data reviews focused on key trends and recommended actions.</td>
       <td>Monthly insights and strategy summaries</td>
-      <td>Google Sheets, Power BI, AI Assistant</td>
     </tr>
   </tbody>
 </table>
