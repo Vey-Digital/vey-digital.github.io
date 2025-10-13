@@ -2,14 +2,8 @@
 layout: single
 title: About
 permalink: /about/
+classes: wide about-page
 ---
-
-<div class="vd-wide">
-  <h2 class="vd-wide-title">About VeyDigital</h2>
-  <p><strong>VeyDigital</strong> is a data analytics and automation firm that helps organizations make smarter, faster decisions. We specialize in transforming fragmented marketing, web, CRM, and sales data into clear, actionable insights that drive measurable growth.</p>
-  <p>Our mission is to simplify complex data systems, improve performance visibility, and empower teams through intelligent dashboards, process automation, and modern analytics tools. We believe every organization — from startups to global nonprofits — should have access to reliable insights that lead to better strategy and stronger results.</p>
-  <p>At VeyDigital, we bridge the gap between data and execution. Our solutions are built for clarity, efficiency, and impact — so your team can spend less time managing data and more time making decisions that matter.</p>
-</div>
 
 <h2 class="vd-wide-title">Our Approach</h2>
 
@@ -84,53 +78,44 @@ permalink: /about/
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
 
 <style>
-/* ---- Our Approach: width + contrast fixes (page-scoped) ---- */
+/* --- Page width expansion --- */
+.about-page .page__inner-wrap,
+.about-page .page__content,
+.vd-approach,
+.vd-plain.vd-delivers-wide {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-/* Make the section itself wider and fluid */
-.vd-approach{
-  max-width: 1200px;                /* widen the whole section */
-  margin: 0 auto 2rem;
+/* --- Our Approach: improved width and color contrast --- */
+.vd-approach {
   display: grid;
   gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* cards don't get too narrow */
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  margin-bottom: 2rem;
 }
-
-/* Card styling with guaranteed contrast */
-.vd-approach-item{
-  background: #0c2545;              /* deep blue */
+.vd-approach-item {
+  background: #0c2545;
   border-radius: 1rem;
-  padding: 1.25rem 1.5rem;
+  padding: 1.5rem;
   box-shadow: 0 6px 18px rgba(0,0,0,.25);
-
-  /* FORCE light text even if theme tries to override */
   color: #ffffff !important;
 }
-.vd-approach-item *{ color: inherit !important; } /* inherit white by default */
-
-/* Headings get brand yellow for pop */
-.vd-approach-item h3{
-  color: #ffd84d !important;        /* Warm Yellow */
-  margin: 0 0 .45rem;
-  font-size: 1.15rem;
-  line-height: 1.25;
+.vd-approach-item * { color: inherit !important; }
+.vd-approach-item h3 {
+  color: #ffd84d !important;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
 }
-
-/* Comfortable reading */
-.vd-approach-item p{
+.vd-approach-item p {
   margin: 0;
   line-height: 1.6;
-  opacity: .95;                     /* softer white body text */
+  opacity: .95;
 }
-
-/* Slightly larger at desktop and keep cards comfortably wide */
-@media (min-width: 900px){
-  .vd-approach{
-    gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  }
-  .vd-approach-item h3{ font-size: 1.2rem; }
+@media (min-width: 900px) {
+  .vd-approach { gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
 }
-
-/* Optional: make this section align with a wider page content width */
-.about-page .vd-approach{ max-width: 1200px; }
 </style>
