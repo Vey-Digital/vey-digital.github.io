@@ -5,22 +5,23 @@ permalink: /about/
 classes: wide about-page
 ---
 
-<h2 class="vd-wide-title">Our Approach</h2>
+<h2 class="vd-wide-title">About VeyDigital</h2>
 
-<div class="vd-approach">
-  <div class="vd-approach-item">
-    <h3>Clarity</h3>
-    <p>We translate complex data into visuals and frameworks that everyone can understand. Leaders make better choices when the information is simple and transparent.</p>
-  </div>
-  <div class="vd-approach-item">
-    <h3>Automation</h3>
-    <p>We eliminate repetitive manual work through intelligent workflows that keep your systems in sync — ensuring accuracy, consistency, and time savings across teams.</p>
-  </div>
-  <div class="vd-approach-item">
-    <h3>Empowerment</h3>
-    <p>We upskill teams with the tools and training needed to confidently use data every day, creating a culture of ownership, insight, and accountability.</p>
-  </div>
-</div>
+<p><strong>VeyDigital</strong> is a modern analytics and automation studio that helps organizations simplify their data and scale their impact. We combine technical precision with marketing insight to turn fragmented information into clear dashboards, automated workflows, and measurable growth strategies.</p>
+
+<p>Our team includes experienced software developers, data analysts, and marketing specialists who understand both the technical and strategic sides of data. We build tools that help decision-makers see the full picture — from campaign performance to customer behavior — and act with confidence.</p>
+
+<p>At our core, we believe that data should empower people, not overwhelm them. Every project we deliver is built on reliability, clarity, and collaboration. Whether you're improving marketing performance, modernizing internal reporting, or creating an integrated analytics stack, VeyDigital provides the structure and strategy to help you get there faster.</p>
+
+<h2 class="vd-wide-title">Our Philosophy</h2>
+
+<p>Our work is grounded in three key principles that guide every solution we build:</p>
+
+<ul class="vd-values">
+  <li><strong>Clarity:</strong> We design analytics frameworks that make complex data easy to understand and share. Clear insights lead to better decisions.</li>
+  <li><strong>Automation:</strong> We streamline processes to reduce manual work, ensuring accuracy and consistency across your systems and reports.</li>
+  <li><strong>Empowerment:</strong> We help teams build lasting capability through practical training and documentation, so you can manage and scale your own data systems with confidence.</li>
+</ul>
 
 <h2 class="vd-wide-title">What VeyDigital Delivers</h2>
 
@@ -74,48 +75,61 @@ classes: wide about-page
 </table>
 
 <h2 class="vd-wide-title">Join the Community</h2>
-<p>Connect with data professionals, marketers, and developers who value collaboration, innovation, and real results. Share knowledge, ask questions, and grow with us.</p>
+<p>We collaborate with professionals who value transparency, innovation, and measurable outcomes. Join our network to exchange ideas, explore best practices, and stay current with emerging trends in analytics and automation.</p>
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
 
 <style>
 /* --- Page width expansion --- */
 .about-page .page__inner-wrap,
 .about-page .page__content,
-.vd-approach,
 .vd-plain.vd-delivers-wide {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* --- Our Approach: improved width and color contrast --- */
-.vd-approach {
-  display: grid;
-  gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  margin-bottom: 2rem;
+/* --- Values (no boxes, professional look) --- */
+.vd-values {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem;
 }
-.vd-approach-item {
-  background: #0c2545;
-  border-radius: 1rem;
-  padding: 1.5rem;
-  box-shadow: 0 6px 18px rgba(0,0,0,.25);
-  color: #ffffff !important;
-}
-.vd-approach-item * { color: inherit !important; }
-.vd-approach-item h3 {
-  color: #ffd84d !important;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.25rem;
-  line-height: 1.3;
-}
-.vd-approach-item p {
-  margin: 0;
+.vd-values li {
+  margin-bottom: 0.9rem;
   line-height: 1.6;
-  opacity: .95;
+  font-size: 1.05rem;
 }
-@media (min-width: 900px) {
-  .vd-approach { gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
+.vd-values strong {
+  color: #0b1f3a; /* Deep Tech Blue for emphasis */
+  display: inline-block;
+  min-width: 140px;
+}
+
+/* --- Table polish --- */
+.vd-plain.vd-delivers-wide th,
+.vd-plain.vd-delivers-wide td {
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+.vd-plain.vd-delivers-wide th {
+  background: #f4f6fa;
+  font-weight: 700;
+  border-bottom: 2px solid #ddd;
+}
+.vd-plain.vd-delivers-wide td {
+  border-bottom: 1px solid #e6e6e6;
+}
+.vd-plain.vd-delivers-wide tr:last-child td {
+  border-bottom: none;
+}
+
+/* --- Links --- */
+a {
+  color: #1da1ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 </style>
