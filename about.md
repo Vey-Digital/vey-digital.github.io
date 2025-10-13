@@ -5,26 +5,26 @@ permalink: /about/
 ---
 
 <div class="vd-wide">
-  <h2 class="vd-wide-title">What Is VeyDigital?</h2>
-  <p><strong>VeyDigital</strong> was born from a simple belief — that data should feel clear, empowering, and human. Too often, organizations drown in reports, dashboards, and spreadsheets that confuse more than they clarify. We started VeyDigital to change that.</p>
-  <p>Our mission is to help teams turn raw data into stories they can act on. We blend analytics, automation, and design thinking to reveal insights that drive real decisions — not just pretty charts. Whether it’s a startup refining its marketing funnel or an NGO tracking impact, we focus on clarity, transparency, and measurable results.</p>
-  <p>Every project begins with one question: <em>“How can we make this simpler, faster, and smarter for the people who use it?”</em> From there, we build solutions that reduce noise, automate the routine, and give leaders confidence in every number they see.</p>
+  <h2 class="vd-wide-title">About VeyDigital</h2>
+  <p><strong>VeyDigital</strong> is a data analytics and automation firm that helps organizations make smarter, faster decisions. We specialize in transforming fragmented marketing, web, CRM, and sales data into clear, actionable insights that drive measurable growth.</p>
+  <p>Our mission is to simplify complex data systems, improve performance visibility, and empower teams through intelligent dashboards, process automation, and modern analytics tools. We believe every organization — from startups to global nonprofits — should have access to reliable insights that lead to better strategy and stronger results.</p>
+  <p>At VeyDigital, we bridge the gap between data and execution. Our solutions are built for clarity, efficiency, and impact — so your team can spend less time managing data and more time making decisions that matter.</p>
 </div>
 
 <h2 class="vd-wide-title">Our Approach</h2>
 
 <div class="vd-approach">
   <div class="vd-approach-item">
-    <h3>Clarity First</h3>
-    <p>We turn complexity into simplicity. Every chart, workflow, and report is designed to be instantly understood — because real insight happens when everyone can see the same truth.</p>
+    <h3>Clarity</h3>
+    <p>We translate complex data into visuals and frameworks that everyone can understand. Leaders make better choices when the information is simple and transparent.</p>
   </div>
   <div class="vd-approach-item">
-    <h3>Automate the Repetitive</h3>
-    <p>Busywork kills momentum. We build automations that handle the repetitive, freeing your team to focus on strategy, creativity, and meaningful decisions.</p>
+    <h3>Automation</h3>
+    <p>We eliminate repetitive manual work through intelligent workflows that keep your systems in sync — ensuring accuracy, consistency, and time savings across teams.</p>
   </div>
   <div class="vd-approach-item">
-    <h3>Empower the People</h3>
-    <p>Data is only powerful when people can use it. We train, document, and design systems that give your team confidence to explore, test, and grow independently.</p>
+    <h3>Empowerment</h3>
+    <p>We upskill teams with the tools and training needed to confidently use data every day — creating a culture of ownership, insight, and accountability.</p>
   </div>
 </div>
 
@@ -42,49 +42,48 @@ permalink: /about/
   <tbody>
     <tr>
       <td><strong>Digital Analytics &amp; Reporting</strong></td>
-      <td>Automated dashboards across web, ads, CRM, and sales so leaders get one clear view.</td>
-      <td>Insight dashboards with weekly or monthly updates</td>
+      <td>Centralized dashboards integrating data from web, ads, CRM, and sales systems.</td>
+      <td>Automated dashboards with performance summaries</td>
       <td>GA4, GTM, BigQuery, Power BI, Cloud BI Studio</td>
     </tr>
     <tr>
       <td><strong>Conversion Optimization (CRO)</strong></td>
-      <td>Structured A/B testing for pages, funnels, ads, and emails to uncover what truly works.</td>
-      <td>Test plans, results, and next-step recommendations</td>
+      <td>Data-driven testing to increase engagement, conversions, and ROI.</td>
+      <td>A/B test plans, reports, and improvement recommendations</td>
       <td>Optimizely, VWO, GA4 Experiments</td>
     </tr>
     <tr>
       <td><strong>Automation &amp; Integration</strong></td>
-      <td>Lightweight pipelines that connect your marketing and sales data seamlessly.</td>
-      <td>Documented ETL workflows (e.g., BigQuery or Supabase + automation tools)</td>
+      <td>Custom data pipelines that connect marketing, CRM, and analytics tools seamlessly.</td>
+      <td>Documented workflows and integration setup</td>
       <td>BigQuery, Supabase, Power Automate, Zapier</td>
     </tr>
     <tr>
       <td><strong>Governance &amp; Tracking Standards</strong></td>
-      <td>Consistent UTM taxonomy, naming conventions, and campaign tracking rules.</td>
-      <td>Tracking framework and onboarding guide</td>
+      <td>Campaign and data tracking frameworks to ensure clean, consistent reporting.</td>
+      <td>UTM conventions, documentation, and onboarding guide</td>
       <td>Google Tag Manager, GA4, Data Studio</td>
     </tr>
     <tr>
       <td><strong>Capacity Building &amp; Training</strong></td>
-      <td>Short workshops and reusable guides so teams can self-serve with confidence.</td>
-      <td>Bootcamps, quick-reference manuals, and skills assessments</td>
+      <td>Practical workshops and resources to help teams build analytical confidence.</td>
+      <td>Training sessions, quick-start guides, and skill assessments</td>
       <td>Power BI, Looker Studio, Custom LMS</td>
     </tr>
     <tr>
       <td><strong>Performance Insights</strong></td>
-      <td>Concise weekly or monthly briefs highlighting what changed and what to do next.</td>
-      <td>Strategy notes with prioritized actions</td>
+      <td>Ongoing data reviews focused on key trends and recommended actions.</td>
+      <td>Monthly insights and strategy summaries</td>
       <td>Google Sheets, Power BI, AI Assistant</td>
     </tr>
   </tbody>
 </table>
 
 <h2 class="vd-wide-title">Join the Community</h2>
-<p>We’re building a space for data-driven creators, marketers, and technologists who believe in clarity, transparency, and shared learning. Together, we explore smarter ways to connect data with impact.</p>
+<p>Connect with data professionals, marketers, and developers who value collaboration, innovation, and real results. Share knowledge, ask questions, and grow with us.</p>
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
 
 <style>
-/* --- Approach Section --- */
 .vd-approach {
   display: grid;
   grid-template-columns: 1fr;
