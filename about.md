@@ -1,9 +1,10 @@
 ---
 layout: single
 title: About
-permalink: /
+permalink: /about/
 classes: wide about-page
 ---
+
 
 <p><strong>VeyDigital</strong> is a modern analytics and automation studio that helps organizations simplify their data and scale their impact. We combine technical precision with marketing insight to turn fragmented information into clear dashboards, automated workflows, and measurable growth strategies.</p>
 
