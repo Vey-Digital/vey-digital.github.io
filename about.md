@@ -9,23 +9,6 @@ permalink: /about/
   <p>We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.</p>
 </div>
 
-/* Table styling */
-table.vd-plain{ width:100%; border-collapse:collapse; font-family:Arial,Helvetica,sans-serif; }
-table.vd-plain th, table.vd-plain td{ border:1px solid #e6e9ef; padding:10px 14px; vertical-align:top; line-height:1.5; }
-table.vd-plain thead th{ background:#1E3A8A; color:#fff; text-align:left; font-weight:700; }
-table.vd-plain tbody tr:nth-child(even) td{ background:#f8fafc; }
-
-/* Keep only the Deliverables table wide */
-@media (min-width:1024px){
-  table.vd-delivers-wide{
-    position:relative;
-    left:50%;
-    transform:translateX(-50%);
-    width:min(1400px,96vw);
-    max-width:1400px;
-  }
-}
-</style>
 
 <div class="vd-wide vd-intro">
   <p>VeyDigital turns scattered marketing, web, CRM, and sales data into clear decisions.</p>
