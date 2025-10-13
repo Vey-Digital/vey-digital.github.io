@@ -84,33 +84,53 @@ permalink: /about/
 <p><a href="https://discord.gg/yourInvite">Join our Discord ↗</a></p>
 
 <style>
-.vd-approach {
+/* ---- Our Approach: width + contrast fixes (page-scoped) ---- */
+
+/* Make the section itself wider and fluid */
+.vd-approach{
+  max-width: 1200px;                /* widen the whole section */
+  margin: 0 auto 2rem;
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* cards don't get too narrow */
 }
-.vd-approach-item {
-  background: #0b1f3a;
-  color: #fff;
+
+/* Card styling with guaranteed contrast */
+.vd-approach-item{
+  background: #0c2545;              /* deep blue */
   border-radius: 1rem;
   padding: 1.25rem 1.5rem;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  box-shadow: 0 6px 18px rgba(0,0,0,.25);
+
+  /* FORCE light text even if theme tries to override */
+  color: #ffffff !important;
 }
-.vd-approach-item h3 {
-  color: #ffd84d;
-  margin-top: 0;
-  margin-bottom: 0.4rem;
-  font-size: 1.25rem;
+.vd-approach-item *{ color: inherit !important; } /* inherit white by default */
+
+/* Headings get brand yellow for pop */
+.vd-approach-item h3{
+  color: #ffd84d !important;        /* Warm Yellow */
+  margin: 0 0 .45rem;
+  font-size: 1.15rem;
+  line-height: 1.25;
 }
-.vd-approach-item p {
+
+/* Comfortable reading */
+.vd-approach-item p{
   margin: 0;
-  opacity: 0.95;
-  line-height: 1.55;
+  line-height: 1.6;
+  opacity: .95;                     /* softer white body text */
 }
-@media (min-width: 800px) {
-  .vd-approach {
-    grid-template-columns: repeat(3, 1fr);
+
+/* Slightly larger at desktop and keep cards comfortably wide */
+@media (min-width: 900px){
+  .vd-approach{
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   }
+  .vd-approach-item h3{ font-size: 1.2rem; }
 }
+
+/* Optional: make this section align with a wider page content width */
+.about-page .vd-approach{ max-width: 1200px; }
 </style>
