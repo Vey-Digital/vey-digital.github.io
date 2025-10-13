@@ -5,8 +5,6 @@ permalink: /about/
 classes: wide about-page
 ---
 
-<h2 class="vd-wide-title"> VeyDigital</h2>
-
 <p><strong>VeyDigital</strong> is a modern analytics and automation studio that helps organizations simplify their data and scale their impact. We combine technical precision with marketing insight to turn fragmented information into clear dashboards, automated workflows, and measurable growth strategies.</p>
 
 <p>At our core, we believe that data should empower people, not overwhelm them. Every project we deliver is built on reliability, clarity, and collaboration. Whether you're improving marketing performance, modernizing internal reporting, or creating an integrated analytics stack, VeyDigital provides the structure and strategy to help you get there faster.</p>
