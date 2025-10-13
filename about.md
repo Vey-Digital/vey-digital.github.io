@@ -14,7 +14,7 @@ classes: wide about-page
 <p>Our work is grounded in three key principles that guide every solution we build:</p>
 
 <ul class="vd-values">
-  <li><strong>Clarity:</strong> We design analytics frameworks that make complex data easy to understand and share. Clear insights lead to better decisions.</li>
+  <li><strong>Clarity:</strong>We design analytics frameworks that make complex data easy to understand and share. Clear insights lead to better decisions.</li>
   <li><strong>Automation:</strong> We streamline processes to reduce manual work, ensuring accuracy and consistency across your systems and reports.</li>
   <li><strong>Empowerment:</strong> We help teams build lasting capability through practical training and documentation, so you can manage and scale your own data systems with confidence.</li>
 </ul>
