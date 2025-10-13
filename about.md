@@ -9,51 +9,6 @@ permalink: /about/
   <p>We build clean dashboards leaders trust, improve conversion with structured experiments, and automate the busywork so your team can focus on impact.</p>
 </div>
 
-/* Reduce space under the H1 “About” */
-.page__title {
-  margin-bottom: .35rem !important;
-}
-
-/* Tighten the first two paragraphs after the title */
-.page__content > p:first-of-type {
-  margin-top: 0 !important;
-}
-.page__content > p:first-of-type,
-.page__content > p:nth-of-type(2) {
-  margin: .4rem 0 .4rem !important;
-  line-height: 1.55;
-}
-
-/* Slightly reduce space before the Deliverables heading */
-.vd-wide-title {
-  margin-top: .9rem !important;
-  margin-bottom: .5rem !important;
-}
-
-/* Align H1, intro, section title, and table to the same left edge & width */
-@media (min-width: 1024px){
-  .page__title, .vd-wide, .vd-wide-title{
-    position:relative;
-    left:50%;
-    transform:translateX(-50%);
-    width:min(1400px,96vw);
-    max-width:1400px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:left;
-  }
-}
-
-/* Simple, readable callout */
-.vd-callout{
-  border:1px solid #e6e9ef;
-  border-radius:12px;
-  padding:1rem 1.25rem;
-  background:#f8fafc;
-  margin:1rem 0;
-}
-.vd-callout strong{ color:#1E3A8A; }
-
 /* Table styling */
 table.vd-plain{ width:100%; border-collapse:collapse; font-family:Arial,Helvetica,sans-serif; }
 table.vd-plain th, table.vd-plain td{ border:1px solid #e6e9ef; padding:10px 14px; vertical-align:top; line-height:1.5; }
