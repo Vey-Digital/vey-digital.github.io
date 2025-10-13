@@ -18,7 +18,7 @@ classes: wide about-page
   </div>
   <div class="vd-approach-item">
     <h3>Empowerment</h3>
-    <p>We upskill teams with the tools and training needed to confidently use data every day — creating a culture of ownership, insight, and accountability.</p>
+    <p>We upskill teams with the tools and training needed to confidently use data every day, creating a culture of ownership, insight, and accountability.</p>
   </div>
 </div>
 
