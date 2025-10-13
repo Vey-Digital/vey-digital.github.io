@@ -1,10 +1,9 @@
 main:
-  - title: "ℹ️ About"
-    url: /about/
-  - title: "📘 Playbook"
+  - title: "About"
+    url: /
+  - title: "Playbook"
     url: /playbook/
-  - title: "🎬 Videos"
+  - title: "Videos"
     url: /videos/
-  - title: "📝 Blog"
+  - title: "Blog"
     url: /blog/
-
