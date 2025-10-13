@@ -19,7 +19,6 @@ Whether improving marketing performance, modernizing internal reporting, or buil
 To make digital analytics and AI automation accessible, actionable, and empowering, transforming data into insight, and insight into impact.
 
 ---
-
 ## Our Philosophy
 
 We build every solution around three guiding principles:
@@ -32,7 +31,7 @@ Clear insights lead to better decisions.
 We leverage AI and automation to eliminate repetitive work, ensuring accuracy, speed, and consistency across your systems.
 
 **Empowerment**  
-We help teams build lasting capability through practical training, documentation, and support — so you can own your data with confidence.
+We help teams build lasting capability through practical training, documentation, and support; so you can own your data with confidence.
 
 ---
 
