@@ -14,7 +14,7 @@ classes: wide about-page
 <p>Our work is grounded in three key principles that guide every solution we build:</p>
 
 <ul class="vd-values">
-  <li><strong>Clarity:</strong>We design analytics frameworks that make complex data easy to understand and share. Clear insights lead to better decisions.</li>
+  <li><strong>Clarity:</strong> We design analytics frameworks that make complex data easy to understand and share. Clear insights lead to better decisions.</li>
   <li><strong>Automation:</strong> We streamline processes to reduce manual work, ensuring accuracy and consistency across your systems and reports.</li>
   <li><strong>Empowerment:</strong> We help teams build lasting capability through practical training and documentation, so you can manage and scale your own data systems with confidence.</li>
 </ul>
@@ -96,10 +96,13 @@ classes: wide about-page
   line-height: 1.6;
   font-size: 1.05rem;
 }
+/* FIX spacing after labels like "Clarity:" */
 .vd-values strong {
-  color: #0b1f3a; /* Deep Tech Blue */
-  display: inline-block;
-  min-width: 140px;
+  color: #0b1f3a;              /* Deep Tech Blue */
+  display: inline;             /* normal inline, not inline-block */
+  min-width: unset;            /* remove fixed width that created gaps */
+  margin-right: .35rem;        /* add a normal space after the label */
+  white-space: nowrap;         /* keep label on one line */
 }
 
 /* ---- Deliverables table polish + readable colors ---- */
@@ -108,9 +111,9 @@ classes: wide about-page
   padding: 0.6rem 0.8rem;
   text-align: left;
   vertical-align: top;
-  color: #0b0f14 !important; /* force near-black text */
+  color: #0b0f14 !important;   /* force near-black text */
 }
-.about-page .vd-plain.vd-delivers-wide th * ,
+.about-page .vd-plain.vd-delivers-wide th *,
 .about-page .vd-plain.vd-delivers-wide td * {
   color: inherit !important;
 }
