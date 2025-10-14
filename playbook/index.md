@@ -19,8 +19,8 @@ If it doesn’t appear, open it directly in a new tab.
 ---
 
 ### LLM & AI Music Beta  
-Discover the next evolution of creativity with **VeyDigital’s AI Music Beta**, powered by large language models (LLMs) and generative sound systems.  
-This experimental project explores how AI can write, compose, and sing — blending natural language understanding with emotional resonance.
+Discover the next evolution of creativity with ** AI Music Beta**, powered by large language models (LLMs) and generative sound systems.  
+This experimental project explores how AI can write, compose, and sing, blending natural language understanding with emotional resonance.
 
 🎧 **What’s Included**  
 - AI-generated lyrics and melodies built with transformer-based LLMs  
