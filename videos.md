@@ -111,18 +111,19 @@ classes: wide   # <— wider page container so cards can be wider
 </section>
 
 <!-- Second section -->
-<section id="videos-chatgpt">
+<section id="videos-youtube">
   <h2 style="max-width:1180px;margin:1.5rem auto .75rem;padding-inline:8px;">Start Now: No Need to Be an Expert</h2>
   <div class="vd-grid">
     <article class="vd-card">
       <div class="vd-embed">
         <iframe
           src="https://www.youtube.com/embed/GX5bPMa6ixI"
-          title=" — YouTube"
+          title="Start Now: No Need to Be an Expert"
           loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
       </div>
-        </article>
+      <h3 class="vd-title">Can Small and Medium Businesses Afford BCG or McKinsey?</h3>
+    </article>
   </div>
 </section>
