@@ -19,7 +19,7 @@ If it doesn’t appear, open it directly in a new tab.
 ---
 
 ### LLM & AI Music Beta  
-Discover the next evolution of creativity with ** AI Music Beta**, powered by large language models (LLMs) and generative sound systems.  
+Discover the next evolution of creativity with **AI Music Beta**, powered by large language models (LLMs) and generative sound systems.  
 This experimental project explores how AI and Human can write, compose, and sing, blending natural language understanding with emotional resonance.
 
 🎧 **What’s Included**  
@@ -31,4 +31,13 @@ This experimental project explores how AI and Human can write, compose, and sing
 🌐 **Join the Beta**  
 Data-driven platform and share feedback.
 
-coming soon!
+coming soon! streaming platform for AI-generated music.
+Legal/Policy (quick checklist)
+
+You hosting your own original AI works: simplest path. (Avoid third-party copyrighted stems.)
+Post clear Terms of Service, Privacy Policy, and DMCA process (takedown email, repeat-infringer clause).
+If you later host third-party music (covers, user uploads), you’ll need to address:
+Mechanical licenses for compositions
+Public performance reporting to PROs (ASCAP/BMI/SESAC) and SoundExchange (for digital performance of sound recordings)
+Add a “No copyrighted inputs without license” rule for AI training/derivations.
+(This is product guidance, not legal advice.)
