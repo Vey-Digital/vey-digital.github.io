@@ -111,3 +111,22 @@ classes: wide   # <— wider page container so cards can be wider
 
   </div>
 </section>
+
+<!-- ChatGPT Section -->
+<section id="videos-chatgpt">
+  <h2 style="max-width:1180px;margin:1.5rem auto .75rem;padding-inline:8px;">ChatGPT</h2>
+  <div class="vd-grid">
+    <article class="vd-card">
+      <div class="vd-embed">
+        <iframe
+          src="https://www.youtube.com/embed/GX5bPMa6ixI"
+          title="ChatGPT — YouTube"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <h3 class="vd-title">ChatGPT</h3>
+    </article>
+  </div>
+</section>
+
