@@ -58,6 +58,8 @@ classes: wide   # <— wider page container so cards can be wider
   <div class="vd-grid">
 
     <!-- 1 -->
+<section id="Section ">
+  <h2 style="max-width:1180px;margin:1.5rem auto .75rem;padding-inline:8px;">Work Hard and Be Nicet</h2>
     <article class="vd-card">
       <div class="vd-embed">
         <iframe
