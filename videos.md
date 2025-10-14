@@ -118,7 +118,7 @@ classes: wide   # <— wider page container so cards can be wider
       <div class="vd-embed">
         <iframe
           src="https://www.youtube.com/embed/GX5bPMa6ixI"
-          title="ChatGPT — YouTube"
+          title=" — YouTube"
           loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
