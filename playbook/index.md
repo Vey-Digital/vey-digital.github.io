@@ -20,24 +20,31 @@ If it doesn’t appear, open it directly in a new tab.
 
 ### LLM & AI Music Beta  
 Discover the next evolution of creativity with **AI Music Beta**, powered by large language models (LLMs) and generative sound systems.  
-This experimental project explores how AI and Human can write, compose, and sing, blending natural language understanding with emotional resonance.
+This experimental project explores how AI and humans can collaborate to write, compose, and sing — blending natural language understanding with emotional resonance.
 
 🎧 **What’s Included**  
-- AI-generated lyrics and melodies built with transformer-based LLMs  
-- Emotion-aware voice synthesis for duets and multilingual tracks  
-- Beta access to our experimental **AI Composer**, trained on cross-genre patterns  
-- Visual pairing with AI-generated artwork for immersive storytelling  
+- AI-generated lyrics and melodies using transformer-based LLMs  
+- Emotion-aware voice synthesis for duets and multilingual performances  
+- Early access to our experimental **AI Composer**, trained on cross-genre patterns  
+- Visual storytelling paired with AI-generated artwork  
+---
 
 🌐 **Join the Beta**  
-Data-driven platform and share feedback.
+A data-driven platform designed for creators to explore, test, and share feedback.  
+**Coming Soon:** a full **streaming platform** dedicated to AI-generated music.
 
-coming soon! streaming platform for AI-generated music.
-Legal/Policy (quick checklist)
+---
 
-You hosting your own original AI works: simplest path. (Avoid third-party copyrighted stems.)
-Post clear Terms of Service, Privacy Policy, and DMCA process (takedown email, repeat-infringer clause).
-If you later host third-party music (covers, user uploads), you’ll need to address:
-Mechanical licenses for compositions
-Public performance reporting to PROs (ASCAP/BMI/SESAC) and SoundExchange (for digital performance of sound recordings)
-Add a “No copyrighted inputs without license” rule for AI training/derivations.
-(This is product guidance, not legal advice.)
+### Legal & Policy Overview  
+To maintain transparency and compliance, VeyDigital follows key principles for hosting AI-generated works:
+
+- Host only **original AI works** you create. Avoid third-party copyrighted stems.  
+- Maintain a clear **Terms of Service**, **Privacy Policy**, and **DMCA process** (takedown email and repeat-infringer clause).  
+- For third-party content (covers or user uploads), ensure proper licensing for:  
+  - **Mechanical licenses** for compositions  
+  - **Public performance reporting** (ASCAP, BMI, SESAC, SoundExchange)  
+- Add a **“No copyrighted inputs without license”** rule for AI training or derived works.  
+
+> *This section provides general product guidance, not legal advice.*
+
+---
