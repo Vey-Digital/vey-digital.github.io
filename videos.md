@@ -123,7 +123,6 @@ classes: wide   # <— wider page container so cards can be wider
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
       </div>
-      <h3 class="vd-title">ChatGPT</h3>
-    </article>
+        </article>
   </div>
 </section>
