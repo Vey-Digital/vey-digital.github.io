@@ -6,7 +6,6 @@ classes: wide   # <— wider page container so cards can be wider
 ---
 
 <!-- Page-scoped styles with high specificity + !important -->
-<!-- Page-scoped styles with high specificity + !important -->
 <style>
   /* Scope everything to this page only */
   #videos-page .vd-grid{
@@ -52,14 +51,12 @@ classes: wide   # <— wider page container so cards can be wider
   #videos-page h3.vd-title{ margin:.35rem 0 .1rem !important; font-weight:600 !important; font-size:.95rem !important; line-height:1.25 !important; }
 </style>
 
-
-
 <section id="videos-page">
-  <div class="vd-grid">
+  <!-- Section heading for the first grid -->
+  <h2 style="max-width:1180px;margin:1.5rem auto .75rem;padding-inline:8px;">Work Hard and Be Nice</h2>
 
+  <div class="vd-grid">
     <!-- 1 -->
-<section id="Section ">
-  <h2 style="max-width:1180px;margin:1.5rem auto .75rem;padding-inline:8px;">Work Hard and Be Nicet</h2>
     <article class="vd-card">
       <div class="vd-embed">
         <iframe
@@ -110,11 +107,10 @@ classes: wide   # <— wider page container so cards can be wider
       </div>
       <h3 class="vd-title">The AI Safety Expert: These Are The Only 5 Jobs That Will Remain In 2030! — Dr. Roman Yampolskiy</h3>
     </article>
-
   </div>
 </section>
 
-<!-- Section -->
+<!-- Second section -->
 <section id="videos-chatgpt">
   <h2 style="max-width:1180px;margin:1.5rem auto .75rem;padding-inline:8px;">Start Now: No Need to Be an Expert</h2>
   <div class="vd-grid">
@@ -131,4 +127,3 @@ classes: wide   # <— wider page container so cards can be wider
     </article>
   </div>
 </section>
-
