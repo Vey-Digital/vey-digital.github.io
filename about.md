@@ -73,6 +73,32 @@ All agents operate in controlled, read-only environments that meet strict securi
 4. **Implement AI Agents**  Automate summaries, monitoring, and insights  
 5. **Support and Training**  Provide documentation and guidance for sustainable use  
 
+<details>
+  <summary><strong>Ongoing Support and Optimization</strong></summary>
+
+VeyDigital provides flexible add-ons and monthly retainer plans to keep your analytics effective after launch.  
+Choose the level of ongoing support that fits your goals. Contact us for a tailored quote.
+
+**Popular Add-Ons**
+- Connect additional data sources and systems
+- Create new dashboards or drill-down reports
+- Add AI agents for alerts, anomaly detection, and board-ready summaries
+- Implement advanced permissions and secure hosting
+- Monthly performance reviews with KPI tuning
+
+**Retainer Plans**
+Our retainers include a set number of support hours each month for updates, fine-tuning, and monitoring.  
+Clients on retainers receive priority scheduling and proactive recommendations.
+
+- <strong>Essentials Retainer</strong>. Steady upkeep for smaller teams. Includes minor updates, data checks, and quick fixes.
+- <strong>Growth Retainer</strong>. Designed for teams that iterate. Includes agent tuning, quarterly audits, and a monthly insight summary.
+- <strong>Pro Retainer</strong>. For ongoing enhancement. Includes continuous monitoring, new integrations, and advisory sessions.
+
+<a class="btn btn--primary" href="/contact/">Request a Retainer Recommendation →</a>
+
+</details>
+
+
 ## Get in Touch
 
 VeyDigital delivers practical analytics and intelligent automation that help organizations operate with clarity, precision, and speed.  
