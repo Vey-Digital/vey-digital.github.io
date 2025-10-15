@@ -6,7 +6,7 @@ classes: wide about-page
 description: "VeyDigital builds data dashboards and AI automation tools that help small and medium businesses make faster, informed decisions."
 
 ---
-**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into clear, actionable insight, helping leaders make confident, data driven decisions while reducing technology and licensing costs.   
+**VeyDigital** helps small and medium sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into clear, actionable insight, helping leaders make confident, data driven decisions while reducing technology and licensing costs.   
 
 *Powered by Google’s trusted analytics ecosystem, designed for businesses that value clarity, efficiency, and growth.*
 
@@ -23,14 +23,14 @@ To make analytics and automation practical, scalable, and accessible, empowering
 
 ## Modern Data Platform
 
-VeyDigital builds analytics solutions using secure, high-performance, and license-free technology that eliminates the need for costly desktop tools such as Tableau or Power BI.  
+VeyDigital builds analytics solutions using secure, high performance, and license-free technology that eliminates the need for costly desktop tools such as Tableau or Power BI.  
 Our dashboards run entirely in the browser, connecting directly to your existing business systems without any software installation or additional fees.
 
 ### Key Advantages
 • Cloud-based access with secure, role-based permissions  
 • Seamless integration with Google Analytics 4, Google Sheets, BigQuery, and CRM data  
 • Automated data refresh and scheduled report delivery via email or PDF  
-• Interactive filters, drill-downs, and parameters for flexible analysis  
+• Interactive filters, drill downs, and parameters for flexible analysis  
 • Easy embedding in internal portals or client platforms  
 • Scalable design suited to growing small and medium-sized businesses  
 
