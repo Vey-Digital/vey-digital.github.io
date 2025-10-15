@@ -48,16 +48,16 @@
   em { color: var(--vd-muted); }
 }
 
-/* Optional hero block (only applies if you use <div align="center"> in about.md) */
-.about-page .page__content > div[align="center"] {
+/* Optional hero block (only if you use <div align="left|center"> in about.md) */
+.about-page .page__content > div[align] {
   background: linear-gradient(180deg, rgba(59,130,246,0.08), rgba(59,130,246,0.0));
   border: 1px solid var(--vd-border);
   border-radius: 16px;
   padding: clamp(18px, 3.2vw, 36px);
   margin-bottom: 24px;
 }
-.about-page .page__content > div[align="center"] h1 { color: var(--vd-deep-blue); margin-bottom: .25rem; }
-.about-page .page__content > div[align="center"] p strong { color: var(--vd-deep-blue); }
+.about-page .page__content > div[align] h1 { color: var(--vd-deep-blue); margin-bottom: .25rem; }
+.about-page .page__content > div[align] p strong { color: var(--vd-deep-blue); }
 
 /* ========== Buttons ========== */
 .btn--primary {
@@ -81,13 +81,17 @@
 .about-page ul { margin-top: .5rem; margin-bottom: 1.25rem; }
 .about-page ul li { padding-left: .25rem; margin-bottom: .25rem; }
 
-/* ========== Subtle callout for italic lines ========== */
+/* ========== Italic lines (no callout box) ========== */
 .about-page em {
-  /* keep italics only; no background, no border, no extra padding */
   font-style: italic;
   color: var(--vd-muted);
 }
 
+/* Slightly smaller single-line italic paragraphs */
+.about-page p > em:only-child {
+  font-size: 0.95em;
+  color: var(--vd-muted);
+}
 
 /* ========== HR spacing ========== */
 .about-page hr {
@@ -98,7 +102,6 @@
 
 /* ========== Links (page-wide) ========== */
 .about-page a {
-  /* keep Minimal Mistakes link behavior */
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: color .2s ease, border-color .2s ease, background .2s ease;
@@ -110,7 +113,7 @@
 .page__content,
 .page__content p,
 .page__content li,
-.page__content td { color: #111; }  /* overrides var(--vd-ink) slightly darker */
+.page__content td { color: #111; }
 
 .page__content a { color: #1f4aa0; }
 .page__content a:hover { color: #1E3A8A; }
@@ -123,69 +126,50 @@
   display: block;
 }
 .masthead__inner-wrap { align-items: center; gap: .5rem; }
+@media (max-width: 600px) { .site-logo img { height: 56px !important; } }
 
-@media (max-width: 600px) {
-  .site-logo img { height: 56px !important; }
-}
-
-/* Leave page width alone globally (so only specific tables can be wider) */
-/* If you previously widened .page or .page__content globally, remove it. */
-
-/* ===== TABLES: do not override HTML tables with class="vd-plain" ===== */
-
-/* Theme wraps markdown tables in .table-wrapper; keep visible just in case */
-.page__content .table-wrapper { overflow-x: visible !important; }
-
-/* Only target markdown tables or unclassed tables; skip .vd-plain HTML tables */
-.page__content .table-wrapper > table:not(.vd-plain),
-.page__content table:not(.vd-plain) {
-  width: 100% !important;
-  max-width: 100% !important;
-  table-layout: auto !important;      /* natural sizing; avoids scroll/cutoff */
-  border-collapse: separate;
-  border-spacing: 0;
-  overflow: hidden;
-  border-radius: 12px;
+/* ===== Markdown tables (rounded corners via wrapper) ===== */
+.page__content .table-wrapper {
   border: 1px solid var(--vd-border);
+  border-radius: 12px;
+  overflow: hidden;                 /* clip inner table to rounded corners */
   margin: 1rem 0 1.5rem;
 }
 
-/* Cell wrapping, padding (scoped to same selection) */
-.page__content .table-wrapper > table:not(.vd-plain) th,
-.page__content .table-wrapper > table:not(.vd-plain) td,
-.page__content table:not(.vd-plain) th,
-.page__content table:not(.vd-plain) td {
-  padding: 14px 18px;
-  vertical-align: top;
-  white-space: normal !important;
-  word-break: normal !important;      /* avoid mid-word splits */
-  hyphens: none !important;
+/* Normalize inner table; wrapper owns border/radius */
+.page__content .table-wrapper > table {
+  border: 0 !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: auto;               /* natural sizing; avoids cutoffs */
 }
 
-/* Header style (scoped to the same selection) */
-.page__content .table-wrapper > table:not(.vd-plain) thead th,
-.page__content table:not(.vd-plain) thead th {
-  background: #1E3A8A;                /* Deep Tech Blue */
+/* Header style */
+.page__content .table-wrapper > table thead th {
+  background: #1E3A8A;
   color: #fff;
   text-align: left;
   font-weight: 700;
   border-bottom: 1px solid var(--vd-border);
 }
 
-/* Row striping (scoped) */
-.page__content .table-wrapper > table:not(.vd-plain) tbody tr:nth-child(even),
-.page__content table:not(.vd-plain) tbody tr:nth-child(even) {
-  background: #f7f9fc;
+/* Cells and wrapping */
+.page__content .table-wrapper > table th,
+.page__content .table-wrapper > table td {
+  padding: 14px 18px;
+  vertical-align: top;
+  white-space: normal !important;
+  word-break: normal !important;
+  hyphens: none !important;
 }
 
-/* Hover state */
-.page__content .table-wrapper > table:not(.vd-plain) tbody tr:hover td,
-.page__content table:not(.vd-plain) tbody tr:hover td {
-  background: rgba(59,130,246,0.04);
-}
+/* Row striping and hover */
+.page__content .table-wrapper > table tbody tr:nth-child(even) { background: #f7f9fc; }
+.page__content .table-wrapper > table tbody tr:hover td { background: rgba(59,130,246,0.04); }
 
-/* ===== WIDEN ONLY the “What VeyDigital Delivers” table =====
-   In about.md, add a kramdown class list right after that table:
+/* ===== Widen ONLY the “What VeyDigital Delivers” table =====
+   In about.md, add a kramdown class list right after that table line:
    {:.vd-plain .vd-delivers-wide}
 */
 @media (min-width: 1024px) {
@@ -195,12 +179,12 @@
     transform: translateX(-50%);
     width: min(1400px, 96vw);
     max-width: 1400px;
-    table-layout: fixed;              /* honor column widths below */
+    table-layout: fixed;           /* honor column widths below */
     border-collapse: collapse;
   }
 }
 
-/* Column widths for that specific 4-column table */
+/* Column widths for the specific 4-column table */
 table.vd-delivers-wide th:nth-child(1),
 table.vd-delivers-wide td:nth-child(1) { width: 26% !important; min-width: 260px; }
 table.vd-delivers-wide th:nth-child(2),
@@ -220,7 +204,8 @@ table.vd-delivers-wide td:nth-child(4) { width: 18% !important; }
 @media (prefers-color-scheme: dark) {
   .vd-card { background: #0f172a; }
 }
-/* Optional highlighted emphasis you can use explicitly if needed */
+
+/* Optional highlighted emphasis utility (use explicitly when needed) */
 .vd-em-callout {
   display: inline-block;
   background: rgba(250,204,21,0.10);
@@ -232,13 +217,4 @@ table.vd-delivers-wide td:nth-child(4) { width: 18% !important; }
 /* Fine tune page width on very large screens */
 @media (min-width: 1300px) {
   .about-page .page__content { max-width: 1040px; }
-}
-/* Make single-line italic paragraphs slightly smaller */
-.about-page p > em:only-child {
-  font-size: 0.95em;      /* reduce size; use 1em if you want exact body size */
-  font-style: italic;     /* keep italics */
-  color: var(--vd-muted); /* subtle tone */
-  background: none;
-  border: 0;
-  padding: 0;
 }
