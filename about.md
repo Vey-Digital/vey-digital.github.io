@@ -36,7 +36,7 @@ Cloud-first, secure, and high performance built to grow with your business. Our 
 - Seamless embedding in websites or client portals  
 - Scalable design for small and medium-sized organizations  
 
-*Built on proven, industry leading infrastructure without the enterprise bloat.*
+*Built on proven, industry-leading infrastructure without the enterprise bloat.*
 ---
 ## Agentic AI Framework
 VeyDigital’s AI follows an agentic architecture intelligent systems that act autonomously within defined business goals. They transform dashboards into proactive tools that summarize, detect change, and recommend action.
@@ -63,7 +63,7 @@ VeyDigital’s AI follows an agentic architecture intelligent systems that act a
 | **Data Q&A Agent** | Answers natural-language questions directly from data sources. |
 | **Leader Coach Agent** | Suggests next steps based on performance patterns. |
 
-All agents operate in secure, read-only environments with strict privacy controls.
+*All agents operate in secure, read-only environments with strict privacy controls.*
 ---
 ## How We Work
 **Assess Objectives** – Define success metrics and priorities.  
