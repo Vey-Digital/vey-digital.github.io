@@ -5,8 +5,7 @@ permalink: /about/
 classes: wide about-page
 ---
 
-**VeyDigital** is a modern analytics and automation studio helping organizations simplify their data and scale their impact.  
-We bridge technology and strategy, combining advanced analytics, AI-powered automation, and creative insight to turn fragmented information into clarity, efficiency, and measurable growth.
+**VeyDigital** is a modern analytics and automation studio helping organizations simplify their data and scale their impact. We bridge technology and strategy, combining advanced analytics, AI-powered automation, and creative insight to turn fragmented information into clarity, efficiency, and measurable growth. 
 
 We believe that **data should empower people, not overwhelm them.**  
 Every project we deliver is grounded in reliability, transparency, and collaboration.  
