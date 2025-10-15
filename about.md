@@ -6,7 +6,7 @@ classes: wide about-page
 description: "VeyDigital builds data dashboards and AI automation tools that help small and medium businesses make faster, informed decisions."
 
 ---
-**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into clear, actionable insight, helping leaders make confident, data-driven decisions while reducing technology and licensing costs.   
+**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into clear, actionable insight, helping leaders make confident, data driven decisions while reducing technology and licensing costs.   
 
 *Powered by Google’s trusted analytics ecosystem, designed for businesses that value clarity, efficiency, and growth.*
 
@@ -34,7 +34,7 @@ Our dashboards run entirely in the browser, connecting directly to your existing
 • Easy embedding in internal portals or client platforms  
 • Scalable design suited to growing small and medium-sized businesses  
 
-Google’s analytics and marketing technologies are recognized globally for their performance, reliability, and integration. By leveraging this ecosystem, VeyDigital delivers enterprise-level analytics and marketing insight to smaller organizations without the complexity or cost of traditional enterprise software. This approach gives clients clear, connected, and cost-efficient reporting built on proven, industry-leading infrastructure.
+Google’s analytics and marketing technologies are recognized globally for their performance, reliability, and integration. By leveraging this ecosystem, VeyDigital delivers enterprise-level analytics and marketing insight to smaller organizations without the complexity or cost of traditional enterprise software. This approach gives clients clear, connected, and cost-efficient reporting built on proven, industry leading infrastructure.
 
 ## Agentic AI Framework
 
@@ -50,10 +50,10 @@ Our AI solutions follow an agentic architecture that enables them to act autonom
 ### Infrastructure and Deployment
 • Deployable across AWS, Google Cloud, Azure, or Vercel  
 • Uses MLOps for automated testing, version control, and monitoring  
-• Supports Retrieval-Augmented Generation (RAG) for context aware accuracy  
+• Supports Retrieval Augmented Generation (RAG) for context aware accuracy  
 • Built for scalability, observability, and governance  
 
-This framework allows VeyDigital to deliver customized AI agents that align with each client’s environment, secure, compliant, and optimized for long-term performance.
+This framework allows VeyDigital to deliver customized AI agents that align with each client’s environment, secure, compliant, and optimized for longterm performance.
 
 ## AI Agents
 
@@ -76,6 +76,6 @@ All agents operate in controlled, read-only environments that meet strict securi
 ## Get in Touch
 
 VeyDigital delivers practical analytics and intelligent automation that help organizations operate with clarity, precision, and speed.  
-Contact us to learn how our agentic AI and cost-efficient dashboards can enhance your decision-making and marketing performance.
+Contact us to learn how our agentic AI and cost efficient dashboards can enhance your decision-making and marketing performance.
 
 [Contact VeyDigital →](#)
