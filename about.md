@@ -5,19 +5,16 @@ permalink: /about/
 classes: wide about-page
 description: "VeyDigital builds intelligent dashboards and AI automation that empower modern businesses to make faster, confident decisions."
 ---
-
 # Data Made Human. Decisions Made Simple.
 
-**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into **clear, actionable insight**, helping leaders make confident, data-driven decisions—without the overhead of complex tools or licenses.  
+**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into **clear, actionable insight**, helping leaders make confident, data-driven decisions;without the overhead of complex tools or licenses.  
 *Powered by Google’s trusted analytics ecosystem, built for clarity, efficiency, and growth.* 
 
 ---
-
 ## Our Mission
 To make analytics and automation practical, scalable, and accessible—empowering teams to work smarter through clear reporting and intelligent AI systems.
 
 ---
-
 ## Core Services
 
 | **Service** | **Purpose** | **Result** |
@@ -31,7 +28,6 @@ To make analytics and automation practical, scalable, and accessible—empowerin
 ## Modern Data Platform
 Cloud-first, secure, and high performance built to grow with your business. Our dashboards connect directly to your existing systems, run entirely in the browser, and eliminate unnecessary technical friction.
  
-
 **Key Advantages**
 - Secure, role-based cloud access  
 - Integration with Google Analytics 4, BigQuery, Sheets, and CRMs  
@@ -40,12 +36,10 @@ Cloud-first, secure, and high performance built to grow with your business. Our 
 - Seamless embedding in websites or client portals  
 - Scalable design for small and medium-sized organizations  
 
-*Built on proven, industry-leading infrastructure—without the enterprise bloat.*
-
+*Built on proven, industry leading infrastructure without the enterprise bloat.*
 ---
-
 ## Agentic AI Framework
-VeyDigital’s AI follows an agentic architecture—intelligent systems that act autonomously within defined business goals. They transform dashboards into proactive tools that summarize, detect change, and recommend action.
+VeyDigital’s AI follows an agentic architecture intelligent systems that act autonomously within defined business goals. They transform dashboards into proactive tools that summarize, detect change, and recommend action.
 
 **Capabilities**
 - Automated insight generation  
@@ -58,7 +52,6 @@ VeyDigital’s AI follows an agentic architecture—intelligent systems that act
 - Uses MLOps for testing, versioning, and monitoring  
 - Supports Retrieval-Augmented Generation (RAG) for data accuracy  
 - Scalable, observable, and governance-ready  
-
 ---
 
 ## Featured AI Agents
@@ -71,11 +64,8 @@ VeyDigital’s AI follows an agentic architecture—intelligent systems that act
 | **Leader Coach Agent** | Suggests next steps based on performance patterns. |
 
 All agents operate in secure, read-only environments with strict privacy controls.
-
 ---
-
 ## How We Work
-
 **Assess Objectives** – Define success metrics and priorities.  
 **Connect Data** – Securely integrate and automate updates.  
 **Design Dashboards** – Create clear, interactive visualizations.  
@@ -89,7 +79,7 @@ VeyDigital provides flexible add-ons and monthly retainers to keep your analytic
 
 ### Add-Ons
 - Connect new data sources  
-- Create new dashboards or drill-downs  
+- Create new dashboards or drill downs  
 - Add anomaly detection or board-ready summaries  
 - Implement secure hosting and access controls  
 - Schedule monthly performance reviews  
