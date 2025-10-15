@@ -99,10 +99,6 @@ All agents operate in secure, read-only environments with strict privacy control
 </details>
 
 ---
-
-<details class="vd-accordion" markdown="1">
-<summary><strong>Ongoing Support</strong></summary>
-
 <details class="vd-accordion" markdown="1">
 <summary><strong>Ongoing Support</strong></summary>
 
