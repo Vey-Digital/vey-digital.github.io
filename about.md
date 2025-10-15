@@ -8,8 +8,8 @@ description: "VeyDigital builds intelligent dashboards and AI automation that em
 
 # Data Made Human. Decisions Made Simple.
 
-**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation.  
-We turn complex information into **clear, actionable insight**, so leaders can make confident, data-driven decisions without the overhead of complex tools or licenses.  
+**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We turn complex information into **clear, actionable insight**, so leaders can make confident, data-driven decisions without the overhead of complex tools or licenses.  
+ 
 *Powered by Google’s trusted analytics ecosystem, built for clarity, efficiency, and growth.*
 
 ---
