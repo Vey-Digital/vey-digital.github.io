@@ -1,21 +1,14 @@
----
 layout: single
 title: About
 permalink: /about/
 classes: wide about-page
 description: "VeyDigital builds data dashboards and AI automation tools that help small and medium businesses make faster, informed decisions."
 
----
-
 **VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation.  
 We transform complex data into clear, actionable insight—helping leaders make informed decisions while reducing technology and licensing costs.
 
----
-
 ## Our Mission
 To make analytics and automation practical, scalable, and accessible—empowering teams to work smarter through clear reporting and intelligent AI systems.
-
----
 
 ## Core Services
 
@@ -24,8 +17,6 @@ To make analytics and automation practical, scalable, and accessible—empowerin
 | **Dashboard Development** | Integrate data from sales, marketing, finance, and operations into one unified view. | Reliable visibility into key performance indicators. |
 | **AI Agent Integration** | Deploy intelligent assistants that summarize data, monitor goals, and respond to questions. | Continuous insight with minimal manual effort. |
 | **Survey & Feedback Systems** | Capture structured input from customers or staff to inform dashboards and strategies. | Real-time feedback for stronger decisions. |
-
----
 
 ## Modern Data Platform
 
@@ -41,8 +32,6 @@ Our web-based dashboards operate entirely in the browser and connect directly to
 - Scalable architecture suitable for growing organizations  
 
 For clients requiring advanced governance or data modeling, the same dashboards can later migrate to the **enterprise edition of Google Looker**, enabling full semantic control, versioning, and API-driven access—without rebuilding your reports.
-
----
 
 ## Agentic AI Framework
 
@@ -63,8 +52,6 @@ Each agent can retrieve data, detect changes, generate summaries, and deliver up
 
 This framework allows VeyDigital to deliver **customized AI agents** that adapt to each client’s data environment—secure, compliant, and optimized for long-term performance.
 
----
-
 ## AI Agents
 
 - **Insight Summary Agent** – Delivers scheduled performance briefings and key metrics.  
@@ -75,8 +62,6 @@ This framework allows VeyDigital to deliver **customized AI agents** that adapt 
 
 _All agents operate within controlled, read-only environments that comply with security and privacy standards._
 
----
-
 ## How We Work
 
 1. **Assess Objectives** – Identify key metrics and business priorities.  
@@ -84,8 +69,6 @@ _All agents operate within controlled, read-only environments that comply with s
 3. **Design Dashboards** – Develop clear, interactive reporting environments.  
 4. **Implement AI Agents** – Automate summaries, monitoring, and insights.  
 5. **Support & Training** – Provide documentation and training for sustainable use.  
-
----
 
 ## Get in Touch
 
