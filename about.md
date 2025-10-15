@@ -6,72 +6,37 @@ classes: wide about-page
 description: "VeyDigital builds data dashboards and AI automation tools that help small and medium businesses make faster, informed decisions."
 
 ---
+## Agentic AI Framework
 
+VeyDigital’s AI agents are designed using **agentic principles**—enabling systems to act on defined goals, monitor data automatically, and complete multi-step workflows without manual prompts.  
+Each agent combines structured analytics with contextual reasoning, allowing organizations to move from passive dashboards to active, insight-driven operations.
 
-**VeyDigital** helps small and medium-sized organizations use data effectively through well-designed dashboards and AI automation.  
-We focus on turning complex information into practical intelligence—helping leaders make faster, more confident decisions without unnecessary technology costs.
+### Core Capabilities
+- **Automated Insight Generation:** Agents analyze key metrics, detect changes, and summarize outcomes on a defined schedule.  
+- **Proactive Monitoring:** Goal-based triggers notify users when KPIs move beyond target thresholds.  
+- **Decision Support:** Agents recommend next actions based on data patterns and established rules.  
+- **Human Oversight:** All outputs remain reviewable and logged for transparency and accountability.  
 
----
+### Deployment & Architecture
 
-## Our Mission
-To deliver clear analytics and responsible AI solutions that simplify reporting, strengthen insight, and improve performance across all levels of an organization.
+Our agentic framework supports cloud-agnostic deployment to meet client infrastructure and compliance requirements.
 
----
+**Supported Platforms**
+- **AWS (Amazon Web Services)** – for scalable AI and data hosting using Bedrock and SageMaker.  
+- **GCP (Google Cloud Platform)** – for integration with BigQuery, Vertex AI, and managed Looker datasets.  
+- **Azure** – for enterprise clients leveraging Power Platform or Azure Machine Learning.  
+- **Vercel / Supabase** – for lightweight, secure web deployment and edge delivery of interactive dashboards.
 
-## Core Services
+**AI & MLOps Stack**
+- **RAG (Retrieval-Augmented Generation)** – for context-aware data queries.  
+- **MCP (Model Control Protocol)** – to manage model versioning, input validation, and observability.  
+- **MLOps Pipelines** – to automate model updates, testing, and performance monitoring across environments.  
+- **Scalability & Observability:** Central logging, tracing, and cost monitoring ensure stable, compliant operations.
 
-| **Service** | **Purpose** | **Result** |
-|--------------|-------------|-------------|
-| **Dashboard Development** | Integrate data from key business systems into automated, interactive reports. | Reliable visibility into business performance. |
-| **AI Agent Integration** | Add intelligent assistants that monitor metrics, generate summaries, and answer data-related questions. | Continuous insight with less manual effort. |
-| **Survey & Feedback Systems** | Collect feedback from customers, staff, or stakeholders and connect results directly to dashboards. | Data-driven input that supports decision-making. |
+### Key Benefits
+- Cloud flexibility — deploy where the client’s data already resides.  
+- High performance — elastic scaling for queries, AI inference, and reporting.  
+- Governance ready — audit trails, version control, and read-only data policies.  
+- Cost control — efficient architectures with serverless or pay-per-use options.
 
----
-
-## Our Approach to Tools
-
-We understand that technology costs can grow quickly.  
-VeyDigital builds reporting solutions using **high-performance, license-free platforms** that deliver enterprise-level capability without ongoing software fees.
-
-**Key Benefits**
-- Web-based access with secure sharing and version control  
-- Native connections to marketing, finance, and operational systems  
-- Automated data refresh schedules and scheduled report delivery  
-- Visual filters, parameters, and drill-downs for flexible exploration  
-- Integration with modern AI agents and workflow automation  
-- Scalable performance suitable for organizations of any size  
-
-Our goal is to give you **the same level of analytical power as enterprise tools**—without the need to purchase or maintain additional software licenses.
-
----
-
-## AI Agents
-
-- **Insight Summary Agent** – Provides scheduled performance updates and key trend highlights.  
-- **Goal-Tracker Agent** – Monitors progress toward defined targets and alerts users when results change.  
-- **Data Q&A Agent** – Responds to management questions directly from authorized data sources.  
-- **Leader Coach Agent** – Interprets results and recommends focused next steps.  
-- **Ad & Web Performance Agent (optional)** – Analyzes campaign metrics and identifies changes in performance.  
-
-_All agents operate within secure, read-only environments that comply with data privacy and governance standards._
-
----
-
-## How We Work
-
-1. **Assess Needs** – Define reporting goals and key metrics.  
-2. **Connect Data** – Establish secure, automated data pipelines.  
-3. **Design Dashboards** – Build clear, interactive views for management and teams.  
-4. **Implement AI Agents** – Automate summaries, monitoring, and insights.  
-5. **Support & Training** – Provide documentation and short training sessions for long-term use.  
-
----
-
-## Get in Touch
-
-VeyDigital helps organizations gain clarity, accuracy, and efficiency through focused analytics and automation.  
-Contact us to learn how streamlined dashboards and AI agents can improve your decision-making while reducing unnecessary software expenses.
-
-[Contact VeyDigital →](#)
-
-
+In summary, VeyDigital’s agentic AI framework combines automation, data governance, and scalable infrastructure to deliver intelligent, dependable analytics for modern organizations.
