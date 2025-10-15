@@ -6,12 +6,11 @@ classes: wide about-page
 description: "VeyDigital builds intelligent dashboards and AI automation that empower modern businesses to make faster, confident decisions."
 ---
 
-<div align="center">
-  <h1>Data Made Human. Decisions Made Simple.</h1>
-  <p><strong>VeyDigital</strong> helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation.</p>
-  <p>We transform complex information into <strong>clear, actionable insight</strong>, helping leaders make confident, data-driven decisions—without the overhead of complex tools or licenses.</p>
-  <em>Powered by Google’s trusted analytics ecosystem, built for clarity, efficiency, and growth.</em>
-</div>
+# Data Made Human. Decisions Made Simple.
+
+**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation.  
+We transform complex information into **clear, actionable insight**, helping leaders make confident, data-driven decisions—without the overhead of complex tools or licenses.  
+*Powered by Google’s trusted analytics ecosystem, built for clarity, efficiency, and growth.*
 
 ---
 
@@ -25,7 +24,7 @@ To make analytics and automation practical, scalable, and accessible—empowerin
 | **Service** | **Purpose** | **Result** |
 |--------------|-------------|-------------|
 | **Dashboard Development** | Integrate data from sales, marketing, finance, and operations into one unified view. | Reliable visibility into key performance indicators. |
-| **AI Agent Integration** | Deploy intelligent assistants that summarize data, monitor goals, and answer questions. | Continuous insights with minimal manual effort. |
+| **AI Agent Integration** | Deploy intelligent assistants that summarize data, monitor goals, and respond to questions. | Continuous insights with minimal manual effort. |
 | **Survey & Feedback Systems** | Capture input from customers or staff to inform dashboards and strategies. | Real-time feedback for stronger decisions. |
 
 ---
@@ -42,7 +41,7 @@ Our dashboards connect directly to your existing systems, run entirely in the br
 - Seamless embedding in websites or client portals  
 - Scalable design for small and medium-sized organizations  
 
-<em>Built on proven, industry-leading infrastructure—without the enterprise bloat.</em>
+*Built on proven, industry-leading infrastructure—without the enterprise bloat.*
 
 ---
 
@@ -79,16 +78,15 @@ All agents operate in secure, read-only environments with strict privacy control
 
 ## How We Work
 
-**Assess Objectives** – Define success metrics and priorities.  
-**Connect Data** – Securely integrate and automate updates.  
-**Design Dashboards** – Create clear, interactive visualizations.  
-**Implement AI Agents** – Add automation, summaries, and alerts.  
-**Support & Training** – Ensure sustainability and team adoption.  
+1. **Assess Objectives** – Define success metrics and priorities.  
+2. **Connect Data** – Securely integrate and automate updates.  
+3. **Design Dashboards** – Create clear, interactive visualizations.  
+4. **Implement AI Agents** – Add automation, summaries, and alerts.  
+5. **Support & Training** – Ensure sustainability and team adoption.  
 
 ---
 
 ## Ongoing Support
-
 VeyDigital provides flexible add-ons and monthly retainers to keep your analytics sharp and evolving.  
 Choose a plan that matches your team’s growth stage.
 
@@ -109,8 +107,6 @@ Choose a plan that matches your team’s growth stage.
 
 ---
 
-<div align="center">
-  <h2>Let’s Make Data Work Smarter for You</h2>
-  <p>VeyDigital delivers practical analytics and intelligent automation that drive clarity, precision, and growth.</p>
-  <a href="/contact/" class="btn btn--primary btn--large">Contact VeyDigital</a>
-</div>
+## Start a Conversation
+VeyDigital delivers practical analytics and intelligent automation that drive clarity, precision, and growth.  
+<a href="/contact/" class="btn btn--primary btn--large">Contact VeyDigital</a>
