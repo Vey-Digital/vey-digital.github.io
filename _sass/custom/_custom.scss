@@ -83,12 +83,11 @@
 
 /* ========== Subtle callout for italic lines ========== */
 .about-page em {
-  display: inline-block;
-  background: rgba(250,204,21,0.10); /* warm yellow tint */
-  border: 1px dashed rgba(250,204,21,0.5);
-  border-radius: 10px;
-  padding: .2rem .5rem;
+  /* keep italics only; no background, no border, no extra padding */
+  font-style: italic;
+  color: var(--vd-muted);
 }
+
 
 /* ========== HR spacing ========== */
 .about-page hr {
@@ -220,6 +219,14 @@ table.vd-delivers-wide td:nth-child(4) { width: 18% !important; }
 }
 @media (prefers-color-scheme: dark) {
   .vd-card { background: #0f172a; }
+}
+/* Optional highlighted emphasis you can use explicitly if needed */
+.vd-em-callout {
+  display: inline-block;
+  background: rgba(250,204,21,0.10);
+  border: 1px dashed rgba(250,204,21,0.5);
+  border-radius: 10px;
+  padding: .2rem .5rem;
 }
 
 /* Fine tune page width on very large screens */
