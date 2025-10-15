@@ -23,8 +23,7 @@ To make analytics and automation practical, scalable, and accessible, empowering
 
 ## Modern Data Platform
 
-VeyDigital builds analytics solutions using secure, high performance, and license-free technology that eliminates the need for costly desktop tools such as Tableau or Power BI.  
-Our dashboards run entirely in the browser, connecting directly to your existing business systems without any software installation or additional fees.
+Cloud-first, secure, and performant. We connect directly to your existing business systems and support your current stack, so teams adopt faster and see value sooner.
 
 ### Key Advantages
 • Cloud-based access with secure, role-based permissions  
