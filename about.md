@@ -3,98 +3,114 @@ layout: single
 title: About
 permalink: /about/
 classes: wide about-page
-description: "VeyDigital builds data dashboards and AI automation tools that help small and medium businesses make faster, informed decisions."
+description: "VeyDigital builds intelligent dashboards and AI automation that empower modern businesses to make faster, confident decisions."
+---
+
+<div align="center">
+  <h1>Data Made Human. Decisions Made Simple.</h1>
+  <p><strong>VeyDigital</strong> helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation.</p>
+  <p>We transform complex information into <strong>clear, actionable insight</strong>, helping leaders make confident, data-driven decisions—without the overhead of complex tools or licenses.</p>
+  <em>Powered by Google’s trusted analytics ecosystem, built for clarity, efficiency, and growth.</em>
+</div>
 
 ---
-**VeyDigital** helps small and medium sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into clear, actionable insight, helping leaders make confident, data driven decisions while reducing technology and licensing costs.   
-
-*Powered by Google’s trusted analytics ecosystem, designed for businesses that value clarity, efficiency, and growth.*
 
 ## Our Mission
-To make analytics and automation practical, scalable, and accessible, empowering teams to work smarter through clear reporting and intelligent AI systems.
+To make analytics and automation practical, scalable, and accessible—empowering teams to work smarter through clear reporting and intelligent AI systems.
+
+---
 
 ## Core Services
 
 | **Service** | **Purpose** | **Result** |
 |--------------|-------------|-------------|
 | **Dashboard Development** | Integrate data from sales, marketing, finance, and operations into one unified view. | Reliable visibility into key performance indicators. |
-| **AI Agent Integration** | Deploy intelligent assistants that summarize data, monitor goals, and respond to questions. | Continuous insight with minimal manual effort. |
-| **Survey & Feedback Systems** | Capture structured input from customers or staff to inform dashboards and strategies. | Real-time feedback for stronger decisions. |
+| **AI Agent Integration** | Deploy intelligent assistants that summarize data, monitor goals, and answer questions. | Continuous insights with minimal manual effort. |
+| **Survey & Feedback Systems** | Capture input from customers or staff to inform dashboards and strategies. | Real-time feedback for stronger decisions. |
+
+---
 
 ## Modern Data Platform
+Cloud-first, secure, and high-performance—built to grow with your business.  
+Our dashboards connect directly to your existing systems, run entirely in the browser, and eliminate unnecessary technical friction.
 
-Cloud-first, secure, and performant. We connect directly to your existing business systems and support your current stack, so teams adopt faster and see value sooner.
+**Key Advantages**
+- Secure, role-based cloud access  
+- Integration with Google Analytics 4, BigQuery, Sheets, and CRMs  
+- Automated data refresh and scheduled report delivery  
+- Interactive filters, drill-downs, and parameter control  
+- Seamless embedding in websites or client portals  
+- Scalable design for small and medium-sized organizations  
 
-### Key Advantages
-• Cloud-based access with secure, role-based permissions  
-• Seamless integration with Google Analytics 4, Google Sheets, BigQuery, and CRM data  
-• Automated data refresh and scheduled report delivery via email or PDF  
-• Interactive filters, drill downs, and parameters for flexible analysis  
-• Easy embedding in internal portals or client platforms  
-• Scalable design suited to growing small and medium-sized businesses  
+<em>Built on proven, industry-leading infrastructure—without the enterprise bloat.</em>
 
-Google’s analytics and marketing technologies are recognized globally for their performance, reliability, and integration. By leveraging this ecosystem, VeyDigital delivers enterprise-level analytics and marketing insight to smaller organizations without the complexity or cost of traditional enterprise software. This approach gives clients clear, connected, and cost-efficient reporting built on proven, industry leading infrastructure.
+---
 
 ## Agentic AI Framework
+VeyDigital’s AI follows an agentic architecture—intelligent systems that act autonomously within defined business goals.  
+They transform dashboards into proactive tools that summarize, detect change, and recommend action.
 
-Our AI solutions follow an agentic architecture that enables them to act autonomously within defined business goals. Each agent can retrieve data, detect changes, generate summaries, and deliver updates, turning dashboards into proactive tools that support decision making. 
+**Capabilities**
+- Automated insight generation  
+- KPI monitoring and goal tracking  
+- Context-aware querying and explanations  
+- Secure, auditable interactions with human oversight  
 
+**Infrastructure**
+- Deployable on AWS, GCP, Azure, or Vercel  
+- Uses MLOps for testing, versioning, and monitoring  
+- Supports Retrieval-Augmented Generation (RAG) for data accuracy  
+- Scalable, observable, and governance-ready  
 
-### Capabilities
-• Automated insight generation and performance monitoring  
-• Goal-based alerts and threshold tracking  
-• Contextual data querying and interpretation  
-• Secure, logged interactions with full human oversight  
+---
 
-### Infrastructure and Deployment
-• Deployable across AWS, Google Cloud, Azure, or Vercel  
-• Uses MLOps for automated testing, version control, and monitoring  
-• Supports Retrieval Augmented Generation (RAG) for context aware accuracy  
-• Built for scalability, observability, and governance  
+## Featured AI Agents
 
-This framework allows VeyDigital to deliver customized AI agents that align with each client’s environment, secure, compliant, and optimized for longterm performance.
+| **Agent** | **What It Does** |
+|------------|------------------|
+| **Insight Summary Agent** | Sends scheduled performance briefs and highlights. |
+| **Goal-Tracker Agent** | Monitors KPI thresholds and flags anomalies. |
+| **Data Q&A Agent** | Answers natural-language questions directly from data sources. |
+| **Leader Coach Agent** | Suggests next steps based on performance patterns. |
 
-## AI Agents
+All agents operate in secure, read-only environments with strict privacy controls.
 
-• **Insight Summary Agent**  Provides scheduled performance briefings and key metrics  
-• **Goal-Tracker Agent**  Monitors KPI targets and alerts users to major variances  
-• **Data Q&A Agent**  Answers management questions directly from trusted data sources  
-• **Leader Coach Agent**  Interprets results and recommends targeted actions  
-
-All agents operate in controlled, read-only environments that meet strict security and privacy standards.
+---
 
 ## How We Work
 
-1. **Assess Objectives**  Identify key metrics and business priorities  
-2. **Connect Data**  Integrate systems securely and automate data updates  
-3. **Design Dashboards**  Create clear, interactive reporting environments  
-4. **Implement AI Agents**  Automate summaries, monitoring, and insights  
-5. **Support and Training**  Provide documentation and guidance for sustainable use  
+**Assess Objectives** – Define success metrics and priorities.  
+**Connect Data** – Securely integrate and automate updates.  
+**Design Dashboards** – Create clear, interactive visualizations.  
+**Implement AI Agents** – Add automation, summaries, and alerts.  
+**Support & Training** – Ensure sustainability and team adoption.  
 
-## Ongoing Support and Optimization
+---
 
-VeyDigital provides flexible add-ons and monthly retainer plans to keep your analytics effective after launch. Choose the level of ongoing support that fits your goals. Contact us for a tailored quote. 
+## Ongoing Support
 
-### Popular Add-Ons
-- Connect additional data sources and systems
-- Create new dashboards or drill down reports
-- Add AI agents for alerts, anomaly detection, and board ready summaries
-- Implement advanced permissions and secure hosting
-- Monthly performance reviews with KPI tuning
-- Ad & Web Performance Agent, analyzes marketing and campaign performance 
+VeyDigital provides flexible add-ons and monthly retainers to keep your analytics sharp and evolving.  
+Choose a plan that matches your team’s growth stage.
+
+### Add-Ons
+- Connect new data sources  
+- Create new dashboards or drill-downs  
+- Add anomaly detection or board-ready summaries  
+- Implement secure hosting and access controls  
+- Schedule monthly performance reviews  
 
 ### Retainer Plans
-Our retainers include a set number of support hours each month for updates, fine tuning, and monitoring. Clients on retainers receive priority scheduling and proactive recommendations. 
 
+| **Plan** | **Ideal For** | **Includes** |
+|-----------|----------------|---------------|
+| **Essentials** | Smaller teams | Minor updates, KPI checks, quick fixes |
+| **Growth** | Iterative teams | AI tuning, quarterly audits, monthly summaries |
+| **Pro** | Scaling organizations | Continuous monitoring, integrations, advisory |
 
-- **Essentials Retainer**. Steady upkeep for smaller teams. Includes minor updates, data checks, and quick fixes.
-- **Growth Retainer**. Designed for teams that iterate. Includes agent tuning, quarterly audits, and a monthly insight summary.
-- **Pro Retainer**. For ongoing enhancement. Includes continuous monitoring, new integrations, and advisory sessions.
+---
 
-
-## Get in Touch
-
-VeyDigital delivers practical analytics and intelligent automation that help organizations operate with clarity, precision, and speed. Contact us to learn how our agentic AI and cost efficient dashboards can enhance your decision making and marketing performance.
- 
-
-[Contact VeyDigital →](#)
+<div align="center">
+  <h2>Let’s Make Data Work Smarter for You</h2>
+  <p>VeyDigital delivers practical analytics and intelligent automation that drive clarity, precision, and growth.</p>
+  <a href="/contact/" class="btn btn--primary btn--large">Contact VeyDigital</a>
+</div>
