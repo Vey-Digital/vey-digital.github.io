@@ -32,12 +32,13 @@ We turn complex information into **clear, actionable insight**, so leaders can m
 
 ---
 
-<details class="vd-accordion" open>
+<details class="vd-accordion" markdown="1" open>
 <summary><strong>Modern Data Platform</strong></summary>
 
 Cloud-first, secure, and high performance. Our dashboards connect directly to your existing systems, run entirely in the browser, and eliminate unnecessary technical friction.
 
 **Key advantages**
+
 - Secure, role-based access  
 - Integrates with GA4, BigQuery, Sheets, and common CRMs  
 - Automated refresh and scheduled report delivery  
@@ -50,18 +51,20 @@ Cloud-first, secure, and high performance. Our dashboards connect directly to yo
 
 ---
 
-<details class="vd-accordion">
+<details class="vd-accordion" markdown="1">
 <summary><strong>Agentic AI Framework</strong></summary>
 
 VeyDigital AI uses an **agentic architecture**: systems that act within defined business goals to summarize changes, flag risks, and recommend next steps.
 
 **Capabilities**
+
 - Automated insight generation  
 - KPI and goal monitoring  
 - Context-aware Q&A and explanations  
 - Secure, auditable interactions with human oversight
 
 **Infrastructure**
+
 - Deployable on AWS, GCP, Azure, or Vercel  
 - MLOps for testing, versioning, and monitoring  
 - RAG support for trustworthy, context-aware answers  
@@ -70,7 +73,7 @@ VeyDigital AI uses an **agentic architecture**: systems that act within defined 
 
 ---
 
-<details class="vd-accordion">
+<details class="vd-accordion" markdown="1">
 <summary><strong>Featured AI Agents</strong></summary>
 
 | **Agent** | **What it does** |
@@ -85,24 +88,25 @@ All agents operate in secure, read-only environments with strict privacy control
 
 ---
 
-<details class="vd-accordion">
+<details class="vd-accordion" markdown="1">
 <summary><strong>How We Work</strong></summary>
 
-1. **Assess Objectives** — define metrics and priorities  
-2. **Connect Data** — integrate securely and automate updates  
-3. **Design Dashboards** — clear, interactive reporting  
-4. **Implement AI Agents** — summaries, monitoring, and alerts  
-5. **Support & Training** — docs, handoff, and adoption
+1. **Assess Objectives**: define metrics and priorities  
+2. **Connect Data**: integrate securely and automate updates  
+3. **Design Dashboards**: clear, interactive reporting  
+4. **Implement AI Agents**: summaries, monitoring, and alerts  
+5. **Support & Training**: docs, handoff, and adoption
 </details>
 
 ---
 
-<details class="vd-accordion">
+<details class="vd-accordion" markdown="1">
 <summary><strong>Ongoing Support</strong></summary>
 
 We offer add-ons and monthly retainers to keep analytics sharp and evolving.
 
 **Add-Ons**
+
 - New data sources and connectors  
 - New dashboards or drill-downs  
 - Anomaly detection and board-ready summaries  
