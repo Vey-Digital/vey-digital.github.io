@@ -3,53 +3,57 @@ layout: single
 title: About
 permalink: /about/
 classes: wide about-page
----
-
-**VeyDigital** is a modern analytics and automation studio helping organizations simplify their data and scale their impact. We bridge technology and strategy, combining advanced analytics, AI-powered automation, and creative insight to turn fragmented information into clarity, efficiency, and measurable growth. 
-
-We believe that **data should empower people, not overwhelm them.**  
-Every project we deliver is grounded in reliability, transparency, and collaboration.  
-Whether improving marketing performance, modernizing internal reporting, or building an end-to-end analytics stack, VeyDigital provides the structure and intelligence to help you move faster and smarter.
+description: "VeyDigital builds data dashboards and AI automation tools that help small and medium businesses make faster, informed decisions."
 
 ---
 
-## Mission
-
-To make digital analytics and AI automation accessible, actionable, and empowering, transforming data into insight, and insight into impact.
-
----
-
-## Our Philosophy
-
-We build every solution around three guiding principles:
-
-**Clarity**  
-We design analytics frameworks that make complex data simple to understand and easy to share. Clear insights lead to better decisions.  
-
-**Automation**  
-We leverage AI and automation to eliminate repetitive work, ensuring accuracy, speed, and consistency across systems.  
-
-**Empowerment**  
-We help teams build lasting capability through practical training, documentation, and support so you can own your data with confidence.
+**VeyDigital** helps small and medium-sized organizations use data effectively through well-designed dashboards and AI automation.  
+We focus on transforming raw information into practical intelligence—supporting faster, more confident decisions.
 
 ---
 
-## What We Deliver
-
-| **Service** | **Description** | **Deliverable** |
-|--------------|----------------|----------------|
-| **Digital Analytics & Reporting** | Centralized dashboards integrating data from web, ads, CRM, and sales systems. | Automated dashboards with performance summaries |
-| **Conversion Optimization (CRO)** | Data-driven testing to increase engagement, conversions, and ROI. | A/B test plans, reports, and recommendations |
-| **Automation & Integration** | Custom data pipelines connecting marketing, CRM, and analytics tools seamlessly. | Documented workflows and integration setup |
-| **Governance & Tracking Standards** | Campaign and data frameworks ensuring clean, consistent reporting. | UTM conventions, documentation, and onboarding guide |
-| **Capacity Building & Training** | Practical workshops and resources to strengthen internal analytics skills. | Training sessions, quick-start guides, and assessments |
-| **Performance Insights** | Ongoing data reviews highlighting trends and next actions. | Monthly insights and strategy summaries |
+## Our Mission
+To deliver clear analytics and responsible AI solutions that simplify reporting, strengthen insight, and improve performance across every level of an organization.
 
 ---
 
-## Join the Community
+## Core Services
 
-Be part of a growing network of digital thinkers and data leaders.  
-Access free resources, tutorials, and case studies designed to help you master analytics, automation, and AI wherever you are on your journey.
+| **Service** | **Purpose** | **Result** |
+|--------------|-------------|-------------|
+| **Dashboard Development** | Integrate key data sources into structured, automated reports. | Reliable visibility into business performance. |
+| **AI Agent Integration** | Add intelligent assistants that track metrics, summarize results, and answer data-related questions. | Time saved through automated insight and monitoring. |
+| **Survey & Feedback Systems** | Design and connect surveys that capture feedback from customers or staff. | Data-driven input to guide strategy and improvement. |
 
-[Join Now →](#)
+---
+
+## AI Agents
+
+- **Insight Summary Agent** – Provides scheduled performance updates and key trend highlights.  
+- **Goal-Tracker Agent** – Monitors progress toward targets and alerts users when thresholds are exceeded.  
+- **Data Q&A Agent** – Responds to management questions directly from authorized data sources.  
+- **Leader Coach Agent** – Interprets results and recommends focused next steps.  
+- **Ad & Web Performance Agent (optional)** – Analyzes campaign data and identifies performance shifts.  
+
+_All agents are deployed within secure, read-only environments that follow data-privacy and governance standards._
+
+---
+
+## How We Work
+
+1. **Assess Needs** – Define reporting goals and required metrics.  
+2. **Connect Data** – Establish secure, automated data flows.  
+3. **Design Dashboards** – Build clean, consistent visualizations for key users.  
+4. **Deploy AI Agents** – Automate monitoring, summaries, and alerts.  
+5. **Maintain & Support** – Provide documentation, updates, and training as needed.  
+
+---
+
+## Get in Touch
+
+VeyDigital helps organizations gain clarity, accuracy, and agility through focused analytics and automation.  
+Contact us to discuss how dashboards and AI agents can strengthen decision-making in your organization.
+
+[Contact VeyDigital →](#)
+
+
