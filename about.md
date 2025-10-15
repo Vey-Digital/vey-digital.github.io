@@ -103,23 +103,27 @@ All agents operate in secure, read-only environments with strict privacy control
 <details class="vd-accordion" markdown="1">
 <summary><strong>Ongoing Support</strong></summary>
 
+<details class="vd-accordion" markdown="1">
+<summary><strong>Ongoing Support</strong></summary>
+
 We offer add-ons and monthly retainers to keep analytics sharp and evolving.
 
 **Add-Ons**
 
-- New data sources and connectors  
-- New dashboards or drill-downs  
-- Anomaly detection and board-ready summaries  
-- Secure hosting and access controls  
+- New data sources and connectors
+- New dashboards or drill-downs
+- Anomaly detection and board-ready summaries
+- Secure hosting and access controls
 - Monthly performance reviews
 
 **Retainer Plans**
 
-| **Plan** | **Ideal for** | **Includes** |
-|---|---|---|
-| **Essentials** | Smaller teams | Minor updates, KPI checks, quick fixes |
-| **Growth** | Iterative teams | AI tuning, quarterly audits, monthly summaries |
-| **Pro** | Scaling orgs | Continuous monitoring, integrations, advisory |
+| Plan        | Ideal for       | Includes                                        |
+|------------|------------------|-------------------------------------------------|
+| Essentials | Smaller teams    | Minor updates, KPI checks, quick fixes          |
+| Growth     | Iterative teams  | AI tuning, quarterly audits, monthly summaries  |
+| Pro        | Scaling orgs     | Continuous monitoring, integrations, advisory   |
+
 </details>
 
 ---
