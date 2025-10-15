@@ -75,8 +75,7 @@ All agents operate in controlled, read-only environments that meet strict securi
 
 ## Ongoing Support and Optimization
 
-VeyDigital provides flexible add-ons and monthly retainer plans to keep your analytics effective after launch.  
-Choose the level of ongoing support that fits your goals. Contact us for a tailored quote.
+VeyDigital provides flexible add-ons and monthly retainer plans to keep your analytics effective after launch. Choose the level of ongoing support that fits your goals. Contact us for a tailored quote. 
 
 ### Popular Add-Ons
 - Connect additional data sources and systems
@@ -86,20 +85,17 @@ Choose the level of ongoing support that fits your goals. Contact us for a tailo
 - Monthly performance reviews with KPI tuning
 
 ### Retainer Plans
-Our retainers include a set number of support hours each month for updates, fine tuning, and monitoring.  
-Clients on retainers receive priority scheduling and proactive recommendations.
+Our retainers include a set number of support hours each month for updates, fine tuning, and monitoring. Clients on retainers receive priority scheduling and proactive recommendations. 
+
 
 - **Essentials Retainer**. Steady upkeep for smaller teams. Includes minor updates, data checks, and quick fixes.
 - **Growth Retainer**. Designed for teams that iterate. Includes agent tuning, quarterly audits, and a monthly insight summary.
 - **Pro Retainer**. For ongoing enhancement. Includes continuous monitoring, new integrations, and advisory sessions.
 
-[Request a Retainer Recommendation →](/contact/)
-
-
 
 ## Get in Touch
 
-VeyDigital delivers practical analytics and intelligent automation that help organizations operate with clarity, precision, and speed.  
-Contact us to learn how our agentic AI and cost efficient dashboards can enhance your decision-making and marketing performance.
+VeyDigital delivers practical analytics and intelligent automation that help organizations operate with clarity, precision, and speed. Contact us to learn how our agentic AI and cost efficient dashboards can enhance your decision-making and marketing performance.
+ 
 
 [Contact VeyDigital →](#)
