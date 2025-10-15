@@ -233,3 +233,12 @@ table.vd-delivers-wide td:nth-child(4) { width: 18% !important; }
 @media (min-width: 1300px) {
   .about-page .page__content { max-width: 1040px; }
 }
+/* Make single-line italic paragraphs slightly smaller */
+.about-page p > em:only-child {
+  font-size: 0.95em;      /* reduce size; use 1em if you want exact body size */
+  font-style: italic;     /* keep italics */
+  color: var(--vd-muted); /* subtle tone */
+  background: none;
+  border: 0;
+  padding: 0;
+}
