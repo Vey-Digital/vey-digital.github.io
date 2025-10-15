@@ -7,14 +7,6 @@ description: "VeyDigital builds data dashboards and AI automation tools that hel
 
 ---
 
----
-layout: single
-title: VeyDigital
-permalink: /
-classes: wide home-about-page
-description: "VeyDigital builds data dashboards and AI automation tools that help small and medium businesses make faster, informed decisions."
-image: /assets/veydigital-og.png
----
 
 **VeyDigital** helps small and medium-sized organizations use data effectively through well-designed dashboards and AI automation.  
 We focus on turning complex information into practical intelligence—helping leaders make faster, more confident decisions without unnecessary technology costs.
