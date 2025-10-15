@@ -34,15 +34,12 @@ Our dashboards run entirely in the browser, connecting directly to your existing
 • Easy embedding in internal portals or client platforms  
 • Scalable design suited to growing small and medium-sized businesses  
 
-Google’s analytics and marketing technologies are recognized globally for their performance, reliability, and integration.  
-By leveraging this ecosystem, VeyDigital delivers enterprise-level analytics and marketing insight to smaller organizations without the complexity or cost of traditional enterprise software.
-
-This approach gives clients clear, connected, and cost-efficient reporting built on proven, industry-leading infrastructure.
+Google’s analytics and marketing technologies are recognized globally for their performance, reliability, and integration. By leveraging this ecosystem, VeyDigital delivers enterprise-level analytics and marketing insight to smaller organizations without the complexity or cost of traditional enterprise software. This approach gives clients clear, connected, and cost-efficient reporting built on proven, industry-leading infrastructure.
 
 ## Agentic AI Framework
 
-Our AI solutions follow an agentic architecture that enables them to act autonomously within defined business goals.  
-Each agent can retrieve data, detect changes, generate summaries, and deliver updates, turning dashboards into proactive tools that support decision-making.
+Our AI solutions follow an agentic architecture that enables them to act autonomously within defined business goals. Each agent can retrieve data, detect changes, generate summaries, and deliver updates, turning dashboards into proactive tools that support decision making. 
+
 
 ### Capabilities
 • Automated insight generation and performance monitoring  
@@ -53,7 +50,7 @@ Each agent can retrieve data, detect changes, generate summaries, and deliver up
 ### Infrastructure and Deployment
 • Deployable across AWS, Google Cloud, Azure, or Vercel  
 • Uses MLOps for automated testing, version control, and monitoring  
-• Supports Retrieval-Augmented Generation (RAG) for context-aware accuracy  
+• Supports Retrieval-Augmented Generation (RAG) for context aware accuracy  
 • Built for scalability, observability, and governance  
 
 This framework allows VeyDigital to deliver customized AI agents that align with each client’s environment, secure, compliant, and optimized for long-term performance.
