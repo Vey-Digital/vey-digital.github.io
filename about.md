@@ -61,7 +61,6 @@ This framework allows VeyDigital to deliver customized AI agents that align with
 • **Goal-Tracker Agent**  Monitors KPI targets and alerts users to major variances  
 • **Data Q&A Agent**  Answers management questions directly from trusted data sources  
 • **Leader Coach Agent**  Interprets results and recommends targeted actions  
-• **Ad & Web Performance Agent (optional)**  Analyzes marketing and campaign performance  
 
 All agents operate in controlled, read-only environments that meet strict security and privacy standards.
 
@@ -83,6 +82,7 @@ VeyDigital provides flexible add-ons and monthly retainer plans to keep your ana
 - Add AI agents for alerts, anomaly detection, and board ready summaries
 - Implement advanced permissions and secure hosting
 - Monthly performance reviews with KPI tuning
+- Ad & Web Performance Agent, analyzes marketing and campaign performance 
 
 ### Retainer Plans
 Our retainers include a set number of support hours each month for updates, fine tuning, and monitoring. Clients on retainers receive priority scheduling and proactive recommendations. 
@@ -95,7 +95,7 @@ Our retainers include a set number of support hours each month for updates, fine
 
 ## Get in Touch
 
-VeyDigital delivers practical analytics and intelligent automation that help organizations operate with clarity, precision, and speed. Contact us to learn how our agentic AI and cost efficient dashboards can enhance your decision-making and marketing performance.
+VeyDigital delivers practical analytics and intelligent automation that help organizations operate with clarity, precision, and speed. Contact us to learn how our agentic AI and cost efficient dashboards can enhance your decision making and marketing performance.
  
 
 [Contact VeyDigital →](#)
