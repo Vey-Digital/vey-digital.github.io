@@ -4,11 +4,12 @@ permalink: /about/
 classes: wide about-page
 description: "VeyDigital builds data dashboards and AI automation tools that help small and medium businesses make faster, informed decisions."
 
-**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation.  
-We turn complex data into clear, actionable insight, helping leaders make informed decisions while reducing technology and licensing costs.
+**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into clear, actionable insight, helping leaders make confident, data-driven decisions while reducing technology and licensing costs.   
+
+*Powered by Google’s trusted analytics ecosystem, designed for businesses that value clarity, efficiency, and growth.*
 
 ## Our Mission
-To make analytics and automation practical, scalable, and accessible—empowering teams to work smarter through clear reporting and intelligent AI systems.
+To make analytics and automation practical, scalable, and accessible, empowering teams to work smarter through clear reporting and intelligent AI systems.
 
 ## Core Services
 
@@ -26,20 +27,20 @@ Our dashboards run entirely in the browser, connecting directly to your existing
 ### Key Advantages
 • Cloud-based access with secure, role-based permissions  
 • Seamless integration with Google Analytics 4, Google Sheets, BigQuery, and CRM data  
-• Automated refresh schedules and scheduled report delivery by email or PDF  
-• Interactive filtering, drill-downs, and parameters for flexible analysis  
+• Automated data refresh and scheduled report delivery via email or PDF  
+• Interactive filters, drill-downs, and parameters for flexible analysis  
 • Easy embedding in internal portals or client platforms  
 • Scalable design suited to growing small and medium-sized businesses  
 
-Google’s analytics and marketing technologies are recognized as global leaders in performance, reliability, and integration.  
-By leveraging this ecosystem, VeyDigital delivers enterprise-level analytics and marketing insight to smaller organizations without the complexity or cost of traditional software licensing.
+Google’s analytics and marketing technologies are recognized globally for their performance, reliability, and integration.  
+By leveraging this ecosystem, VeyDigital delivers enterprise-level analytics and marketing insight to smaller organizations without the complexity or cost of traditional enterprise software.
 
-This approach gives our clients clear, connected, and cost-efficient reporting built on proven, industry-leading infrastructure.
+This approach gives clients clear, connected, and cost-efficient reporting built on proven, industry-leading infrastructure.
 
 ## Agentic AI Framework
 
-Our AI solutions use an agentic architecture that enables them to act autonomously within defined business goals.  
-Each agent can retrieve data, detect changes, generate summaries, and deliver updates—turning dashboards into proactive tools that support decision-making.
+Our AI solutions follow an agentic architecture that enables them to act autonomously within defined business goals.  
+Each agent can retrieve data, detect changes, generate summaries, and deliver updates, turning dashboards into proactive tools that support decision-making.
 
 ### Capabilities
 • Automated insight generation and performance monitoring  
@@ -53,25 +54,25 @@ Each agent can retrieve data, detect changes, generate summaries, and deliver up
 • Supports Retrieval-Augmented Generation (RAG) for context-aware accuracy  
 • Built for scalability, observability, and governance  
 
-This framework allows VeyDigital to deliver customized AI agents that align with each client’s environment—secure, compliant, and optimized for long-term performance.
+This framework allows VeyDigital to deliver customized AI agents that align with each client’s environment, secure, compliant, and optimized for long-term performance.
 
 ## AI Agents
 
-• **Insight Summary Agent** – Provides scheduled performance briefings and key metrics  
-• **Goal-Tracker Agent** – Monitors KPI targets and alerts users to major variances  
-• **Data Q&A Agent** – Answers management questions directly from trusted data sources  
-• **Leader Coach Agent** – Interprets results and recommends targeted actions  
-• **Ad & Web Performance Agent (optional)** – Analyzes marketing and campaign performance  
+• **Insight Summary Agent**  Provides scheduled performance briefings and key metrics  
+• **Goal-Tracker Agent**  Monitors KPI targets and alerts users to major variances  
+• **Data Q&A Agent**  Answers management questions directly from trusted data sources  
+• **Leader Coach Agent**  Interprets results and recommends targeted actions  
+• **Ad & Web Performance Agent (optional)**  Analyzes marketing and campaign performance  
 
-_All agents operate in controlled, read-only environments that meet strict security and privacy standards._
+All agents operate in controlled, read-only environments that meet strict security and privacy standards.
 
 ## How We Work
 
-1. **Assess Objectives** – Identify key metrics and business priorities  
-2. **Connect Data** – Integrate systems securely and automate data updates  
-3. **Design Dashboards** – Create clear, interactive reporting environments  
-4. **Implement AI Agents** – Automate summaries, monitoring, and insights  
-5. **Support and Training** – Provide documentation and guidance for sustainable use  
+1. **Assess Objectives**  Identify key metrics and business priorities  
+2. **Connect Data**  Integrate systems securely and automate data updates  
+3. **Design Dashboards**  Create clear, interactive reporting environments  
+4. **Implement AI Agents**  Automate summaries, monitoring, and insights  
+5. **Support and Training**  Provide documentation and guidance for sustainable use  
 
 ## Get in Touch
 
