@@ -46,7 +46,7 @@ Cloud-first, secure, and high performance. Our dashboards connect directly to yo
 - Easy embedding in portals or client sites  
 - Scales with small and mid-sized teams
 
-*Built on proven, industry-leading infrastructure without the enterprise bloat.*
+*Built on proven, industry-leading infrastructure without unnecessary complexity.*
 </details>
 
 ---
