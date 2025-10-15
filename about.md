@@ -1,9 +1,11 @@
+---
 layout: single
 title: About
 permalink: /about/
 classes: wide about-page
 description: "VeyDigital builds data dashboards and AI automation tools that help small and medium businesses make faster, informed decisions."
 
+---
 **VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into clear, actionable insight, helping leaders make confident, data-driven decisions while reducing technology and licensing costs.   
 
 *Powered by Google’s trusted analytics ecosystem, designed for businesses that value clarity, efficiency, and growth.*
