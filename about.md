@@ -8,9 +8,8 @@ description: "VeyDigital builds intelligent dashboards and AI automation that em
 
 # Data Made Human. Decisions Made Simple.
 
-**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation.  
-We transform complex information into **clear, actionable insight**, helping leaders make confident, data-driven decisions—without the overhead of complex tools or licenses.  
-*Powered by Google’s trusted analytics ecosystem, built for clarity, efficiency, and growth.*
+**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We transform complex information into **clear, actionable insight**, helping leaders make confident, data-driven decisions—without the overhead of complex tools or licenses.  
+*Powered by Google’s trusted analytics ecosystem, built for clarity, efficiency, and growth.* 
 
 ---
 
@@ -30,8 +29,8 @@ To make analytics and automation practical, scalable, and accessible—empowerin
 ---
 
 ## Modern Data Platform
-Cloud-first, secure, and high-performance—built to grow with your business.  
-Our dashboards connect directly to your existing systems, run entirely in the browser, and eliminate unnecessary technical friction.
+Cloud-first, secure, and high performance built to grow with your business. Our dashboards connect directly to your existing systems, run entirely in the browser, and eliminate unnecessary technical friction.
+ 
 
 **Key Advantages**
 - Secure, role-based cloud access  
@@ -46,8 +45,7 @@ Our dashboards connect directly to your existing systems, run entirely in the br
 ---
 
 ## Agentic AI Framework
-VeyDigital’s AI follows an agentic architecture—intelligent systems that act autonomously within defined business goals.  
-They transform dashboards into proactive tools that summarize, detect change, and recommend action.
+VeyDigital’s AI follows an agentic architecture—intelligent systems that act autonomously within defined business goals. They transform dashboards into proactive tools that summarize, detect change, and recommend action.
 
 **Capabilities**
 - Automated insight generation  
@@ -78,17 +76,16 @@ All agents operate in secure, read-only environments with strict privacy control
 
 ## How We Work
 
-1. **Assess Objectives** – Define success metrics and priorities.  
-2. **Connect Data** – Securely integrate and automate updates.  
-3. **Design Dashboards** – Create clear, interactive visualizations.  
-4. **Implement AI Agents** – Add automation, summaries, and alerts.  
-5. **Support & Training** – Ensure sustainability and team adoption.  
+**Assess Objectives** – Define success metrics and priorities.  
+**Connect Data** – Securely integrate and automate updates.  
+**Design Dashboards** – Create clear, interactive visualizations.  
+**Implement AI Agents** – Add automation, summaries, and alerts.  
+**Support & Training** – Ensure sustainability and team adoption.  
 
 ---
 
 ## Ongoing Support
-VeyDigital provides flexible add-ons and monthly retainers to keep your analytics sharp and evolving.  
-Choose a plan that matches your team’s growth stage.
+VeyDigital provides flexible add-ons and monthly retainers to keep your analytics sharp and evolving. Choose a plan that matches your team’s growth stage. 
 
 ### Add-Ons
 - Connect new data sources  
