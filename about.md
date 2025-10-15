@@ -91,11 +91,11 @@ All agents operate in secure, read-only environments with strict privacy control
 <details class="vd-accordion" markdown="1">
 <summary><strong>How We Work</strong></summary>
 
-1. **Assess Objectives**: define metrics and priorities  
-2. **Connect Data**: integrate securely and automate updates  
-3. **Design Dashboards**: clear, interactive reporting  
-4. **Implement AI Agents**: summaries, monitoring, and alerts  
-5. **Support & Training**: docs, handoff, and adoption
+**Assess Objectives**: define metrics and priorities  
+**Connect Data**: integrate securely and automate updates  
+**Design Dashboards**: clear, interactive reporting  
+**Implement AI Agents**: summaries, monitoring, and alerts  
+**Support & Training**: docs, handoff, and adoption
 </details>
 
 ---
