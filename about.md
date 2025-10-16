@@ -1,12 +1,25 @@
 ---
-layout: single
-title: About
+layout: single     # Use brand name instead of "About"
 permalink: /about/
 classes: wide about-page
 description: "VeyDigital builds intelligent dashboards and AI automation that empower modern businesses to make faster, confident decisions."
 ---
 
-# From Data to Decisions — Made Simple
+<!-- Scoped headline styling (brand-aware + dark mode) -->
+<style>
+  .about-page h1.vd-headline{
+    color: var(--vd-electric);
+    margin-top: 0.2rem;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  @media (prefers-color-scheme: dark){
+    .about-page h1.vd-headline{ color: var(--vd-warm); }
+  }
+</style>
+
+# <span class="vd-headline">From Data to Decisions — Made Simple</span>
 
 **VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We turn complex information into **clear, actionable insight**, so leaders can make confident, data-driven decisions without the overhead of complex tools or licenses.  
  
@@ -99,6 +112,7 @@ All agents operate in secure, read-only environments with strict privacy control
 </details>
 
 ---
+
 <details class="vd-accordion" markdown="1">
 <summary><strong>Ongoing Support</strong></summary>
 
