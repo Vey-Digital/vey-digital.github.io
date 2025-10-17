@@ -28,10 +28,7 @@ html { scroll-behavior: smooth; }
 
 # <span class="vd-headline">From Data to Decisions Made Simple</span>
 
-**VeyDigital** empowers organizations to see, understand, and act on their data through modern dashboards and intelligent automation.  
-We design analytics systems that adapt to your environment, whether [cloud native](#option-1-cloud-native-dashboards) or [enterprise integrated](#option-2-enterprise-analytics-suite), delivering clarity without complexity.  
-
-Our approach combines strategic insight, secure infrastructure, and human-centered AI to turn everyday information into confident decisions and measurable growth.  
+**VeyDigital** empowers organizations to see, understand, and act on their data through modern dashboards and intelligent automation.  We design analytics systems that adapt to your environment, whether [cloud native](#option-1-cloud-native-dashboards) or [enterprise integrated](#option-2-enterprise-analytics-suite), delivering clarity without complexity.  Our approach combines strategic insight, secure infrastructure, and human-centered AI to turn everyday information into confident decisions and measurable growth.  
 
 *Built for flexibility, powered by trusted technologies, and guided by a single goal: making data work for you.*
 
