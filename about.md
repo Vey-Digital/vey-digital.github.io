@@ -21,17 +21,18 @@ description: "VeyDigital builds intelligent dashboards and AI automation that em
 
 # <span class="vd-headline">From Data to Decisions — Made Simple</span>
 
-**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation. We turn complex information into **clear, actionable insight**, so leaders can make confident, data-driven decisions without the overhead of complex tools or licenses.  
- 
-*Powered by Google’s trusted analytics ecosystem, built for clarity, efficiency, and growth.*
+**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation.  
+We turn complex information into **clear, actionable insight**, so leaders can make confident, data-driven decisions without the overhead of complex tools or licenses.  
+
+*Powered by trusted analytics ecosystems, built for clarity, efficiency, and growth.*
 
 ---
 
 ## Quick Facts
 
 - **What we deliver:** browser-based dashboards, agentic AI automations, and lightweight data platforms  
-- **Where it runs:** GCP, AWS, Azure, or Vercel  
-- **Who it’s for:** growing teams that need reliable KPIs, lower license overhead, and faster decisions
+- **Where it runs:** Cloud platforms like GCP, AWS, Azure, or Vercel  
+- **Who it’s for:** growing teams that need reliable KPIs, lower license overhead, and faster decisions  
 
 ---
 
@@ -46,20 +47,56 @@ description: "VeyDigital builds intelligent dashboards and AI automation that em
 ---
 
 <details class="vd-accordion" markdown="1" open>
-<summary><strong>Modern Data Platform</strong></summary>
+<summary><strong>Modern Data Platform Options</strong></summary>
 
-Cloud-first, secure, and high performance. Our dashboards connect directly to your existing systems, run entirely in the browser, and eliminate unnecessary technical friction.
+Every organization’s data ecosystem is unique.  
+VeyDigital builds dashboards and analytics systems that align with your preferred environment, whether you operate on a cloud-based, enterprise, or hybrid setup.
 
-**Key advantages**
+Our goal is to provide a secure, browser-based analytics experience that fits seamlessly into how your team already works.
 
-- Secure, role-based access  
-- Integrates with GA4, BigQuery, Sheets, and common CRMs  
-- Automated refresh and scheduled report delivery  
-- Interactive filters, drill-downs, and parameters  
-- Easy embedding in portals or client sites  
-- Scales with small and mid-sized teams
+### Option 1: Cloud Native Dashboards
+**Best for:**  
+Organizations that prefer a fully managed, browser-only experience.
 
-*Built on proven, industry-leading infrastructure without unnecessary complexity.*
+**Highlights**
+- Secure, role-based access for teams and clients  
+- Connects to existing data sources such as analytics, CRM, finance, and marketing  
+- Automated refresh schedules and report delivery  
+- Interactive filters, drill-downs, and dynamic parameters  
+- Scales smoothly with growing teams  
+- Built on trusted enterprise-grade infrastructure  
+
+**Result:**  
+Clear visibility into performance metrics without local software or complex maintenance.
+
+---
+
+### Option 2: Enterprise Analytics Suite
+**Best for:**  
+Organizations that already use enterprise productivity suites or have in-house analytics teams.
+
+**Highlights**
+- Advanced AI-powered visuals and predictive capabilities  
+- Larger data models and faster refresh rates  
+- Seamless integration with collaboration and automation tools  
+- Supports conversational analytics and workflow triggers  
+- Built for teams that require deeper modeling and governance  
+
+**Result:**  
+A flexible, enterprise-ready analytics environment for advanced reporting, forecasting, and decision support.
+
+---
+
+### Why Offer Two Paths
+Different teams have different needs, and VeyDigital adapts.  
+Both options deliver:
+- Consistent KPIs across departments  
+- Secure, role-based governance  
+- Automated updates and scheduled summaries  
+- AI-assisted insights with human oversight  
+
+*Whichever path you choose, the outcome is the same: data clarity, reliable insight, and confident decisions.*
+
 </details>
 
 ---
@@ -78,7 +115,7 @@ VeyDigital AI uses an **agentic architecture**: systems that act within defined 
 
 **Infrastructure**
 
-- Deployable on AWS, GCP, Azure, or Vercel  
+- Deployable on major cloud environments  
 - MLOps for testing, versioning, and monitoring  
 - RAG support for trustworthy, context-aware answers  
 - Designed for scalability, observability, and governance
@@ -104,11 +141,11 @@ All agents operate in secure, read-only environments with strict privacy control
 <details class="vd-accordion" markdown="1">
 <summary><strong>How We Work</strong></summary>
 
-**Assess Objectives**: define metrics and priorities  
-**Connect Data**: integrate securely and automate updates  
-**Design Dashboards**: clear, interactive reporting  
-**Implement AI Agents**: summaries, monitoring, and alerts  
-**Support & Training**: docs, handoff, and adoption
+**Assess Objectives:** define metrics and priorities  
+**Connect Data:** integrate securely and automate updates  
+**Design Dashboards:** clear, interactive reporting  
+**Implement AI Agents:** summaries, monitoring, and alerts  
+**Support & Training:** docs, handoff, and adoption
 </details>
 
 ---
@@ -120,19 +157,19 @@ We offer add-ons and monthly retainers to keep analytics sharp and evolving.
 
 **Add-Ons**
 
-- New data sources and connectors
-- New dashboards or drill-downs
-- Anomaly detection and board-ready summaries
-- Secure hosting and access controls
-- Monthly performance reviews
+- New data sources and connectors  
+- New dashboards or drill-downs  
+- Anomaly detection and board-ready summaries  
+- Secure hosting and access controls  
+- Monthly performance reviews  
 
 **Retainer Plans**
 
-| Plan        | Ideal for       | Includes                                        |
-|------------|------------------|-------------------------------------------------|
-| Essentials | Smaller teams    | Minor updates, KPI checks, quick fixes          |
-| Growth     | Iterative teams  | AI tuning, quarterly audits, monthly summaries  |
-| Pro        | Scaling orgs     | Continuous monitoring, integrations, advisory   |
+| Plan | Ideal for | Includes |
+|---|---|---|
+| **Essentials** | Smaller teams | Minor updates, KPI checks, quick fixes |
+| **Growth** | Iterative teams | AI tuning, quarterly audits, monthly summaries |
+| **Pro** | Scaling orgs | Continuous monitoring, integrations, advisory |
 
 </details>
 
