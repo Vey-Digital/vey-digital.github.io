@@ -17,6 +17,13 @@ description: "VeyDigital builds intelligent dashboards and AI automation that em
   @media (prefers-color-scheme: dark){
     .about-page h1.vd-headline{ color: var(--vd-warm); }
   }
+
+  /* Smooth scroll for in-page anchors */
+html { scroll-behavior: smooth; }
+
+/* Keep anchored sections from hiding under the header */
+:target { scroll-margin-top: 84px; } /* tweak if your header height differs */
+
 </style>
 
 # <span class="vd-headline">From Data to Decisions Made Simple</span>
