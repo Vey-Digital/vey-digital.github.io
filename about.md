@@ -19,12 +19,14 @@ description: "VeyDigital builds intelligent dashboards and AI automation that em
   }
 </style>
 
-# <span class="vd-headline">From Data to Decisions — Made Simple</span>
+# <span class="vd-headline">From Data to Decisions Made Simple</span>
 
-**VeyDigital** helps small and medium-sized organizations use data effectively through modern dashboards and intelligent automation.  
-We turn complex information into **clear, actionable insight**, so leaders can make confident, data-driven decisions without the overhead of complex tools or licenses.  
+**VeyDigital** empowers organizations to see, understand, and act on their data through modern dashboards and intelligent automation.  
+We design analytics systems that adapt to your environment, whether [cloud native](#option-1-cloud-native-dashboards) or [enterprise integrated](#option-2-enterprise-analytics-suite), delivering clarity without complexity.  
 
-*Powered by trusted analytics ecosystems, built for clarity, efficiency, and growth.*
+Our approach combines strategic insight, secure infrastructure, and human-centered AI to turn everyday information into confident decisions and measurable growth.  
+
+*Built for flexibility, powered by trusted technologies, and guided by a single goal: making data work for you.*
 
 ---
 
